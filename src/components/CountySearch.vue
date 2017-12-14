@@ -23,11 +23,11 @@
         name="customName" 
         placeholder="custom placeholder" 
         type="google"
-      ></vue-instant><br><br>
+      /><br><br>
 
       <br>
 
-      <label>Searching for: <strong>{{searchTerm}}</strong></label>
+      <label>Searching for: <strong>{{ searchTerm }}</strong></label>
       <hr>
     </div>
 
@@ -35,11 +35,13 @@
       <p v-if="!branches.length">No Matching Results</p>
 
       <ul v-if="branches.length">
-        <li v-for="(item,index) in branches" v-bind:key="index">
-          <h4>#{{index + 1}} {{ item.Branch }}</h4>
+        <li 
+          v-for="(item,index) in branches" 
+          :key="index">
+          <h4>#{{ index + 1 }} {{ item.Branch }}</h4>
           <p>
-            {{ item.Address}}<br>
-            {{ item.City }}, {{item.State}} {{ item.Zip }}
+            {{ item.Address }}<br>
+            {{ item.City }}, {{ item.State }} {{ item.Zip }}
           </p>
           <p>{{ item["Phone 1"] }}</p>
 

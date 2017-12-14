@@ -4,13 +4,13 @@
       <ag-county-search
         :branches="branchFilter"
         @searchedCounty="updateBranchFilter"
-      ></ag-county-search>
+      />
     </div>
     <div class="body">
       <ag-map
         :branches="branchFilter"
-        :firstBranch="firstBranch"
-      ></ag-map>
+        :first-branch="firstBranch"
+      />
     </div>
   </div>
 </template>

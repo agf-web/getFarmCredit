@@ -1,22 +1,21 @@
 <template>
-  <div>
-    <gmap-map
-      :center="firstBranchLocation"
-      :zoom="4"
-      style="position: absolute; width: 100%; height: 100%"
-    >
-      <gmap-cluster>
-        <gmap-marker
-          :key="index"
-          v-for="(m, index) in this.branches"
-          :position="m.location"
-          :clickable="true"
-          :label="(index + 1).toString()"
-          @click="center=m.location"
-        ></gmap-marker>
-      </gmap-cluster>
-    </gmap-map>
-  </div>
+
+  <gmap-map
+    :center="firstBranchLocation"
+    :zoom="4"
+    style="position: absolute; width: 100%; height: 100%"
+  >
+    <gmap-cluster>
+      <gmap-marker
+        :key="index"
+        v-for="(m, index) in branches"
+        :position="m.location"
+        :clickable="true"
+        :label="(index + 1).toString()"
+        @click="center=m.location"
+      />
+    </gmap-cluster>
+  </gmap-map>
 
 </template>
 
