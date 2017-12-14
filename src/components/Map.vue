@@ -24,10 +24,11 @@
 /* eslint-disable */
 import Vue from 'vue';
 import * as VueGoogleMaps from 'vue2-google-maps';
+import googleMapsApiKey from './../../config/googleMapsApiKey.local.js';
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: ''
+    key: googleMapsApiKey
   }
 });
 
