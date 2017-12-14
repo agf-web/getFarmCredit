@@ -9,6 +9,7 @@
     <div class="body">
       <ag-map
         :branches="branchFilter"
+        :firstBranch="firstBranch"
       ></ag-map>
     </div>
   </div>
@@ -17,7 +18,7 @@
 <script>
 /* eslint-disable */
 import axios from 'axios';
-import branches from '../../static/branches_full.json';
+import branchesFull from '../../static/branches_full.json';
 import agMap from './Map';
 import agCountySearch from './CountySearch';
 
@@ -30,13 +31,11 @@ export default {
   data() {
     return {
       search: '',
-      currentLocationInfo: '',
-      selectedBranchInfo: {},
       branches: this.branchFilter,
       results: [],
       errors: [],
       counties: (()=>{
-        var allCounties = branches.map((branch) => {
+        var allCounties = branchesFull.map((branch) => {
           return branch.County.split(',').map(item=>item.trim()).filter(term=>term !== '');
         });
 
@@ -45,15 +44,12 @@ export default {
     }
   },
   created() {
-    // axios.get('/static/zipData.json')
     axios.get('/static/testData.json')
       .then((res) => { this.results = res.data; })
       .catch((e) => { this.errors.push(e); });
-
-    
   },
   mounted() {
-    console.log( this.counties );
+    // console.log( this.counties );
   },
   methods: {
     updateBranchFilter(searchTerm) {
@@ -61,19 +57,22 @@ export default {
     }
   },
   computed: {
+    fullBranch() {
+      let filtered = branchesFull.map(branch => {
+        branch.County.split(',').map(item => item.trim()).filter(term => term !== '');
+        return branch;
+      });
+      return filtered;
+    },
     branchFilter() {
-      return branches.filter((branch) => {
+      return branchesFull.filter((branch) => {
         return branch.County !== '' 
         && branch.County.toLowerCase().indexOf(this.search.toLowerCase()) !== -1;
       });
     },
-    // counties() {
-    //   var allCounties = this.branchFilter.map((branch) => {
-    //     return branch.County.split(',').map(item=>item.trim()).filter(term=>term !== '');
-    //   });
-
-    //   return _.union(...allCounties).sort();
-    // }
+    firstBranch() {
+      return this.branchFilter[0];
+    }
   }
 };
 </script>

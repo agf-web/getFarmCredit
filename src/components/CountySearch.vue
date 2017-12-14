@@ -32,7 +32,9 @@
     </div>
 
     <div class="CountySearch__branchList">
-      <ul>
+      <p v-if="!branches.length">No Matching Results</p>
+
+      <ul v-if="branches.length">
         <li v-for="(item,index) in branches" v-bind:key="index">
           <h4>#{{index + 1}} {{ item.Branch }}</h4>
           <p>
@@ -71,6 +73,8 @@ export default {
   computed: {
     counties() {
       let allCounties = this.branches.map((branch) => {
+        // return branch.County.split(',').map(item => item.trim() + ` - (${branch.State})`).filter(term => term !== '');
+
         return branch.County.split(',').map(item => item.trim()).filter(term => term !== '');
       });
 

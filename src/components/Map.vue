@@ -1,11 +1,7 @@
 <template>
-
   <div>
-    {{ currentLocation ? currentLocation : 'no location yet' }}
-
-    <hr>
     <gmap-map
-      :center="center"
+      :center="firstBranchLocation"
       :zoom="4"
       style="position: absolute; width: 100%; height: 100%"
     >
@@ -35,19 +31,23 @@ Vue.use(VueGoogleMaps, {
   }
 });
 
+const usaCenter = {lat: 39, lng: -96 };
+
 export default {
   name: 'ag-map',
-  props: ['currentLocation','branches'],
+  props: ['branches', 'firstBranch'],
   components: {
     VueGoogleMaps
   },
   data() {
     return {
-      center: {
-        lat: 39,
-        lng: -96
-      }
+      center: usaCenter
     };
+  },
+  computed: {
+    firstBranchLocation() {
+      return this.firstBranch ? this.firstBranch.location : usaCenter;
+    }
   }
 };
 
