@@ -3,6 +3,7 @@
   <gmap-map
     :center="center"
     :zoom="4"
+    :options="mapOptions"
     style="position: absolute; width: 100%; height: 100%"
     ref="branchMap"
   >
@@ -24,6 +25,7 @@
 import Vue from 'vue';
 import * as VueGoogleMaps from 'vue2-google-maps';
 import googleMapsApiKey from './../../config/googleMapsApiKey.local';
+import googleMapStyles from './googleMapStyles.json';
 
 Vue.use(VueGoogleMaps, {
   installComponents: true,
@@ -40,7 +42,11 @@ export default {
   data() {
     return {
       center: usaCenter,
-      bounds: null
+      bounds: null,
+      mapOptions: {
+        gestureHandling: 'cooperative',
+        styles: googleMapStyles
+      }
     };
   },
   async created() {
