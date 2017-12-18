@@ -2,9 +2,6 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 
-import lodash from 'lodash';
-import VueLodash from 'vue-lodash';
-
 import App from './App';
 
 Vue.config.productionTip = false;
@@ -15,5 +12,3 @@ new Vue({
   template: '<App/>',
   components: { App }
 });
-
-Vue.use(lodash, VueLodash);

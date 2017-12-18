@@ -5,8 +5,11 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
+import Vue from 'vue';
+import lodash from 'lodash';
 import FarmCreditFinder from './components/FarmCreditFinder';
+
+Object.defineProperty(Vue.prototype, '$lodash', { value: lodash });
 
 export default {
   name: 'app',
@@ -17,6 +20,9 @@ export default {
 </script>
 
 <style>
+  * {
+    box-sizing: border-box;
+  }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

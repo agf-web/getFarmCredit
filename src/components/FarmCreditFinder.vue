@@ -3,6 +3,7 @@
     <div class="sidebar">
       <ag-county-search
         :branches="branchFilter"
+        :counties="countyFilter"
         @searchedCounty="updateBranchFilter"
       />
     </div>
@@ -10,14 +11,14 @@
       <ag-map
         :branches="branchFilter"
         :first-branch="firstBranch"
+        ref="mapComponent"
       />
     </div>
   </div>
 </template>
 
 <script>
-/* eslint-disable */
-import axios from 'axios';
+// import axios from 'axios';
 import branchesFull from '../../static/branches_full.json';
 import agMap from './Map';
 import agCountySearch from './CountySearch';
@@ -32,46 +33,58 @@ export default {
     return {
       search: '',
       branches: this.branchFilter,
-      results: [],
-      errors: [],
-      counties: (()=>{
-        var allCounties = branchesFull.map((branch) => {
-          return branch.County.split(',').map(item=>item.trim()).filter(term=>term !== '');
-        });
-
-        return _.union(...allCounties).sort();
-      })()
-    }
+      counties: this.countyFilter,
+      // results: [],
+      errors: []
+    };
   },
   created() {
-    axios.get('/static/testData.json')
-      .then((res) => { this.results = res.data; })
-      .catch((e) => { this.errors.push(e); });
+    // axios.get('/static/branches_full.json')
+    //   .then((res) => { this.results = res.data; })
+    //   .catch((e) => { this.errors.push(e); });
   },
   mounted() {
-    // console.log( this.counties );
+    // eslint-disable-next-line
+    console.log('[MOUNTED] FarmCreditFinder');
   },
   methods: {
     updateBranchFilter(searchTerm) {
       this.search = searchTerm;
+      this.$refs.mapComponent.centerMap();
     }
   },
   computed: {
     fullBranch() {
-      let filtered = branchesFull.map(branch => {
-        branch.County.split(',').map(item => item.trim()).filter(term => term !== '');
+      const filtered = branchesFull.map((branch) => {
+        branch.County.split(',')
+          .map(item => item.trim())
+          .filter(term => term !== '');
         return branch;
       });
       return filtered;
     },
     branchFilter() {
-      return branchesFull.filter((branch) => {
-        return branch.County !== '' 
-        && branch.County.toLowerCase().indexOf(this.search.toLowerCase()) !== -1;
-      });
+      const searchTerm = this.search ? this.search : '';
+      return branchesFull.filter(branch =>
+        branch.County !== '' &&
+        branch.County.toLowerCase()
+          .indexOf(searchTerm.toLowerCase()) !== -1
+      );
+    },
+    countyFilter() {
+      const allCounties = branchesFull.map(branch =>
+        branch.County.split(',')
+          .map(item => item.trim())
+          .filter(term => term !== '')
+      );
+      return this.$lodash.union(...allCounties).sort();
     },
     firstBranch() {
       return this.branchFilter[0];
+    },
+    associations() {
+      const associations = this.branchFilter.map(branch => branch.Association);
+      return this.$lodash.union(...associations).sort();
     }
   }
 };

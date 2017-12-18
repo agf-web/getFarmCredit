@@ -1,29 +1,13 @@
 <template>
   <div id="CountySearch">
     <div class="CountySearch__head">
-
       <label>Search by County</label><br>
-      <vue-instant 
-        :suggestion-attribute="suggestionAttribute"
-        v-model="searchTerm"
-        :disabled="false"
-        @input="changed" 
-        @click-input="clickInput" 
-        @click-button="clickButton" 
-        @selected="selected"
-        @enter="enter" 
-        @key-up="keyUp" 
-        @key-down="keyDown" 
-        @key-right="keyRight" 
-        @clear="clear"
-        @escape="escape" 
-        :show-autocomplete="true" 
-        :autofocus="false" 
-        :suggestions="counties" 
-        name="customName" 
-        placeholder="custom placeholder" 
-        type="google"
-      /><br><br>
+
+      <v-select
+        :options="counties"
+        :placeholder="'Search by County'"
+        :on-change="changed"
+      />
 
       <br>
 
@@ -36,7 +20,7 @@
 
       <ul v-if="branches.length">
         <li 
-          v-for="(item,index) in branches" 
+          v-for="(item, index) in branches" 
           :key="index">
           <h4>#{{ index + 1 }} {{ item.Branch }}</h4>
           <p>
@@ -55,65 +39,29 @@
 </template>
 
 <script>
-/* eslint-disable */
-import Vue from 'vue';
-import 'vue-instant/dist/vue-instant.css';
-import VueInstant from 'vue-instant/dist/vue-instant.common';
-
-Vue.use(VueInstant);
+import vSelect from 'vue-select';
 
 export default {
   name: 'ag-county-search',
-  props: ['branches'],
+  components: {
+    vSelect
+  },
+  props: ['branches', 'counties'],
   data() {
     return {
       searchTerm: '',
       suggestions: [],
-      suggestionAttribute: 'countyName'
+      suggestionAttribute: 'countyName',
+      selectedEvent: ''
     };
   },
-  computed: {
-    counties() {
-      let allCounties = this.branches.map((branch) => {
-        // return branch.County.split(',').map(item => item.trim() + ` - (${branch.State})`).filter(term => term !== '');
-
-        return branch.County.split(',').map(item => item.trim()).filter(term => term !== '');
-      });
-
-      return _.union(...allCounties).sort()
-        .map((county) => { return { countyName: county }; });
-    }
+  mounted() {
+    // eslint-disable-next-line
+    console.dir('[MOUNTED] Search');
   },
   methods: {
-    clickInput() {
-      this.selectedEvent = 'click input';
-    },
-    clickButton() {
-      this.selectedEvent = 'click button';
-    },
-    selected() {
-      this.selectedEvent = 'selection changed';
-    },
-    enter() {
-      this.selectedEvent = 'enter';
-    },
-    keyUp() {
-      this.selectedEvent = 'keyup pressed';
-    },
-    keyDown() {
-      this.selectedEvent = 'keyDown pressed';
-    },
-    keyRight() {
-      this.selectedEvent = 'keyRight pressed';
-    },
-    clear() {
-      this.selectedEvent = 'clear input';
-    },
-    escape() {
-      this.selectedEvent = 'escape';
-    },
-    changed(event) {
-      this.$emit('searchedCounty', event);
+    changed(val) {
+      this.$emit('searchedCounty', val);
     }
   }
 };
@@ -128,5 +76,11 @@ export default {
     list-style: none;
     padding: 0;
     margin: 0 auto;
+  }
+
+  .v-select {
+    .selected-tag {
+      position: absolute;
+    }
   }
 </style>
