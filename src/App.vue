@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <GetFarmHeader/>
     <FarmCreditFinder/>
   </div>
 </template>
@@ -7,6 +8,7 @@
 <script>
 import Vue from 'vue';
 import lodash from 'lodash';
+
 import FarmCreditFinder from './components/FarmCreditFinder';
 
 Object.defineProperty(Vue.prototype, '$lodash', { value: lodash });

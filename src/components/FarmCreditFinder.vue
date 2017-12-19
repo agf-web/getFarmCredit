@@ -32,8 +32,6 @@ export default {
   data() {
     return {
       search: '',
-      branches: this.branchFilter,
-      counties: this.countyFilter,
       // results: [],
       errors: []
     };

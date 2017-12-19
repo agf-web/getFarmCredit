@@ -1,22 +1,18 @@
 <template>
-
   <gmap-map
     :center="center"
-    :zoom="4"
     :options="mapOptions"
     style="position: absolute; width: 100%; height: 100%"
     ref="branchMap"
   >
-
-      <gmap-marker
-        :key="index"
-        v-for="(m, index) in branches"
-        :position="m.location"
-        :clickable="true"
-        :label="(index + 1).toString()"
-        @click="center=m.location"
-      />
-
+    <gmap-marker
+      :key="index"
+      v-for="(m, index) in branches"
+      :position="m.location"
+      :clickable="true"
+      :label="(index + 1).toString()"
+      @click="center=m.location"
+    />
   </gmap-map>
 
 </template>
@@ -42,10 +38,10 @@ export default {
   data() {
     return {
       center: usaCenter,
-      bounds: null,
       mapOptions: {
         gestureHandling: 'cooperative',
-        styles: googleMapStyles
+        styles: googleMapStyles,
+        zoom: 5
       }
     };
   },
@@ -66,10 +62,13 @@ export default {
     }
   },
   methods: {
-    centerMap() {
+    async centerMap() {
       this.$refs.branchMap.$mapCreated.then((map) => {
         map.fitBounds(this.currentBounds);
         map.setCenter(this.currentBounds.getCenter());
+        if (this.branches.length <= 1) {
+          map.setZoom(18);
+        }
       }).catch((err) => {
         // eslint-disable-next-line
         console.error(err);
