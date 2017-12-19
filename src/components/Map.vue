@@ -41,7 +41,8 @@ export default {
       mapOptions: {
         gestureHandling: 'cooperative',
         styles: googleMapStyles,
-        zoom: 5
+        zoom: 5,
+        maxZoom: 18
       }
     };
   },
