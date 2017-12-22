@@ -90,7 +90,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .logo {
     display: block;
     padding: 1rem;
@@ -143,6 +143,47 @@ export default {
     &__input {
       flex: 1 0 auto;
       padding-right: 1rem;
+
+      // `/deep/` makes this scoped style available to child components
+      // in this case, overriding the 3rd party child component `v-select`
+      & /deep/ .v-select {
+        &,
+        input {
+          font-family: 'Georgia', 'Times New Roman', Times, serif;
+        }
+
+        input[type="search"],
+        input[type="search"]:focus {
+          padding-left: 1.25rem;
+          padding-right: 1.25rem;
+        }
+
+        .open-indicator {
+          &:before {
+            border-width: 1px 1px 0 0;
+          }
+        }
+
+        .dropdown-toggle {
+          border-radius: 3px;
+          background: #eff1ed;
+          border: 0;
+        }
+
+        .dropdown-menu {
+          background: #eff1ed;
+          border: 0;
+
+          li.no-options {
+            margin: 0 .5rem;
+          }
+        }
+
+        .selected-tag {
+          position: absolute;
+          padding-left: 1rem;
+        }
+      }
     }
 
     &__clear {
@@ -211,45 +252,6 @@ export default {
     p {
       margin: 0;
       line-height: 1.4;
-    }
-  }
-
-  .v-select {
-    &,
-    input {
-      font-family: 'Georgia', 'Times New Roman', Times, serif;
-    }
-
-    input[type="search"],
-    input[type="search"]:focus {
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
-    }
-
-    .open-indicator {
-      &:before {
-        border-width: 1px 1px 0 0;
-      }
-    }
-
-    .dropdown-toggle {
-      border-radius: 3px;
-      background: #eff1ed;
-      border: 0;
-    }
-
-    .dropdown-menu {
-      background: #eff1ed;
-      border: 0;
-
-      li.no-options {
-        margin: 0 .5rem;
-      }
-    }
-
-    .selected-tag {
-      position: absolute;
-      padding-left: 1rem;
     }
   }
 </style>

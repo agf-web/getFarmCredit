@@ -12,7 +12,7 @@
       :position="m.location"
       :clickable="true"
       :label="{ text: (index + 1).toString(), color: '#fff' }"
-      :icon="{ url: './../../static/img/ui--map-marker.svg' }"
+      :icon="{ url: mapmarker }"
     />
   </gmap-map>
 </template>
@@ -22,6 +22,7 @@ import Vue from 'vue';
 import * as VueGoogleMaps from 'vue2-google-maps';
 import googleMapsApiKey from './../../config/googleMapsApiKey.local';
 import googleMapStyles from './googleMapStyles.json';
+import mapmarker from '../../static/img/ui--map-marker.svg';
 
 Vue.use(VueGoogleMaps, {
   installComponents: true,
@@ -43,7 +44,8 @@ export default {
         styles: googleMapStyles,
         zoom: 5,
         maxZoom: 18
-      }
+      },
+      mapmarker
     };
   },
   async created() {
