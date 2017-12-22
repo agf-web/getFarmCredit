@@ -20,16 +20,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
   * {
     box-sizing: border-box;
   }
+
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* text-align: center; */
-    color: #2c3e50;
+    color: #000;
   }
 
   body {

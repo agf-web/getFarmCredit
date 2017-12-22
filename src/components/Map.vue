@@ -6,15 +6,15 @@
     ref="branchMap"
   >
     <gmap-marker
-      :key="index"
       v-for="(m, index) in branches"
+      @click="center=m.location"
+      :key="index"
       :position="m.location"
       :clickable="true"
-      :label="(index + 1).toString()"
-      @click="center=m.location"
+      :label="{ text: (index + 1).toString(), color: '#fff' }"
+      :icon="{ url: './../../static/img/ui--map-marker.svg' }"
     />
   </gmap-map>
-
 </template>
 
 <script>
@@ -34,7 +34,7 @@ const usaCenter = { lat: 39, lng: -96 };
 
 export default {
   name: 'ag-map',
-  props: ['branches', 'firstBranch'],
+  props: ['branches'],
   data() {
     return {
       center: usaCenter,
