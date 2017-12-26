@@ -10,7 +10,7 @@
       @click="center=m.location"
       :key="index"
       :position="m.location"
-      :clickable="true"
+      :clickable="false"
       :label="{ text: (index + 1).toString(), color: '#fff' }"
       :icon="{ url: mapmarker }"
     />
