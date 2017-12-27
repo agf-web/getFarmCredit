@@ -244,10 +244,6 @@ export default {
       }
     }
   }
-
-  &__branchList {
-    
-  }
 }
 
 .branches {
