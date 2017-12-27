@@ -246,24 +246,25 @@ export default {
   }
 
   &__branchList {
+    
+  }
+}
+
+.branches {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2.5rem;
+
+  li {
+    border-bottom: 1px solid #e0e0e0;
+    &:last-child {
+      border: 0;
+    }
+
     a {
       color: #2c3e50;
       text-decoration: none;
       border-bottom: 1px dotted #9e9e9e;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 auto 2rem;
-
-      li {
-        border-bottom: 1px solid #e0e0e0;
-
-        &:last-child {
-          border: 0;
-        }
-      }
     }
   }
 }
