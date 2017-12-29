@@ -38,6 +38,11 @@ import branchesFull from '../../static/branches_full.json';
 
 export default {
   name: 'FarmCreditFinder',
+  props: {
+    acaFilter: {
+      type: Object
+    }
+  },
   components: {
     agMap,
     agCountySearch
@@ -83,22 +88,64 @@ export default {
   },
   computed: {
     branchFilter() {
+      // set search term to filter by
       const searchTerm = this.search ? this.search : '';
+
+      // if this build IS CONFIGURED to filter by Association
+      if (this.acaFilter.isFiltered && typeof this.acaFilter.associationName === 'string') {
+        return branchesFull.filter(branch =>
+          branch.Association === this.acaFilter.associationName &&
+            branch.County !== '' &&
+            branch.County.toLowerCase()
+              .indexOf(searchTerm.toLowerCase()) !== -1);
+      }
+
+      // if this build is NOT CONFIGURED to filter by Association
       return branchesFull.filter(branch =>
         branch.County !== '' &&
         branch.County.toLowerCase()
           .indexOf(searchTerm.toLowerCase()) !== -1);
     },
     countyFilter() {
-      const allCounties = branchesFull.map(branch =>
-        branch.County.split(',')
-          .map(item => item.trim())
-          .filter(term => term !== ''));
+      // go through branch array and get the County to make a new array.
+      // `branch.County` is a string of Counties separated by commas.
+      // we convert the string into an array using `split()` and iterating
+      // over the Counties by using `map()` and `filter()`.
+
+      let allCounties;
+
+      if (this.acaFilter.isFiltered && typeof this.acaFilter.associationName === 'string') {
+        allCounties = branchesFull.filter(branch =>
+          branch.Association === this.acaFilter.associationName)
+          .map(branch =>
+            branch.County.split(',')
+              .map(county => county.trim())
+              .filter(county => county !== ''));
+      } else {
+        allCounties = branchesFull.map(branch =>
+          branch.County.split(',')
+            .map(county => county.trim())
+            .filter(county => county !== ''));
+      }
+
+      // using lodash to flatten the array of County arrays,
+      // removing duplicates with `lodash.union()`, then we sort it.
       return this.$lodash.union(...allCounties).sort();
     },
     isBackToTop() {
       return this.scrollToTop;
     }
+    // function to make the list of Associations.
+    // copied the Object to `app.associationFilterConfig.js`
+    // this is commented out if we need to use this again in the future,
+    // if we are still manually updating the `branches_full.json` file.
+    //
+    // associ() {
+    //   const allAssociations = branchesFull.map(branch => {
+    //     return branch.Association;
+    //   });
+    //   return this.$lodash.union(allAssociations).sort();
+    // },
   }
 };
 </script>

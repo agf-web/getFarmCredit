@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <FarmCreditFinder/>
+    <FarmCreditFinder
+      :acaFilter="associationFilter"
+    />
   </div>
 </template>
 
@@ -9,6 +11,7 @@ import Vue from 'vue';
 import lodash from 'lodash';
 
 import FarmCreditFinder from './components/FarmCreditFinder';
+import associationFilterConfig from '../config/app.associationFilterConfig';
 
 Object.defineProperty(Vue.prototype, '$lodash', { value: lodash });
 
@@ -16,6 +19,11 @@ export default {
   name: 'app',
   components: {
     FarmCreditFinder
+  },
+  data() {
+    return {
+      associationFilter: associationFilterConfig
+    };
   }
 };
 </script>
