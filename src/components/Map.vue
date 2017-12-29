@@ -72,7 +72,6 @@ export default {
   },
   methods: {
     async centerMap() {
-      // console.warn(this.branches);
       this.$refs.branchMap.$mapCreated.then((map) => {
         map.fitBounds(this.currentBounds);
         map.setCenter(this.currentBounds.getCenter());
