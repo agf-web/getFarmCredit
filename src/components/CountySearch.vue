@@ -66,7 +66,14 @@ export default {
   components: {
     vSelect
   },
-  props: ['branches', 'counties'],
+  props: {
+    branches: {
+      type: Array
+    },
+    counties: {
+      type: Array
+    }
+  },
   data() {
     return {
       searchTerm: null,
@@ -78,9 +85,6 @@ export default {
     console.dir('[MOUNTED] Search');
   },
   methods: {
-    // focusOnSearch() {
-    //   this.$refs.searchbox.$el.children[0].children[0].focus();
-    // },
     clearSearch() {
       this.$refs.searchbox.mutableValue = null;
     },

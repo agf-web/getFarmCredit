@@ -11,8 +11,15 @@
       :key="index"
       :position="m.location"
       :clickable="false"
-      :label="{ text: (index + 1).toString(), color: '#fff' }"
-      :icon="{ url: mapmarker }"
+      :label="{ 
+        text: (index + 1).toString(), 
+        color: '#fff',
+        fontSize: '12'
+      }"
+      :icon="{ 
+        url: mapmarker,
+        scaledSize: { width: 32, height: 32 },
+      }"
     />
   </gmap-map>
 </template>
@@ -35,7 +42,12 @@ const usaCenter = { lat: 39, lng: -96 };
 
 export default {
   name: 'ag-map',
-  props: ['branches'],
+  // props: ['branches'],
+  props: {
+    branches: {
+      type: Array
+    }
+  },
   data() {
     return {
       center: usaCenter,
@@ -52,13 +64,7 @@ export default {
     await VueGoogleMaps.loaded; // create component when VueGoogleMaps is loaded.
 
     try {
-      this.$refs.branchMap.$mapCreated.then((map) => {
-        map.fitBounds(this.currentBounds);
-        map.setCenter(this.currentBounds.getCenter());
-      }).catch((err) => {
-        // eslint-disable-next-line
-        console.error(err);
-      });
+      this.centerMap();
     } catch (err) {
       // eslint-disable-next-line
       console.error(err);
@@ -66,6 +72,7 @@ export default {
   },
   methods: {
     async centerMap() {
+      // console.warn(this.branches);
       this.$refs.branchMap.$mapCreated.then((map) => {
         map.fitBounds(this.currentBounds);
         map.setCenter(this.currentBounds.getCenter());
@@ -79,14 +86,7 @@ export default {
     }
   },
   mounted() {
-    this.$refs.branchMap.$mapCreated.then((map) => {
-      map.fitBounds(this.currentBounds);
-      map.setCenter(this.currentBounds.getCenter());
-    }).catch((err) => {
-      // eslint-disable-next-line
-      console.error(err);
-    });
-
+    this.centerMap();
     // eslint-disable-next-line
     console.log('[MOUNTED] Map');
   },
