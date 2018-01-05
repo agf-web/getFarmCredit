@@ -1,7 +1,9 @@
 <template>
   <div id="CountySearch">
     <div class="CountySearch__head">
-      <span class="logo"><a href="https://www.getfarmcredit.com">GetFarmCredit.com</a></span>
+      <span class="logo">
+        <a href="https://www.getfarmcredit.com">GetFarmCredit.com</a>
+      </span>
       <h1 class="CountySearch__title">Find a Location</h1>
       <p class="CountySearch__intro">
         We provide loans to farmers and rural home buyers in rural counties across 15 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you.
@@ -114,7 +116,7 @@ export default {
 
   a {
     display: block;
-    background: url('./../../static/img/logo-getfarm.jpg') center center no-repeat;
+    background: url('./../../static/img/logo-getfarm.png') center center no-repeat;
     background-size: contain;
     margin: 0 auto;
     text-indent: -9999px;
