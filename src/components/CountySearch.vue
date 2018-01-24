@@ -100,7 +100,7 @@ export default {
       return `tel:${phoneNum.replace(' ', '-')}`;
     },
     mapLink(branch) {
-      const address = branch.Address.split(' ').join('+');
+      const address = branch.Address.split(' ').join('+').split('-').join('--');
       const city = branch.City.split(' ').join('+');
       const state = branch.State;
       const zip = branch.Zip;
