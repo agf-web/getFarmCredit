@@ -1,0 +1,4404 @@
+[{
+  "State": "NC",
+  "County": "Bertie County (NC),Hertford County (NC),Northampton County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Ahoskie Branch",
+  "Phone 1": "(252) 332-6143",
+  "Phone 2": "",
+  "Fax": "(252) 332-6144",
+  "Address": "408 NC 561 W",
+  "City": "Ahoskie",
+  "Zip": 27910,
+  "location": {
+    "lat": 36.279649,
+    "lng": -76.98560839999999
+  },
+  "formatted_address": "408 NC-561, Ahoskie, NC 27910, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Camden County (NC),Chowan County (NC),Currituck County (NC),Dare County (NC),Pasquotank County (NC),Perquimans County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Elizabeth City Branch",
+  "Phone 1": "(252) 335-0582",
+  "Phone 2": "",
+  "Fax": "(252) 335-0584",
+  "Address": "101 Impact Blvd",
+  "City": "Elizabeth City",
+  "Zip": 27906,
+  "location": {
+    "lat": 36.2611509,
+    "lng": -76.3050868
+  },
+  "formatted_address": "101 Impact Blvd, Elizabeth City, NC 27909, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Greene County (NC),Pitt County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Greenville Branch",
+  "Phone 1": "(252) 758-1512",
+  "Phone 2": "",
+  "Fax": "(252) 758-6135",
+  "Address": "100 E. First St",
+  "City": "Greenville",
+  "Zip": 27858,
+  "location": {
+    "lat": 35.6161505,
+    "lng": -77.3701416
+  },
+  "formatted_address": "100 E 1st St, Greenville, NC 27858, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Halifax County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Halifax Branch",
+  "Phone 1": "(252) 583-1331",
+  "Phone 2": "",
+  "Fax": "(252) 583-1908",
+  "Address": "419 South King St",
+  "City": "Halifax",
+  "Zip": 27839,
+  "location": {
+    "lat": 36.32125389999999,
+    "lng": -77.59286639999999
+  },
+  "formatted_address": "419 S King St, Halifax, NC 27839, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Lenoir County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "La Grange Branch",
+  "Phone 1": "(252) 566-2163",
+  "Phone 2": "",
+  "Fax": "(252) 566-2313",
+  "Address": "7900 Hwy 70 W",
+  "City": "La Grange",
+  "Zip": 28551,
+  "location": {
+    "lat": 34.7429849,
+    "lng": -76.82283439999999
+  },
+  "formatted_address": "7900 Hwy 70 W, Newport, NC 28570, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Franklin County (NC),Granville County (NC),Vance County (NC),Warren County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Louisburg Branch",
+  "Phone 1": "(919) 496-3267",
+  "Phone 2": "",
+  "Fax": "(919) 496-6008",
+  "Address": "1654 NC 39 Hwy N",
+  "City": "Louisburg",
+  "Zip": 27549,
+  "location": {
+    "lat": 36.0545994,
+    "lng": -78.2994865
+  },
+  "formatted_address": "1654 NC-39, Louisburg, NC 27549, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Carteret County (NC),Craven County (NC),Jones County (NC),Onslow County (NC),Pamlico County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "New Bern Branch",
+  "Phone 1": "(252) 638-5673",
+  "Phone 2": "",
+  "Fax": "(252) 638-5674",
+  "Address": "1309 South Glenburnie Rd",
+  "City": "New Bern",
+  "Zip": 28561,
+  "location": {
+    "lat": 35.1207344,
+    "lng": -77.08942379999999
+  },
+  "formatted_address": "1309 S Glenburnie Rd, New Bern, NC 28562, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Wake County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Raleigh Branch",
+  "Phone 1": "(919) 250-0202",
+  "Phone 2": "",
+  "Fax": "(919) 250-2847",
+  "Address": "4000 Poole Rd",
+  "City": "Raleigh",
+  "Zip": 27610,
+  "location": {
+    "lat": 35.7673126,
+    "lng": -78.56978230000001
+  },
+  "formatted_address": "4000 Poole Rd, Raleigh, NC 27610, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Edgecombe County (NC),Nash County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Rocky Mount",
+  "Phone 1": "(252) 443-1290",
+  "Phone 2": "",
+  "Fax": "(252) 443-3526",
+  "Address": "2472 Woodruff Rd",
+  "City": "Rocky Mount",
+  "Zip": 27804,
+  "location": {
+    "lat": 35.9972491,
+    "lng": -77.83872769999999
+  },
+  "formatted_address": "2472 Woodruff Rd, Rocky Mount, NC 27804, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Johnston County (NC),Wayne County (NC),Wilson County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Smithfield Branch",
+  "Phone 1": "(919) 934-9731",
+  "Phone 2": "",
+  "Fax": "(919) 934-9736",
+  "Address": "2850 US Hwy 70 Business E",
+  "City": "Smithfield",
+  "Zip": 27577,
+  "location": {
+    "lat": 35.498604,
+    "lng": -78.307576
+  },
+  "formatted_address": "2850 US-70 BUS, Smithfield, NC 27577, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Hyde County (NC),Tyrrell County (NC),Washington County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Swan Quarter Branch",
+  "Phone 1": "(252) 926-7481",
+  "Phone 2": "",
+  "Fax": "(252) 926-4321",
+  "Address": "13191 U.S. Hwy. 264",
+  "City": "Swan Quarter",
+  "Zip": 27885,
+  "location": {
+    "lat": 35.4247652,
+    "lng": -76.3253841
+  },
+  "formatted_address": "13191 US-264, Swanquarter, NC 27885, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "NC",
+  "County": "Beaufort County (NC),Martin County (NC)",
+  "Association": "AgCarolina Farm Credit, ACA",
+  "Branch": "Williamston Branch",
+  "Phone 1": "(252) 792-1678",
+  "Phone 2": "",
+  "Fax": "(252) 792-5051",
+  "Address": "1105 Garrett Rd",
+  "City": "Williamston",
+  "Zip": 27892,
+  "location": {
+    "lat": 35.8335613,
+    "lng": -77.0686881
+  },
+  "formatted_address": "1105 Garrett Rd, Williamston, NC 27892, USA",
+  "website": "https://agcarolina.com"
+}, {
+  "State": "PA",
+  "County": "Cameron County (PA),Elk County (PA),McKean County (PA),Potter County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 1 - Coudersport Office",
+  "Phone 1": "(814) 274-9425",
+  "Phone 2": "",
+  "Fax": "(814) 274-0438",
+  "Address": "1 Buffalo Street, Suite 3",
+  "City": "Coudersport",
+  "Zip": 16915,
+  "location": {
+    "lat": 41.7722222,
+    "lng": -77.9847266
+  },
+  "formatted_address": "1 Buffalo St #3, Coudersport, PA 16915, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Tioga County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 1 - Endless Mountains Office",
+  "Phone 1": "(570) 265-8161",
+  "Phone 2": "",
+  "Fax": "(570) 265-4572",
+  "Address": "24668 Route 6",
+  "City": "Towanda",
+  "Zip": 18848,
+  "location": {
+    "lat": 41.767575,
+    "lng": -76.4427188
+  },
+  "formatted_address": "24668 Old Rte 6 Rd, Towanda, PA 18848, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Crawford County (PA),Erie County (PA),Forest County (PA),Mercer County (PA),Venango County (PA),Warren County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 1 - Meadville Office",
+  "Phone 1": "(814) 336-3149",
+  "Phone 2": "",
+  "Fax": "(814) 333-8890",
+  "Address": "11555 State Hwy. 98",
+  "City": "Meadville",
+  "Zip": 16335,
+  "location": {
+    "lat": 41.625206,
+    "lng": -80.2034063
+  },
+  "formatted_address": "11555 PA-98, Meadville, PA 16335, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Centre County (PA),Clearfield County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 1 - Seven Mountains Office",
+  "Phone 1": "(717) 248-7331",
+  "Phone 2": "",
+  "Fax": "(717) 248-2625",
+  "Address": "13193 Ferguson Valley Rd",
+  "City": "Yeagertown",
+  "Zip": 17099,
+  "location": {
+    "lat": 40.6343775,
+    "lng": -77.5802872
+  },
+  "formatted_address": "13193 Ferguson Valley Rd, Yeagertown, PA 17099, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Clinton County (PA),Lycoming County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 1 - Susquehanna Valley Office",
+  "Phone 1": "(570) 524-2204",
+  "Phone 2": "",
+  "Fax": "(570) 524-2022",
+  "Address": "4504 Westbranch Highway",
+  "City": "Lewisburg",
+  "Zip": 17837,
+  "location": {
+    "lat": 40.9429796,
+    "lng": -76.8794683
+  },
+  "formatted_address": "4504 Westbranch Hwy, Lewisburg, PA 17837, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Bradford County (PA),Lackawanna County (PA),Sullivan County (PA),Susquehanna County (PA),Wayne County (PA),Wyoming County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 2 - Endless Mountains Office",
+  "Phone 1": "(570) 265-8161",
+  "Phone 2": "",
+  "Fax": "(570) 265-4572",
+  "Address": "24668 Route 6",
+  "City": "Towanda",
+  "Zip": 18848,
+  "location": {
+    "lat": 41.767575,
+    "lng": -76.4427188
+  },
+  "formatted_address": "24668 Old Rte 6 Rd, Towanda, PA 18848, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Huntingdon County (PA),Juniata County (PA),Mifflin County (PA),Perry County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 2 - Seven Mountains Office",
+  "Phone 1": "(717) 248-7331",
+  "Phone 2": "",
+  "Fax": "(717) 248-2625",
+  "Address": "13193 Ferguson Valley Rd",
+  "City": "Yeagertown",
+  "Zip": 17099,
+  "location": {
+    "lat": 40.6343775,
+    "lng": -77.5802872
+  },
+  "formatted_address": "13193 Ferguson Valley Rd, Yeagertown, PA 17099, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Columbia County (PA),Luzerne County (PA),Montour County (PA),Northumberland County (PA),Snyder County (PA),Union County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 2 - Susquehanna Valley Office",
+  "Phone 1": "(570) 524-2204",
+  "Phone 2": "",
+  "Fax": "(570) 524-2022",
+  "Address": "4504 Westbranch Highway",
+  "City": "Lewisburg",
+  "Zip": 17837,
+  "location": {
+    "lat": 40.9429796,
+    "lng": -76.8794683
+  },
+  "formatted_address": "4504 Westbranch Hwy, Lewisburg, PA 17837, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Cumberland County (PA),Franklin County (PA),Fulton County (PA),",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 3 - Cumberland Valley Office",
+  "Phone 1": "(717) 263-3315",
+  "Phone 2": "",
+  "Fax": "(717) 263-1568",
+  "Address": "109 Farm Credit Dr",
+  "City": "Chambersburg",
+  "Zip": 17201,
+  "location": {
+    "lat": 39.9859779,
+    "lng": -77.6159156
+  },
+  "formatted_address": "109 Farm Credit Dr, Chambersburg, PA 17202, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Bedford County (PA),Blair County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 3 - Martinsburg Office",
+  "Phone 1": "(814) 793-3783",
+  "Phone 2": "",
+  "Fax": "(814) 793-3040",
+  "Address": "2322 Curryville Road",
+  "City": "Martinsburg",
+  "Zip": 16662,
+  "location": {
+    "lat": 40.3002526,
+    "lng": -78.3299725
+  },
+  "formatted_address": "2322 Curryville Rd, Martinsburg, PA 16662, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Adams County (PA),York County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 3 - York Office",
+  "Phone 1": "(717) 792-2641",
+  "Phone 2": "",
+  "Fax": "(717) 792-1499",
+  "Address": "1434 Seven Valleys Road",
+  "City": "York",
+  "Zip": 17408,
+  "location": {
+    "lat": 39.8901954,
+    "lng": -76.7864656
+  },
+  "formatted_address": "1434 Seven Valleys Rd, York, PA 17408, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Armstrong County (PA),Beaver County (PA),Butler County (PA),Clarion County (PA),Jefferson County (PA),Lawrence County (PA),Indiana County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 4 - Butler Office",
+  "Phone 1": "(724) 482-2173",
+  "Phone 2": "",
+  "Fax": "(724) 482-4201",
+  "Address": "610 Evans City Rd",
+  "City": "Butler",
+  "Zip": 16001,
+  "location": {
+    "lat": 40.8584796,
+    "lng": -79.9741095
+  },
+  "formatted_address": "610 Evans City Rd, Butler, PA 16001, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "PA",
+  "County": "Cambria County (PA),Somerset County (PA)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 4 - Martinsburg Office",
+  "Phone 1": "(814) 793-3783",
+  "Phone 2": "",
+  "Fax": "(814) 793-3040",
+  "Address": "2322 Curryville Road",
+  "City": "Martinsburg",
+  "Zip": 16662,
+  "location": {
+    "lat": 40.3002526,
+    "lng": -78.3299725
+  },
+  "formatted_address": "2322 Curryville Rd, Martinsburg, PA 16662, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "WV",
+  "County": "Brooke County (WV),Fayette County (WV),Greene County (WV),Hancock County (WV),Marshall County (WV),Ohio County (WV),Washington County (WV),Westmoreland County (WV),Allegheny County (WV)",
+  "Association": "AgChoice Farm Credit, ACA",
+  "Branch": "Region 4 - New Stanton Office",
+  "Phone 1": "(724) 696-3276",
+  "Phone 2": "",
+  "Fax": "(724) 696-4526",
+  "Address": "921 S. Center Ave., PO Box 716",
+  "City": "New Stanton",
+  "Zip": 15672,
+  "location": {
+    "lat": 38.72519520000001,
+    "lng": -82.9658735
+  },
+  "formatted_address": "921 Center Ave, South Shore, KY 41175, USA",
+  "website": "https://www.agchoice.com"
+}, {
+  "State": "OH",
+  "County": "Lucas County (OH),Wood County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Bowling Green Branch",
+  "Phone 1": "(419) 352-5178",
+  "Phone 2": "",
+  "Fax": "(419) 354-2199",
+  "Address": "111 E. Gypsy Lane Rd",
+  "City": "Bowling Green",
+  "Zip": 43402,
+  "location": {
+    "lat": 41.3570751,
+    "lng": -83.6492426
+  },
+  "formatted_address": "111 E Gypsy Lane Rd, Bowling Green, OH 43402, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Crawford County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Bucyrus Branch",
+  "Phone 1": "(419) 562-7926",
+  "Phone 2": "",
+  "Fax": "(419) 562-7416",
+  "Address": "3113 SR 98",
+  "City": "Bucyrus",
+  "Zip": 44820,
+  "location": {
+    "lat": 40.8200999,
+    "lng": -82.9627299
+  },
+  "formatted_address": "3113 OH-98, Bucyrus, OH 44820, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Hancock County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Findlay Branch",
+  "Phone 1": "(419) 422-7632",
+  "Phone 2": "",
+  "Fax": "(419) 422-8391",
+  "Address": "7868 CR 140, Ste. A",
+  "City": "Findlay",
+  "Zip": 45840,
+  "location": {
+    "lat": 41.05257,
+    "lng": -83.68948499999999
+  },
+  "formatted_address": "7868 Co Rd 140 a, Findlay, OH 45840, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Ottawa County (OH),Lucas County (OH),Sandusky County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Fremont Branch",
+  "Phone 1": "(419) 332-2639",
+  "Phone 2": "",
+  "Fax": "(419) 332-2944",
+  "Address": "2155 Oak Harbor Rd",
+  "City": "Fremont",
+  "Zip": 43420,
+  "location": {
+    "lat": 41.3759054,
+    "lng": -83.13390609999999
+  },
+  "formatted_address": "2155 Oak Harbor Rd, Fremont, OH 43420, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Hardin County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Kenton Branch",
+  "Phone 1": "(419) 675-2303",
+  "Phone 2": "",
+  "Fax": "(419) 675-2951",
+  "Address": "12923 SR 309",
+  "City": "Kenton",
+  "Zip": 43326,
+  "location": {
+    "lat": 40.6564836,
+    "lng": -83.6346944
+  },
+  "formatted_address": "12923 OH-309, Kenton, OH 43326, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Marion County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Marion Branch",
+  "Phone 1": "(740) 387-2270",
+  "Phone 2": "",
+  "Fax": "(740) 387-1387",
+  "Address": "1100 East Center St",
+  "City": "Marion",
+  "Zip": 43302,
+  "location": {
+    "lat": 40.5901507,
+    "lng": -83.1019175
+  },
+  "formatted_address": "1100 E Center St, Marion, OH 43302, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Morrow County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Mt. Gilead Branch",
+  "Phone 1": "(419) 947-1040",
+  "Phone 2": "",
+  "Fax": "(419) 947-1050",
+  "Address": "5362 US Hwy 42, Ste. 100",
+  "City": "Mt. Gilead",
+  "Zip": 43338,
+  "location": {
+    "lat": 40.53733950000001,
+    "lng": -82.83160099999999
+  },
+  "formatted_address": "5362 US-42 #100, Mt Gilead, OH 43338, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Henry County (OH),Paulding County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Napoleon Branch",
+  "Phone 1": "(419) 599-8656",
+  "Phone 2": "",
+  "Fax": "(419) 592-5310",
+  "Address": "1485 Scott St.",
+  "City": "Napoleon",
+  "Zip": 43545,
+  "location": {
+    "lat": 41.4030625,
+    "lng": -84.132539
+  },
+  "formatted_address": "1485 Scott St, Napoleon, OH 43545, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Erie County (OH),Huron County (OH),Lorain County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Norwalk Branch",
+  "Phone 1": "(419) 663-4020",
+  "Phone 2": "",
+  "Fax": "(419) 663-4120",
+  "Address": "735A US Hwy 20 East",
+  "City": "Norwalk",
+  "Zip": 44857,
+  "location": {
+    "lat": 38.9991996,
+    "lng": -84.8282815
+  },
+  "formatted_address": "44857 KY-20, Petersburg, KY 41080, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Putnam County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Ottawa Branch",
+  "Phone 1": "(419) 523-6677",
+  "Phone 2": "",
+  "Fax": "(419) 523-6679",
+  "Address": "315 W. Williamstown Rd",
+  "City": "Ottawa",
+  "Zip": 45875,
+  "location": {
+    "lat": 41.01133799999999,
+    "lng": -84.050586
+  },
+  "formatted_address": "315 Williamstown Rd, Ottawa, OH 45875, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Seneca County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Tiffin Branch",
+  "Phone 1": "(419) 447-0787",
+  "Phone 2": "",
+  "Fax": "(419) 447-8110",
+  "Address": "2500 W. Market St",
+  "City": "Tiffin",
+  "Zip": 44883,
+  "location": {
+    "lat": 41.1096038,
+    "lng": -83.215706
+  },
+  "formatted_address": "2500 W Market St, Tiffin, OH 44883, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Wyandot County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Upper Sandusky Branch",
+  "Phone 1": "(419) 294-4933",
+  "Phone 2": "",
+  "Fax": "(419)-294-4934",
+  "Address": "97 Houpt Dr., Room E",
+  "City": "Upper Sandusky",
+  "Zip": 43351,
+  "location": {
+    "lat": 40.8396067,
+    "lng": -83.28161209999999
+  },
+  "formatted_address": "97 Houpt Dr e, Upper Sandusky, OH 43351, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Paulding County (OH),Van Wert County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Van Wert Branch",
+  "Phone 1": "(419) 238-6838",
+  "Phone 2": "",
+  "Fax": "(419) 238-1788",
+  "Address": "1195 Professional Dr",
+  "City": "Van Wert",
+  "Zip": 45891,
+  "location": {
+    "lat": 40.8519765,
+    "lng": -84.5925585
+  },
+  "formatted_address": "1195 Professional Dr, Van Wert, OH 45891, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "OH",
+  "County": "Lorain County (OH)",
+  "Association": "AgCredit, ACA",
+  "Branch": "Wellington Satellite",
+  "Phone 1": "(440) 647-6611",
+  "Phone 2": "",
+  "Fax": "(440) 647-6610",
+  "Address": "311 Maple St, Ste 100",
+  "City": "Wellington",
+  "Zip": 44090,
+  "location": {
+    "lat": 41.179751,
+    "lng": -82.20882100000001
+  },
+  "formatted_address": "311 Maple St #100, Wellington, OH 44090, USA",
+  "website": "https://agcredit.net"
+}, {
+  "State": "GA",
+  "County": "Bartow County (GA),Cherokee County (GA),Cobb County (GA),Gordon County (GA),Paulding County (GA),Pickens County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Cartersville Branch",
+  "Phone 1": "(770) 382-3637",
+  "Phone 2": "",
+  "Fax": "(770) 387-1175",
+  "Address": "1300 East Main St",
+  "City": "Cartersville",
+  "Zip": 30121,
+  "location": {
+    "lat": 34.175626,
+    "lng": -84.7673973
+  },
+  "formatted_address": "1300 E Main St, Cartersville, GA 30121, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Fannin County (GA),Gilmer County (GA),Gordon County (GA),Murray County (GA),Pickens County (GA),Whitfield County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Chatsworth Branch",
+  "Phone 1": "(706) 695-0020",
+  "Phone 2": "",
+  "Fax": "(706) 695-0075",
+  "Address": "19 Woodlake Dr",
+  "City": "Chatsworth",
+  "Zip": 30705,
+  "location": {
+    "lat": 34.739797,
+    "lng": -84.761939
+  },
+  "formatted_address": "19 Woodlake Dr, Chatsworth, GA 30705, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Banks County (GA),Habersham County (GA),Rabun County (GA),Stephens County (GA),Towns County (GA),Union County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Clarkesville Branch",
+  "Phone 1": "(706) 754-4158",
+  "Phone 2": "",
+  "Fax": "(706) 754-3307",
+  "Address": "102 Blacksnake Rd",
+  "City": "Mt. Airy",
+  "Zip": 30563,
+  "location": {
+    "lat": 34.5805859,
+    "lng": -83.4911429
+  },
+  "formatted_address": "102 Blacksnake Rd, Mt Airy, GA 30563, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Banks County (GA),Barrow County (GA),Dawson County (GA),Forsyth County (GA),Hall County (GA),Jackson County (GA),Lumpkin County (GA),White County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Gainesville Branch",
+  "Phone 1": "(770) 534-5395",
+  "Phone 2": "",
+  "Fax": "(770) 534-6491",
+  "Address": "501 Broad St",
+  "City": "Gainesville",
+  "Zip": 30501,
+  "location": {
+    "lat": 34.300702,
+    "lng": -83.8217523
+  },
+  "formatted_address": "501 Broad St SE, Gainesville, GA 30501, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Catoosa County (GA),Dade County (GA),Walker County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Lafayette Outpost",
+  "Phone 1": "(706) 638-1940",
+  "Phone 2": "",
+  "Fax": "(706) 638-1946",
+  "Address": "700 East Villanow St",
+  "City": "LaFayette",
+  "Zip": 30728,
+  "location": {
+    "lat": 34.7010641,
+    "lng": -85.2710156
+  },
+  "formatted_address": "700 E Villanow St, LaFayette, GA 30728, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Chattooga County (GA),Floyd County (GA),Polk County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Rome Outpost",
+  "Phone 1": "(706) 291-6340",
+  "Phone 2": "",
+  "Fax": "(706) 291-7535",
+  "Address": "701 East 2nd Ave",
+  "City": "Rome",
+  "Zip": 30162,
+  "location": {
+    "lat": 34.2446615,
+    "lng": -85.1658033
+  },
+  "formatted_address": "701 East 2nd avenue, Rome, GA 30161, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Banks County (GA),Clarke County (GA),Elbert County (GA),Franklin County (GA),Hart County (GA),Madison County (GA),Stephens County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Royston Branch",
+  "Phone 1": "(706) 245-6142",
+  "Phone 2": "",
+  "Fax": "(706) 245-5117",
+  "Address": "675 Church St",
+  "City": "Royston",
+  "Zip": 30662,
+  "location": {
+    "lat": 34.2823199,
+    "lng": -83.1108028
+  },
+  "formatted_address": "675 Church St, Royston, GA 30662, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Lincoln County (GA),Oglethorpe County (GA),Taliaferro County (GA),Wilkes County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Northern Div - Washington Branch",
+  "Phone 1": "(706) 678-7088",
+  "Phone 2": "",
+  "Fax": "(706) 678-2241",
+  "Address": "US 78, 311 North Bypass",
+  "City": "Washington",
+  "Zip": 30673,
+  "location": {
+    "lat": 33.7396301,
+    "lng": -82.7394412
+  },
+  "formatted_address": "78 North St, Washington, GA 30673, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Crisp County (GA),Dooly County (GA),Wilcox County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Cordele Branch",
+  "Phone 1": "(229) 273-3927",
+  "Phone 2": "",
+  "Fax": "(229) 273-3960",
+  "Address": "1207 South Greer St",
+  "City": "Cordele",
+  "Zip": 31015,
+  "location": {
+    "lat": 31.9565993,
+    "lng": -83.75559009999999
+  },
+  "formatted_address": "1207 S Greer St, Cordele, GA 31015, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Bleckley County (GA),Dodge County (GA),Johnson County (GA),Laurens County (GA),Telfair County (GA),Treutlen County (GA),Twiggs County (GA),Wilkinson County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Dublin Branch",
+  "Phone 1": "(478) 272-3255",
+  "Phone 2": "",
+  "Fax": "(478) 272-4933",
+  "Address": "826 Bellevue Ave",
+  "City": "Dublin",
+  "Zip": 31021,
+  "location": {
+    "lat": 32.5366613,
+    "lng": -82.917735
+  },
+  "formatted_address": "826 Bellevue Ave, Dublin, GA 31021, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Macon County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Montezuma Outpost",
+  "Phone 1": "(478) 472-5156",
+  "Phone 2": "",
+  "Fax": "(478) 472-5158",
+  "Address": "317 Walnut St",
+  "City": "Montezuma",
+  "Zip": 31063,
+  "location": {
+    "lat": 32.2930018,
+    "lng": -84.02441329999999
+  },
+  "formatted_address": "317 Walnut St, Montezuma, GA 31063, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Colquitt County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Moultrie Branch",
+  "Phone 1": "(229) 985-3893",
+  "Phone 2": "",
+  "Fax": "(229) 985-0409",
+  "Address": "22 5th Ave. S.E.",
+  "City": "Moultrie",
+  "Zip": 31768,
+  "location": {
+    "lat": 31.175043,
+    "lng": -83.7886204
+  },
+  "formatted_address": "22 5th Ave SE, Moultrie, GA 31768, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Berrien County (GA),Cook County (GA),Lanier County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Nashville Branch",
+  "Phone 1": "(229) 686-5081",
+  "Phone 2": "",
+  "Fax": "(229) 686-7085",
+  "Address": "707 N. Davis St",
+  "City": "Nashville",
+  "Zip": 31639,
+  "location": {
+    "lat": 31.2137202,
+    "lng": -83.2490705
+  },
+  "formatted_address": "707 N Davis St, Nashville, GA 31639, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Berrien County (GA),Ben Hill County (GA),Irwin County (GA),Telfair County (GA),Tift County (GA),Turner County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Ocilla Branch",
+  "Phone 1": "(229) 468-5900",
+  "Phone 2": "",
+  "Fax": "(229) 468-7506",
+  "Address": "302 South Cherry St",
+  "City": "Ocilla",
+  "Zip": 31774,
+  "location": {
+    "lat": 31.5916759,
+    "lng": -83.2493066
+  },
+  "formatted_address": "302 S Cherry St, Ocilla, GA 31774, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Bibb County (GA),Crawford County (GA),Houston County (GA),Macon County (GA),Peach County (GA),Pulaski County (GA),Taylor County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Perry Branch",
+  "Phone 1": "(478) 987-1434",
+  "Phone 2": "",
+  "Fax": "(478) 987-6322",
+  "Address": "468 Perry Pkwy",
+  "City": "Perry",
+  "Zip": 31069,
+  "location": {
+    "lat": 32.487361,
+    "lng": -83.72287299999999
+  },
+  "formatted_address": "468 Perry Pkwy, Perry, GA 31069, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Brooks County (GA),Echols County (GA),Lowndes County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Quitman Branch",
+  "Phone 1": "(229) 263-7551",
+  "Phone 2": "",
+  "Fax": "(229) 263-7553",
+  "Address": "504 E. Screven St",
+  "City": "Quitman",
+  "Zip": 31643,
+  "location": {
+    "lat": 30.7851687,
+    "lng": -83.55575759999999
+  },
+  "formatted_address": "504 E Screven St, Quitman, GA 31643, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Baldwin County (GA),Glascock County (GA),Hancock County (GA),Jefferson County (GA),Jones County (GA),Warren County (GA),Washington County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Sandersville Branch",
+  "Phone 1": "(478) 552-6922",
+  "Phone 2": "",
+  "Fax": "(478) 552-8717",
+  "Address": "775 Sparta Rd.",
+  "City": "Sandersville",
+  "Zip": 31082,
+  "location": {
+    "lat": 33.0012637,
+    "lng": -82.80087019999999
+  },
+  "formatted_address": "775 Sparta Rd, Sandersville, GA 31082, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Worth County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Sylvester Branch",
+  "Phone 1": "(229) 776-5599",
+  "Phone 2": "",
+  "Fax": "(229) 776-0260",
+  "Address": "105 Dexter Wilson Blvd",
+  "City": "Sylvester",
+  "Zip": 31791,
+  "location": {
+    "lat": 31.5347781,
+    "lng": -83.85426919999999
+  },
+  "formatted_address": "105 Dexter Wilson Blvd,, Sylvester, GA 31791, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Cook County (GA),Tift County (GA),Turner County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Tifton Branch",
+  "Phone 1": "(229) 382-4300",
+  "Phone 2": "",
+  "Fax": "(229) 386-8671",
+  "Address": "1807 King Rd",
+  "City": "Tifton",
+  "Zip": 31793,
+  "location": {
+    "lat": 31.459716,
+    "lng": -83.542969
+  },
+  "formatted_address": "1807 King Rd, Tifton, GA 31793, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Burke County (GA),Columbia County (GA),Jefferson County (GA),McDuffie County (GA),Richmond County (GA)",
+  "Association": "AgGeorgia Farm Credit, ACA",
+  "Branch": "Southern Div - Waynesboro Branch",
+  "Phone 1": "(706) 554-2107",
+  "Phone 2": "",
+  "Fax": "(706) 554-1059",
+  "Address": "176 GA-80",
+  "City": "Waynesboro",
+  "Zip": 30830,
+  "location": {
+    "lat": 33.0894634,
+    "lng": -82.01641719999999
+  },
+  "formatted_address": "176 GA-80, Waynesboro, GA 30830, USA",
+  "website": "https://aggeorgia.com"
+}, {
+  "State": "GA",
+  "County": "Appling County (GA),Bacon County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Baxley Branch",
+  "Phone 1": "(912) 647-7006",
+  "Phone 2": "",
+  "Fax": "(912) 367-0990",
+  "Address": "64 Heritage Street",
+  "City": "Baxley",
+  "Zip": 31513,
+  "location": {
+    "lat": 31.7759231,
+    "lng": -82.3376162
+  },
+  "formatted_address": "64 Heritage St, Baxley, GA 31513, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Brantley County (GA),Camden County (GA),Charlton County (GA),Clinch County (GA),Pierce County (GA),Ware County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Blackshear Branch",
+  "Phone 1": "(912) 449-4701",
+  "Phone 2": "",
+  "Fax": "(912) 449-1457",
+  "Address": "111 Carter Ave",
+  "City": "Blackshear",
+  "Zip": 31516,
+  "location": {
+    "lat": 31.3118297,
+    "lng": -82.24171129999999
+  },
+  "formatted_address": "111 E Carter Ave, Blackshear, GA 31516, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Carroll County (GA),Douglas County (GA),Haralson County (GA),Heard County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Carrollton Branch",
+  "Phone 1": "(770) 834-3319",
+  "Phone 2": "",
+  "Fax": "(770) 832-8982",
+  "Address": "2520 Hwy 27 South",
+  "City": "Carrollton",
+  "Zip": 30117,
+  "location": {
+    "lat": 33.5220534,
+    "lng": -85.07507939999999
+  },
+  "formatted_address": "2520 US-27, Carrollton, GA 30117, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Atkinson County (GA),Coffee County (GA),Jeff Davis County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Douglas Branch",
+  "Phone 1": "(912) 384-3200",
+  "Phone 2": "",
+  "Fax": "(912) 384-2706",
+  "Address": "204 Bowens Mill Road",
+  "City": "Douglas",
+  "Zip": 31533,
+  "location": {
+    "lat": 31.5157186,
+    "lng": -82.8692988
+  },
+  "formatted_address": "204 Bowens Mill Rd, Douglas, GA 31533, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Coweta County (GA),Harris County (GA),Meriwether County (GA),Muscogee County (GA),Talbot County (GA),Troup County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Greenville Branch",
+  "Phone 1": "(706) 672-4285",
+  "Phone 2": "",
+  "Fax": "(706) 672-1193",
+  "Address": "596 S. Talbotton St",
+  "City": "Greenville",
+  "Zip": 30222,
+  "location": {
+    "lat": 33.0190127,
+    "lng": -84.70970659999999
+  },
+  "formatted_address": "596 S Talbotton St, Greenville, GA 30222, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Clayton County (GA),Fayette County (GA),Henry County (GA),Pike County (GA),Spalding County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Griffin Branch",
+  "Phone 1": "(770) 228-8958",
+  "Phone 2": "",
+  "Fax": "(770) 228-8979",
+  "Address": "1298 Enterprise Way",
+  "City": "Griffin",
+  "Zip": 30224,
+  "location": {
+    "lat": 33.2175093,
+    "lng": -84.28780379999999
+  },
+  "formatted_address": "1298 Enterprise Way, Griffin, GA 30224, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Glynn County (GA),Liberty County (GA),Long County (GA),McIntosh County (GA),Wayne County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Jesup Branch",
+  "Phone 1": "(912) 530-7777",
+  "Phone 2": "",
+  "Fax": "(912) 530-6200",
+  "Address": "855 Odum Highway",
+  "City": "Jesup",
+  "Zip": 31545,
+  "location": {
+    "lat": 31.6252519,
+    "lng": -81.915232
+  },
+  "formatted_address": "855 Odum Hwy, Jesup, GA 31545, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "DeKalb County (GA),Fulton County (GA),Greene County (GA),Gwinnett County (GA),Jasper County (GA),Morgan County (GA),Newton County (GA),Oconee County (GA),Putnam County (GA),Rockdale County (GA),Walton County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Madison Branch",
+  "Phone 1": "(706) 342-2352",
+  "Phone 2": "",
+  "Fax": "(706) 342-8117",
+  "Address": "1691 Lions Club Road",
+  "City": "Madison",
+  "Zip": 30650,
+  "location": {
+    "lat": 33.5662779,
+    "lng": -83.4725361
+  },
+  "formatted_address": "1691 Lions Club Rd, Madison, GA 30650, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Bryan County (GA),Bulloch County (GA),Candler County (GA),Chatham County (GA),Emanuel County (GA),Evans County (GA),Jenkins County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Statesboro Branch",
+  "Phone 1": "(912) 764-9091",
+  "Phone 2": "",
+  "Fax": "(912) 764-9546",
+  "Address": "40 S. Main St",
+  "City": "Statesboro",
+  "Zip": 30458,
+  "location": {
+    "lat": 32.4471899,
+    "lng": -81.78281659999999
+  },
+  "formatted_address": "40 S Main St, Statesboro, GA 30458, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Chatham County (GA),Effingham County (GA),Screven County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Sylvania Branch",
+  "Phone 1": "(912) 564-2468",
+  "Phone 2": "",
+  "Fax": "(912) 564-2522",
+  "Address": "302 Mins Road",
+  "City": "Sylvania",
+  "Zip": 30467,
+  "location": {
+    "lat": 32.7482624,
+    "lng": -81.6358434
+  },
+  "formatted_address": "302 S Main St, Sylvania, GA 30467, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Butts County (GA),Lamar County (GA),Monroe County (GA),Upson County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Thomaston Branch",
+  "Phone 1": "(706) 647-8991",
+  "Phone 2": "",
+  "Fax": "(706) 647-8271",
+  "Address": "620 N. Church St",
+  "City": "Thomaston",
+  "Zip": 30286,
+  "location": {
+    "lat": 32.8998992,
+    "lng": -84.32836119999999
+  },
+  "formatted_address": "620 N Church St, Thomaston, GA 30286, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Montgomery County (GA),Tattnall County (GA),Toombs County (GA),Wheeler County (GA)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Vidalia Branch",
+  "Phone 1": "(912) 537-4135",
+  "Phone 2": "",
+  "Fax": "(912) 537-0631",
+  "Address": "314 Commerce Way",
+  "City": "Vidalia",
+  "Zip": 30474,
+  "location": {
+    "lat": 32.2013051,
+    "lng": -82.3683124
+  },
+  "formatted_address": "314 Commerce Way, Vidalia, GA 30474, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Aiken County (SC),Edgefield County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Aiken Branch",
+  "Phone 1": "(803) 644-4977",
+  "Phone 2": "",
+  "Fax": "(803) 648-8315",
+  "Address": "951 E Pine Log Rd",
+  "City": "Aiken",
+  "Zip": 29803,
+  "location": {
+    "lat": 33.5348256,
+    "lng": -81.6940259
+  },
+  "formatted_address": "951 E Pine Log Rd, Aiken, SC 29803, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Allendale County (SC),Barnwell County (SC),Hampton County (SC),Abbeville County (SC),Anderson County (SC),Greenville County (SC),Oconee County (SC),Oconee County (SC),Pickens County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Allendale Branch",
+  "Phone 1": "(803) 584-3474",
+  "Phone 2": "",
+  "Fax": "(803) 584-3224",
+  "Address": "4930 Burton's Ferry Hwy",
+  "City": "Allendale",
+  "Zip": 29810,
+  "location": {
+    "lat": 33.0207314,
+    "lng": -81.2920307
+  },
+  "formatted_address": "4930 Burtons Ferry Hwy, Allendale, SC 29810, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Lexington County (SC),Newberry County (SC),Saluda County (SC),",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Batesburg Branch",
+  "Phone 1": "(803) 532-3841",
+  "Phone 2": "",
+  "Fax": "(803) 532-8202",
+  "Address": "109 East Church Street",
+  "City": "Batesburg-Leesville",
+  "Zip": 29070,
+  "location": {
+    "lat": 33.914848,
+    "lng": -81.5281253
+  },
+  "formatted_address": "109 E Church St, Batesburg-Leesville, SC 29070, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Fairfield County (SC),Kershaw County (SC),Richland County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Camden Branch",
+  "Phone 1": "(803) 438-2464",
+  "Phone 2": "",
+  "Fax": "(803) 438-3032",
+  "Address": "951 Highway 1 South",
+  "City": "Lugoff",
+  "Zip": 29078,
+  "location": {
+    "lat": 34.7394913,
+    "lng": -81.1990404
+  },
+  "formatted_address": "951 State Rd 1, Chester, SC 29706, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Abbeville County (SC),Greenville County (SC),Greenwood County (SC),Laurens County (SC),McCormick County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Laurens Branch",
+  "Phone 1": "(864) 984-3379",
+  "Phone 2": "",
+  "Fax": "(864) 984-2403",
+  "Address": "306 Hillcrest Drive",
+  "City": "Laurens",
+  "Zip": 29360,
+  "location": {
+    "lat": 34.5056331,
+    "lng": -82.0173927
+  },
+  "formatted_address": "306 Hillcrest Dr, Laurens, SC 29360, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Bamberg County (SC),Orangeburg County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Orangeburg Branch",
+  "Phone 1": "(803) 534-6546",
+  "Phone 2": "",
+  "Fax": "(803) 536-9851",
+  "Address": "1880 Joe S. Jeffords Hwy",
+  "City": "Orangeburg",
+  "Zip": 29115,
+  "location": {
+    "lat": 33.472899,
+    "lng": -80.846592
+  },
+  "formatted_address": "1880 Joe S Jeffords Hwy, Orangeburg, SC 29115, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Chester County (SC),Lancaster County (SC),York County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Rock Hill Branch",
+  "Phone 1": "(803) 324-1131",
+  "Phone 2": "",
+  "Fax": "(803) 328-9272",
+  "Address": "1321 Springdale Rd",
+  "City": "Rock Hill",
+  "Zip": 29730,
+  "location": {
+    "lat": 34.9381829,
+    "lng": -80.964142
+  },
+  "formatted_address": "1321 Springdale Rd, Rock Hill, SC 29730, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Cherokee County (SC),Greenville County (SC),Spartanburg County (SC),Union County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Spartanburg Branch",
+  "Phone 1": "(864) 585-0344",
+  "Phone 2": "",
+  "Fax": "(864) 585-8811",
+  "Address": "101 North Town Drive",
+  "City": "Spartanburg",
+  "Zip": 29303,
+  "location": {
+    "lat": 34.9837238,
+    "lng": -81.9698104
+  },
+  "formatted_address": "101 N Town Dr, Spartanburg, SC 29303, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Calhoun County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "St. Matthews Branch",
+  "Phone 1": "(803) 874-3703",
+  "Phone 2": "",
+  "Fax": "(803) 874-4164",
+  "Address": "2630 Colonel Thomson Hwy",
+  "City": "St. Matthews",
+  "Zip": 29135,
+  "location": {
+    "lat": 33.6751725,
+    "lng": -80.7665131
+  },
+  "formatted_address": "2630 Colonel Thomson Hwy, St Matthews, SC 29135, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Berkeley County (SC),Charleston County (SC),Dorchester County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Summerville Branch",
+  "Phone 1": "(843) 821-6758",
+  "Phone 2": "",
+  "Fax": "(843) 821-6762",
+  "Address": "702 Kate Lane",
+  "City": "Summerville",
+  "Zip": 29486,
+  "location": {
+    "lat": 33.0421128,
+    "lng": -80.1347909
+  },
+  "formatted_address": "702 Kate Ln, Summerville, SC 29483, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Beaufort County (SC),Colleton County (SC),Jasper County (SC)",
+  "Association": "AgSouth Farm Credit, ACA",
+  "Branch": "Walterboro Branch",
+  "Phone 1": "(843) 549-1584",
+  "Phone 2": "",
+  "Fax": "(843) 549-5134",
+  "Address": "529 Bells Hwy",
+  "City": "Walterboro",
+  "Zip": 29488,
+  "location": {
+    "lat": 32.916816,
+    "lng": -80.6747819
+  },
+  "formatted_address": "529 Bells Hwy, Walterboro, SC 29488, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Georgetown County (SC),Horry County (SC),Marion County (SC)",
+  "Association": "ArborOne Farm Credit, ACA",
+  "Branch": "Conway Office",
+  "Phone 1": "(843) 248-4214",
+  "Phone 2": "",
+  "Fax": "(843) 248-2786",
+  "Address": "1720 Millpond Road",
+  "City": "Conway",
+  "Zip": 29526,
+  "location": {
+    "lat": 33.839194,
+    "lng": -79.0741591
+  },
+  "formatted_address": "1720 Mill Pond Rd, Conway, SC 29527, USA",
+  "website": ""
+}, {
+  "State": "SC",
+  "County": "Chesterfield County (SC),Darlington County (SC),Dillon County (SC),Florence County (SC),Horry County (SC),Lee County (SC),Marlboro County (SC),Williamsburg County (SC),Clarendon County (SC),Sumter County (SC)",
+  "Association": "ArborOne Farm Credit, ACA",
+  "Branch": "Florence Office",
+  "Phone 1": "(843) 662-1527",
+  "Phone 2": "",
+  "Fax": "(843) 669-3919",
+  "Address": "800 Woody Jones Boulevard",
+  "City": "Florence",
+  "Zip": 29501,
+  "location": {
+    "lat": 34.1834628,
+    "lng": -79.8373964
+  },
+  "formatted_address": "800 Woody Jones Blvd, Florence, SC 29501, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "New Hanover County (NC),Pender County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Burgaw Branch",
+  "Phone 1": "(910) 259-5481",
+  "Phone 2": "",
+  "Fax": "(910) 259-4249",
+  "Address": "811 South Walker St",
+  "City": "Burgaw",
+  "Zip": 28425,
+  "location": {
+    "lat": 34.5436705,
+    "lng": -77.9147996
+  },
+  "formatted_address": "811 S Walker St, Burgaw, NC 28425, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Sampson County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Clinton Branch",
+  "Phone 1": "(910) 592-8121",
+  "Phone 2": "",
+  "Fax": "(910) 592-2618",
+  "Address": "1780 Southeast Blvd",
+  "City": "Clinton",
+  "Zip": 28328,
+  "location": {
+    "lat": 34.9813234,
+    "lng": -78.3044018
+  },
+  "formatted_address": "1780 Southeast Blvd, Clinton, NC 28328, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Harnett County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Commercial Loan Division",
+  "Phone 1": "(910 892-4065",
+  "Phone 2": "",
+  "Fax": "(910) 892-0472",
+  "Address": "400 W Broad St",
+  "City": "Dunn",
+  "Zip": 28335,
+  "location": {
+    "lat": 35.3104155,
+    "lng": -78.6140755
+  },
+  "formatted_address": "400 W Broad St, Dunn, NC 28334, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Harnett County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Dunn Branch",
+  "Phone 1": "(910) 892-4065",
+  "Phone 2": "",
+  "Fax": "(910) 892-0472",
+  "Address": "400 W. Broad St",
+  "City": "Dunn",
+  "Zip": 28334,
+  "location": {
+    "lat": 35.3105208,
+    "lng": -78.6136793
+  },
+  "formatted_address": "400 W Broad St, Dunn, NC 28334, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Bladen County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Elizabethtown Branch",
+  "Phone 1": "(910) 862-4536",
+  "Phone 2": "",
+  "Fax": "(910) 862-4582",
+  "Address": "108 N. Poplar St",
+  "City": "Elizabethtown",
+  "Zip": 28337,
+  "location": {
+    "lat": 34.6296208,
+    "lng": -78.6048066
+  },
+  "formatted_address": "108 N Poplar St, Elizabethtown, NC 28337, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Cumberland County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Fayetteville Branch",
+  "Phone 1": "(910) 483-1404",
+  "Phone 2": "",
+  "Fax": "(910) 323-0685",
+  "Address": "333 E. Russell St",
+  "City": "Fayetteville",
+  "Zip": 28301,
+  "location": {
+    "lat": 35.0491843,
+    "lng": -78.8733513
+  },
+  "formatted_address": "333 E Russell St, Fayetteville, NC 28301, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Duplin County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Kenansville Branch",
+  "Phone 1": "(910) 296-1776",
+  "Phone 2": "",
+  "Fax": "(910) 296-1777",
+  "Address": "127 Beasley St",
+  "City": "Kenansville",
+  "Zip": 28349,
+  "location": {
+    "lat": 34.964296,
+    "lng": -77.95871199999999
+  },
+  "formatted_address": "127 Beasley St, Kenansville, NC 28349, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Harnett County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Lillington Branch",
+  "Phone 1": "(910) 893-8318",
+  "Phone 2": "",
+  "Fax": "(910) 893-3338",
+  "Address": "105 E. Front St",
+  "City": "Lillington",
+  "Zip": 27546,
+  "location": {
+    "lat": 35.3985606,
+    "lng": -78.8142993
+  },
+  "formatted_address": "105 E Front St, Lillington, NC 27546, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Robeson County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Lumberton Branch",
+  "Phone 1": "(910) 738-8181",
+  "Phone 2": "",
+  "Fax": "(910) 738-7669",
+  "Address": "1902 N. Cedar St",
+  "City": "Lumberton",
+  "Zip": 28358,
+  "location": {
+    "lat": 34.630548,
+    "lng": -79.00276
+  },
+  "formatted_address": "1902 N Cedar St, Lumberton, NC 28358, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Hoke County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Raeford Branch",
+  "Phone 1": "(910) 875-6181",
+  "Phone 2": "",
+  "Fax": "(910) 875-2762",
+  "Address": "331 S. Main St",
+  "City": "Raeford",
+  "Zip": 28376,
+  "location": {
+    "lat": 34.973839,
+    "lng": -79.223446
+  },
+  "formatted_address": "331 S Main St, Raeford, NC 28376, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Columbus County (NC),Brunswick County (NC)",
+  "Association": "Cape Fear Farm Credit, ACA",
+  "Branch": "Whiteville Branch",
+  "Phone 1": "(910) 642-8041",
+  "Phone 2": "",
+  "Fax": "(910) 642-9009",
+  "Address": "300 Liberty St",
+  "City": "Whiteville",
+  "Zip": 28472,
+  "location": {
+    "lat": 34.3458192,
+    "lng": -78.7098438
+  },
+  "formatted_address": "300 Liberty St, Whiteville, NC 28472, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Stanly County (NC),Anson County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Albemarle Branch",
+  "Phone 1": "(704) 983-2102",
+  "Phone 2": "",
+  "Fax": "(704) 983-2103",
+  "Address": "620 N First St",
+  "City": "Albemarle",
+  "Zip": 28001,
+  "location": {
+    "lat": 35.3599332,
+    "lng": -80.1988241
+  },
+  "formatted_address": "620 N 1st St, Albemarle, NC 28001, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Randolph County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Asheboro Branch",
+  "Phone 1": "(336) 629-2141",
+  "Phone 2": "",
+  "Fax": "(336) 629-0460",
+  "Address": "251 Rock Crusher Road",
+  "City": "Asheboro",
+  "Zip": 27203,
+  "location": {
+    "lat": 35.70681830000001,
+    "lng": -79.7848928
+  },
+  "formatted_address": "251 Rock Crusher Rd, Asheboro, NC 27203, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Buncombe County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Asheville Branch",
+  "Phone 1": "(828) 670-9474",
+  "Phone 2": "",
+  "Fax": "(828) 667-0974",
+  "Address": "701 Brevard Rd",
+  "City": "Asheville",
+  "Zip": 28806,
+  "location": {
+    "lat": 35.5413901,
+    "lng": -82.5977406
+  },
+  "formatted_address": "701 Brevard Rd, Asheville, NC 28806, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Avery County (NC),Watauga County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Boone Branch",
+  "Phone 1": "(828) 264-5272",
+  "Phone 2": "",
+  "Fax": "(828) 264-7156",
+  "Address": "181 Meadowview Dr",
+  "City": "Boone",
+  "Zip": 28607,
+  "location": {
+    "lat": 36.2014595,
+    "lng": -81.6642404
+  },
+  "formatted_address": "181 Meadowview Dr, Boone, NC 28607, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Madison County (NC),Mitchell County (NC),Yancey County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Burnsville Branch",
+  "Phone 1": "(828) 682-6109",
+  "Phone 2": "",
+  "Fax": "(828) 682-4421",
+  "Address": "502 W. Main St",
+  "City": "Burnsville",
+  "Zip": 28714,
+  "location": {
+    "lat": 35.915982,
+    "lng": -82.30490999999999
+  },
+  "formatted_address": "502 W Main St, Burnsville, NC 28714, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Lee County (NC),Moore County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Carthage Branch",
+  "Phone 1": "(910) 947-2466",
+  "Phone 2": "",
+  "Fax": "(910) 947-2005",
+  "Address": "101 N. Ray St",
+  "City": "Carthage",
+  "Zip": 28327,
+  "location": {
+    "lat": 35.34703560000001,
+    "lng": -79.4180238
+  },
+  "formatted_address": "101 N Ray St, Carthage, NC 28327, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Cabarrus County (NC),Mecklenburg County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Concord Branch",
+  "Phone 1": "(704) 786-0193",
+  "Phone 2": "",
+  "Fax": "(704) 786-0509",
+  "Address": "371 Old Salisbury-Concord Rd",
+  "City": "Concord",
+  "Zip": 28025,
+  "location": {
+    "lat": 35.4201942,
+    "lng": -80.5707731
+  },
+  "formatted_address": "371 Old Salisbury-Concord Rd, Concord, NC 28025, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Montgomery County (NC),Richmond County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Ellerbe Branch",
+  "Phone 1": "(910) 652-5551",
+  "Phone 2": "",
+  "Fax": "(910) 652-5552",
+  "Address": "273 Second St",
+  "City": "Ellerbe",
+  "Zip": 28338,
+  "location": {
+    "lat": 35.0719224,
+    "lng": -79.7628076
+  },
+  "formatted_address": "273 2nd St, Ellerbe, NC 28338, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Alamance County (NC),Durham County (NC),Orange County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Graham Branch",
+  "Phone 1": "(336) 227-5531",
+  "Phone 2": "",
+  "Fax": "(336) 226-4281",
+  "Address": "225 N. Main St",
+  "City": "Graham",
+  "Zip": 27253,
+  "location": {
+    "lat": 36.0719959,
+    "lng": -79.39995569999999
+  },
+  "formatted_address": "225 N Main St, Graham, NC 27253, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Henderson County (NC),Transylvania County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Hendersonville Branch",
+  "Phone 1": "(828) 693-0272",
+  "Phone 2": "",
+  "Fax": "(828) 693-0274",
+  "Address": "2549 Chimney Rock Hwy.,  US 64 East",
+  "City": "Hendersonville",
+  "Zip": 28792,
+  "location": {
+    "lat": 35.347958,
+    "lng": -82.432301
+  },
+  "formatted_address": "2549 Chimney Rock Rd, Hendersonville, NC 28792, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Ashe County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Jefferson Branch",
+  "Phone 1": "(336) 246-8856",
+  "Phone 2": "",
+  "Fax": "(336) 246-7614",
+  "Address": "507 E. Main St",
+  "City": "Jefferson",
+  "Zip": 28640,
+  "location": {
+    "lat": 36.4210483,
+    "lng": -81.4670748
+  },
+  "formatted_address": "507 E Main St, Jefferson, NC 28640, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Burke County (NC),Caldwell County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Lenoir Branch",
+  "Phone 1": "(828) 758-9951",
+  "Phone 2": "",
+  "Fax": "(828) 754-2152",
+  "Address": "332 Morganton Blvd",
+  "City": "Lenoir",
+  "Zip": 28645,
+  "location": {
+    "lat": 35.9112578,
+    "lng": -81.5295464
+  },
+  "formatted_address": "332 Morganton Blvd SW, Lenoir, NC 28645, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Davidson County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Lexington Branch",
+  "Phone 1": "(336) 243-2136",
+  "Phone 2": "",
+  "Fax": "(336) 243-7474",
+  "Address": "222 W. Center St",
+  "City": "Lexington",
+  "Zip": 27292,
+  "location": {
+    "lat": 35.82795370000001,
+    "lng": -80.25762519999999
+  },
+  "formatted_address": "222 W Center St, Lexington, NC 27292, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Gaston County (NC),Lincoln County (NC),Mecklenburg County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Lincolnton Branch",
+  "Phone 1": "(704) 735-0413",
+  "Phone 2": "",
+  "Fax": "(704) 735-6558",
+  "Address": "813 West Highway 150",
+  "City": "Lincolnton",
+  "Zip": 28092,
+  "location": {
+    "lat": 35.4636016,
+    "lng": -81.26964029999999
+  },
+  "formatted_address": "813 W Hwy 150, Lincolnton, NC 28092, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Mecklenburg County (NC),Union County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Monroe Branch",
+  "Phone 1": "(704) 289-6411",
+  "Phone 2": "",
+  "Fax": "(704) 289-6415",
+  "Address": "604 Lancaster Ave",
+  "City": "Monroe",
+  "Zip": 28112,
+  "location": {
+    "lat": 34.9766602,
+    "lng": -80.5555681
+  },
+  "formatted_address": "604 Lancaster Ave, Monroe, NC 28112, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Cherokee County (NC),Clay County (NC),Graham County (NC),Macon County (NC),Swain County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Murphy Branch",
+  "Phone 1": "(828) 837-7436",
+  "Phone 2": "",
+  "Fax": "(828) 837-4379",
+  "Address": "300 Hiawassie St",
+  "City": "Murphy",
+  "Zip": 28906,
+  "location": {
+    "lat": 35.0875975,
+    "lng": -84.03466879999999
+  },
+  "formatted_address": "300 Hiwassee St, Murphy, NC 28906, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Catawba County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Conover Branch",
+  "Phone 1": "(828) 464-4342",
+  "Phone 2": "",
+  "Fax": "(828) 464-4345",
+  "Address": "1109 Conover Blvd. E",
+  "City": "Conover",
+  "Zip": 28613,
+  "location": {
+    "lat": 35.7032352,
+    "lng": -81.2035903
+  },
+  "formatted_address": "1109 Conover Blvd E, Conover, NC 28613, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Stokes County (NC),Surry County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Pilot Mountain Branch",
+  "Phone 1": "(336) 368-4761",
+  "Phone 2": "",
+  "Fax": "(336) 368-1116",
+  "Address": "628 S. Key St",
+  "City": "Pilot Mountain",
+  "Zip": 27041,
+  "location": {
+    "lat": 36.379357,
+    "lng": -80.4770379
+  },
+  "formatted_address": "628 S Key St, Pilot Mountain, NC 27041, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Rockingham County (NC),Guilford County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Brown Summit",
+  "Phone 1": "(336) 656-4740",
+  "Phone 2": "",
+  "Fax": "(336) 656-4742",
+  "Address": "4960 Oldway Road",
+  "City": "Brown Summit",
+  "Zip": 27214,
+  "location": {
+    "lat": 36.2154309,
+    "lng": -79.6814626
+  },
+  "formatted_address": "4960 Oldway Rd, Browns Summit, NC 27214, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Person County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Roxboro Branch",
+  "Phone 1": "(336) 599-0141",
+  "Phone 2": "",
+  "Fax": "(336) 599-9661",
+  "Address": "607 Leasburg Rd",
+  "City": "Roxboro",
+  "Zip": 27573,
+  "location": {
+    "lat": 36.391059,
+    "lng": -78.9992259
+  },
+  "formatted_address": "607 Leasburg Rd, Roxboro, NC 27573, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Rowan County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Salisbury Branch",
+  "Phone 1": "(704) 637-2380",
+  "Phone 2": "",
+  "Fax": "(704) 637-2383",
+  "Address": "2810 Statesville Blvd",
+  "City": "Salisbury",
+  "Zip": 28147,
+  "location": {
+    "lat": 35.702082,
+    "lng": -80.53768000000001
+  },
+  "formatted_address": "2810 Statesville Blvd, Salisbury, NC 28147, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Cleveland County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Shelby Branch",
+  "Phone 1": "(704) 482-6321",
+  "Phone 2": "",
+  "Fax": "(704) 482-6322",
+  "Address": "1216 Fallston Road",
+  "City": "Shelby",
+  "Zip": 28150,
+  "location": {
+    "lat": 35.3144967,
+    "lng": -81.5208277
+  },
+  "formatted_address": "1216 Fallston Rd, Shelby, NC 28150, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Chatham County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Siler City Branch",
+  "Phone 1": "(919) 742-2189",
+  "Phone 2": "",
+  "Fax": "(919) 742-2832",
+  "Address": "225  E. Beaver St",
+  "City": "Siler City",
+  "Zip": 27344,
+  "location": {
+    "lat": 35.7232267,
+    "lng": -79.460577
+  },
+  "formatted_address": "225 E Beaver St, Siler City, NC 27344, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Alleghany County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Sparta Branch",
+  "Phone 1": "(336) 372-8587",
+  "Phone 2": "",
+  "Fax": "(336) 372-2979",
+  "Address": "330 N. Main St",
+  "City": "Sparta",
+  "Zip": 28675,
+  "location": {
+    "lat": 36.50873060000001,
+    "lng": -81.1250755
+  },
+  "formatted_address": "330 N Main St, Sparta, NC 28675, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "McDowell County (NC),Polk County (NC),Rutherford County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Spindale Branch",
+  "Phone 1": "(828) 286-9183",
+  "Phone 2": "",
+  "Fax": "(828) 287-8057",
+  "Address": "405 Oak St",
+  "City": "Spindale",
+  "Zip": 28160,
+  "location": {
+    "lat": 35.3506033,
+    "lng": -81.9363027
+  },
+  "formatted_address": "405 S Oak St, Spindale, NC 28160, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Iredell County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Statesville Branch",
+  "Phone 1": "(704) 873-1761",
+  "Phone 2": "",
+  "Fax": "(704) 873-1765",
+  "Address": "1704 Wilkesboro Hwy",
+  "City": "Statesville",
+  "Zip": 28677,
+  "location": {
+    "lat": 35.8087218,
+    "lng": -80.90983349999999
+  },
+  "formatted_address": "1704 Wilkesboro Hwy, Statesville, NC 28625, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Alexander County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Taylorsville Branch",
+  "Phone 1": "(828) 632-8121",
+  "Phone 2": "",
+  "Fax": "(828) 632-7047",
+  "Address": "1218 NC Hwy. 90 West",
+  "City": "Taylorsville",
+  "Zip": 28681,
+  "location": {
+    "lat": 35.9174262,
+    "lng": -81.15533330000001
+  },
+  "formatted_address": "1218 NC-90, Taylorsville, NC 28681, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Haywood County (NC),Jackson County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Waynesville Branch",
+  "Phone 1": "(828) 452-1418",
+  "Phone 2": "",
+  "Fax": "(828) 452-0390",
+  "Address": "1510 Asheville Rd",
+  "City": "Waynesville",
+  "Zip": 28786,
+  "location": {
+    "lat": 35.4978365,
+    "lng": -82.9678546
+  },
+  "formatted_address": "1510 Asheville Rd, Waynesville, NC 28786, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Wilkes County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Wilkesboro Branch",
+  "Phone 1": "(336) 838-4107",
+  "Phone 2": "",
+  "Fax": "(336) 838-4414",
+  "Address": "902 Curtis Bridge Rd",
+  "City": "Wilkesboro",
+  "Zip": 28697,
+  "location": {
+    "lat": 36.1459004,
+    "lng": -81.1662783
+  },
+  "formatted_address": "902 Curtis Bridge Rd, Wilkesboro, NC 28697, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Forsyth County (NC),Stokes County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Rural Hall Branch",
+  "Phone 1": "(336) 969-2030",
+  "Phone 2": "",
+  "Fax": "(336) 969-1979",
+  "Address": "340 Bethania Rural Hall Road",
+  "City": "Rurah Hall",
+  "Zip": 27045,
+  "location": {
+    "lat": 36.2396985,
+    "lng": -80.2980951
+  },
+  "formatted_address": "340 Bethania-Rural Hall Rd, Rural Hall, NC 27045, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Yadkin County (NC),Davie County (NC),",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Yadkinville Branch",
+  "Phone 1": "(336) 679-2013",
+  "Phone 2": "",
+  "Fax": "(336) 679-7880",
+  "Address": "1001 S. State St",
+  "City": "Yadkinville",
+  "Zip": 27055,
+  "location": {
+    "lat": 36.1158396,
+    "lng": -80.659408
+  },
+  "formatted_address": "1001 S State St, Yadkinville, NC 27055, USA",
+  "website": ""
+}, {
+  "State": "NC",
+  "County": "Caswell County (NC)",
+  "Association": "Carolina Farm Credit, ACA",
+  "Branch": "Yanceyville Branch",
+  "Phone 1": "(336) 694-4622",
+  "Phone 2": "",
+  "Fax": "(336) 694-5853",
+  "Address": "1159 NC 86 North",
+  "City": "Yanceyville",
+  "Zip": 27379,
+  "location": {
+    "lat": 36.4077862,
+    "lng": -79.3394927
+  },
+  "formatted_address": "1159 NC-86, Yanceyville, NC 27379, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Boyle County (KY),Mercer County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Danville Branch",
+  "Phone 1": "(859) 236-6570",
+  "Phone 2": "",
+  "Fax": "(859) 236-6447",
+  "Address": "485 N. Danville By Pass",
+  "City": "Danville",
+  "Zip": 40422,
+  "location": {
+    "lat": 37.6556465,
+    "lng": -84.80010639999999
+  },
+  "formatted_address": "485 N Danville Bypass, Danville, KY 40422, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Anderson County (KY),Franklin County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Frankfort Branch",
+  "Phone 1": "(502) 875-0863",
+  "Phone 2": "",
+  "Fax": "(502) 227-8170",
+  "Address": "1120 US Highway 127 S",
+  "City": "Frankfort",
+  "Zip": 40601,
+  "location": {
+    "lat": 38.1746966,
+    "lng": -84.89847429999999
+  },
+  "formatted_address": "1120 Old US Highway 127 Road, Frankfort, KY 40601, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Marion County (KY),Washington County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Lebanon Branch",
+  "Phone 1": "(270) 692-4411",
+  "Phone 2": "",
+  "Fax": "(270) 692-2689",
+  "Address": "842 W. Main",
+  "City": "Lebanon",
+  "Zip": 40033,
+  "location": {
+    "lat": 37.5567478,
+    "lng": -85.2790737
+  },
+  "formatted_address": "842 W Main St, Lebanon, KY 40033, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Clark County (KY),Fayette County (KY),Jessamine County (KY),Scott County (KY),Woodford County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Lexington Branch",
+  "Phone 1": "(859) 252-4717",
+  "Phone 2": "",
+  "Fax": "(859) 253-1289",
+  "Address": "640 S. Broadway",
+  "City": "Lexington",
+  "Zip": 40508,
+  "location": {
+    "lat": 38.0424233,
+    "lng": -84.5082223
+  },
+  "formatted_address": "640 S Broadway, Lexington, KY 40508, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Bourbon County (KY),Clark County (KY),Harrison County (KY),Montgomery County (KY),Scott County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Paris Branch",
+  "Phone 1": "(859) 987-4344",
+  "Phone 2": "",
+  "Fax": "(859) 987-4384",
+  "Address": "201 Commerce Drive",
+  "City": "Paris",
+  "Zip": 40361,
+  "location": {
+    "lat": 38.2182702,
+    "lng": -84.27585599999999
+  },
+  "formatted_address": "201 Commerce Dr, Paris, KY 40361, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Madison County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Richmond Branch",
+  "Phone 1": "(859) 623-1624",
+  "Phone 2": "",
+  "Fax": "(859) 623-3156",
+  "Address": "1000 Ival James Blvd.",
+  "City": "Richmond",
+  "Zip": 40475,
+  "location": {
+    "lat": 37.7579375,
+    "lng": -84.2710757
+  },
+  "formatted_address": "1000 Ival James Blvd, Richmond, KY 40475, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Garrard County (KY),Lincoln County (KY)",
+  "Association": "Central Kentucky ACA",
+  "Branch": "Stanford Branch",
+  "Phone 1": "(606) 365-7500",
+  "Phone 2": "",
+  "Fax": "(606) 365-9584",
+  "Address": "106 Agriculture Way",
+  "City": "Stanford",
+  "Zip": 40484,
+  "location": {
+    "lat": 37.5333883,
+    "lng": -84.652208
+  },
+  "formatted_address": "106 Cs-1097, Stanford, KY 40484, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Anne Arundel County (MD),Calvert County (MD),Charles County (MD),Prince George’s County (MD),St. Mary’s County (MD)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Hughesville Office",
+  "Phone 1": "(301) 274-3167",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "7431 Leonardtown Rd",
+  "City": "Hughesville",
+  "Zip": 20637,
+  "location": {
+    "lat": 38.5496455,
+    "lng": -76.8085219
+  },
+  "formatted_address": "7431 Leonardtown Rd, Hughesville, MD 20637, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Chesapeake County (VA),Virginia Beach County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Chesapeake Office",
+  "Phone 1": "(757) 482-1414",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "135 Hanbury Road West, Suite C-2",
+  "City": "Chesapeake",
+  "Zip": 23322,
+  "location": {
+    "lat": 36.6888491,
+    "lng": -76.2329754
+  },
+  "formatted_address": "135 Hanbury Rd W #2, Chesapeake, VA 23322, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Greensville County (VA),Southampton County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Courtland Office",
+  "Phone 1": "(757) 653-2600",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "22323 Main St",
+  "City": "Courtland",
+  "Zip": 23837,
+  "location": {
+    "lat": 36.714591,
+    "lng": -77.0671984
+  },
+  "formatted_address": "22323 Main St, Courtland, VA 23837, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Dinwiddie County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Dinwiddie Office",
+  "Phone 1": "(804) 469-7055",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "13915 Boydton Plank Rd, Ste B",
+  "City": "Dinwiddie",
+  "Zip": 23841,
+  "location": {
+    "lat": 37.0800796,
+    "lng": -77.5841001
+  },
+  "formatted_address": "13915 Boydton Plank Rd b, Dinwiddie, VA 23841, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Amelia County (VA),Buckingham County (VA),Charlotte County (VA),Cumberland County (VA),Nottoway County (VA),Prince Edward County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Farmville Office",
+  "Phone 1": "(434) 392-3193",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "1700 S. Main St",
+  "City": "Farmville",
+  "Zip": 23901,
+  "location": {
+    "lat": 37.2799225,
+    "lng": -78.3963291
+  },
+  "formatted_address": "1700 S Main St, Farmville, VA 23901, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Fluvanna County (VA),Goochland County (VA),Louisa County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Goochland Office",
+  "Phone 1": "(804) 556-5723",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "3064 River Road West, Suite E",
+  "City": "Goochland",
+  "Zip": 23063,
+  "location": {
+    "lat": 37.6919141,
+    "lng": -77.88564730000002
+  },
+  "formatted_address": "3064 River Rd W e, Goochland, VA 23063, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Amherst County (VA),Appomattox County (VA),Campbell County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Lynchburg Office",
+  "Phone 1": "(434) 237-7910",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "22776 Timberlake Road, Suite A",
+  "City": "Lynchburg",
+  "Zip": 24502,
+  "location": {
+    "lat": 37.3154267,
+    "lng": -79.26161549999999
+  },
+  "formatted_address": "22776 Timberlake Rd a, Lynchburg, VA 24502, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Henrico County (VA),Chesterfield County (VA),Hanover County (VA),King William County (VA),Powhatan County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Mechanicsville Office",
+  "Phone 1": "(804) 746-1252",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "7104 Mechanicsville Tnpk",
+  "City": "Mechanicsville",
+  "Zip": 23111,
+  "location": {
+    "lat": 37.6118852,
+    "lng": -77.34296069999999
+  },
+  "formatted_address": "7104 Mechanicsville Turnpike, Mechanicsville, VA 23111, ,
+  "website": ""USA"
+}, {
+  "State": "VA",
+  "County": "Brunswick County (VA),Lunenburg County (VA),Mecklenburg County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "South Hill Office",
+  "Phone 1": "(434) 447-7148",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "201 E. Danville St",
+  "City": "South Hill",
+  "Zip": 23970,
+  "location": {
+    "lat": 36.724205,
+    "lng": -78.1286319
+  },
+  "formatted_address": "201 E Danville St, South Hill, VA 23970, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Caroline County (VA),Essex County (VA),King and Queen County (VA),King George County (VA),Lancaster County (VA),Northumberland County (VA),Richmond County (VA),Westmoreland County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Tappahannock Office",
+  "Phone 1": "(804) 443-3351",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "135 Queen St",
+  "City": "Tappahannock",
+  "Zip": 22560,
+  "location": {
+    "lat": 37.92978859999999,
+    "lng": -76.8590049
+  },
+  "formatted_address": "135 Queen St, Tappahannock, VA 22560, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Prince George County (VA),Surry County (VA),Sussex County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Waverly Office",
+  "Phone 1": "(804) 834-3931",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "428 E. Main St",
+  "City": "Waverly",
+  "Zip": 23890,
+  "location": {
+    "lat": 37.038647,
+    "lng": -77.08143059999999
+  },
+  "formatted_address": "428 E Main St, Waverly, VA 23890, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Charles City County (VA),Gloucester County (VA),James City County (VA),Mathews County (VA),Middlesex County (VA),New Kent County (VA),Newport News County (VA),York County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "West Point Office",
+  "Phone 1": "(804) 843-2727",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "18639 Eltham Rd",
+  "City": "West Point",
+  "Zip": 23181,
+  "location": {
+    "lat": 37.5202106,
+    "lng": -76.83033600000002
+  },
+  "formatted_address": "18639 Eltham Rd, West Point, VA 23181, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "City of Suffolk County (VA),Isle of Wight County (VA),Suffolk County (VA)",
+  "Association": "Colonial Farm Credit",
+  "Branch": "Windsor Office",
+  "Phone 1": "(757) 242-6166",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "11295 Windsor Blvd",
+  "City": "Windsor",
+  "Zip": 23487,
+  "location": {
+    "lat": 36.8052673,
+    "lng": -76.7300861
+  },
+  "formatted_address": "11295 Windsor Blvd, Windsor, VA 23487, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Brevard County (FL),Citrus County (FL),Hernando County (FL),Hillsborough County (FL),Lake County (FL),Orange County (FL),Osceola County (FL),Pasco County (FL),Pinellas County (FL),Polk County (FL),Seminole County (FL),Sumter County (FL),Volusia County (FL)",
+  "Association": "Farm Credit of Central Florida, ACA",
+  "Branch": "Agri-Business Lending Group",
+  "Phone 1": "(863) 682-4117",
+  "Phone 2": "",
+  "Fax": "(863) 688-9364",
+  "Address": "115 S Missouri Ave Suite 400",
+  "City": "Lakeland",
+  "Zip": 33815,
+  "location": {
+    "lat": 28.0436871,
+    "lng": -81.95892479999999
+  },
+  "formatted_address": "115 S Missouri Ave #400, Lakeland, FL 33815, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Brevard County (FL),Lake County (FL),Orange County (FL),Seminole County (FL),Volusia County (FL)",
+  "Association": "Farm Credit of Central Florida, ACA",
+  "Branch": "Apopka Branch",
+  "Phone 1": "(407) 880-7883",
+  "Phone 2": "",
+  "Fax": "(407) 880-7980",
+  "Address": "57 E. Third St",
+  "City": "Apopka",
+  "Zip": 32703,
+  "location": {
+    "lat": 28.6746022,
+    "lng": -81.5105217
+  },
+  "formatted_address": "57 E 3rd St, Apopka, FL 32703, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Citrus County (FL),Hernando County (FL),Pasco County (FL),Sumter County (FL)",
+  "Association": "Farm Credit of Central Florida, ACA",
+  "Branch": "Brooksville Branch",
+  "Phone 1": "(352) 544-5553",
+  "Phone 2": "",
+  "Fax": "(352) 544-5583",
+  "Address": "31081 Cortez Blvd.",
+  "City": "Brooksville",
+  "Zip": 34602,
+  "location": {
+    "lat": 28.5237598,
+    "lng": -82.2315453
+  },
+  "formatted_address": "31081 Cortez Blvd, Brooksville, FL 34602, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Osceola County (FL),Polk County (FL)",
+  "Association": "Farm Credit of Central Florida, ACA",
+  "Branch": "Lakeland Branch",
+  "Phone 1": "(863) 682-4117",
+  "Phone 2": "",
+  "Fax": "(863) 688-9364",
+  "Address": "115 S Missouri Ave Suite 400",
+  "City": "Lakeland",
+  "Zip": 33815,
+  "location": {
+    "lat": 28.0436871,
+    "lng": -81.95892479999999
+  },
+  "formatted_address": "115 S Missouri Ave #400, Lakeland, FL 33815, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Hillsborough County (FL),Pinellas County (FL)",
+  "Association": "Farm Credit of Central Florida, ACA",
+  "Branch": "Plant City Branch",
+  "Phone 1": "(813) 719-7341",
+  "Phone 2": "",
+  "Fax": "(813) 719-7160",
+  "Address": "2301 Thonotosassa Rd",
+  "City": "Plant City",
+  "Zip": 33563,
+  "location": {
+    "lat": 28.023071,
+    "lng": -82.14697
+  },
+  "formatted_address": "2301 Thonotosassa Rd, Plant City, FL 33563, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Hamilton County (FL),Columbia County (FL),Baker County (FL),Union County (FL),Suwannee County (FL),Levy County (FL),Lafayette County (FL),Dixie County (FL),Clay County (FL),Duval County (FL),Flagler County (FL),Gilchrist County (FL),Nassau County (FL),Bradford County (FL),Alachua County (FL),Marion County (FL),Putnam County (FL),St. Johns County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Commercial Loan Branch",
+  "Phone 1": "(386) 462-4201",
+  "Phone 2": "",
+  "Fax": "(386) 462-5040",
+  "Address": "12300 US Hwy 441",
+  "City": "Alachua",
+  "Zip": 32615,
+  "location": {
+    "lat": 29.766998,
+    "lng": -82.420205
+  },
+  "formatted_address": "12300 US-441, Alachua, FL 32615, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Alachua County (FL),Bradford County (FL),Baker County (FL),Union County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Alachua Branch",
+  "Phone 1": "(386) 462-4201",
+  "Phone 2": "",
+  "Fax": "(386) 462-5040",
+  "Address": "12300 US Hwy 441",
+  "City": "Alachua",
+  "Zip": 32615,
+  "location": {
+    "lat": 29.766998,
+    "lng": -82.420205
+  },
+  "formatted_address": "12300 US-441, Alachua, FL 32615, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Charlotte County (FL),Collier County (FL),DeSoto County (FL),Hendry County (FL),Lee County (FL),Sarasota County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Arcadia Branch",
+  "Phone 1": "(863) 494-0550",
+  "Phone 2": "",
+  "Fax": "(863) 494-5120",
+  "Address": "340 N. Brevard Ave",
+  "City": "Arcadia",
+  "Zip": 34266,
+  "location": {
+    "lat": 27.2213564,
+    "lng": -81.85629329999999
+  },
+  "formatted_address": "340 N Brevard Ave, Arcadia, FL 34266, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Miami-Dade County (FL),Monroe County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Homestead Branch",
+  "Phone 1": "(305) 248-6080",
+  "Phone 2": "",
+  "Fax": "(305) 248-6161",
+  "Address": "24700 S.W. 177th Ave",
+  "City": "Homestead",
+  "Zip": 33031,
+  "location": {
+    "lat": 25.5364993,
+    "lng": -80.47874809999999
+  },
+  "formatted_address": "24700 SW 177th Ave, Homestead, FL 33031, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Columbia County (FL),Hamilton County (FL),Lafayette County (FL),Suwannee County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Live Oak Branch",
+  "Phone 1": "(904) 362-2588",
+  "Phone 2": "",
+  "Fax": "(904) 362-6699",
+  "Address": "1606 Canyon Ave.",
+  "City": "Live Oak",
+  "Zip": 32064,
+  "location": {
+    "lat": 30.3104276,
+    "lng": -82.9727839
+  },
+  "formatted_address": "1606 Canyon Ave NE, Live Oak, FL 32064, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Marion County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Ocala Branch",
+  "Phone 1": "(352) 622-4188",
+  "Phone 2": "",
+  "Fax": "(352) 629-8057",
+  "Address": "5075 N.W. Blitchton Rd",
+  "City": "Ocala",
+  "Zip": 34482,
+  "location": {
+    "lat": 29.216692,
+    "lng": -82.20438519999999
+  },
+  "formatted_address": "5075 NW Blitchton Rd, Ocala, FL 34482, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Martin County (FL),Okeechobee County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Okeechobee Branch",
+  "Phone 1": "(863) 763-6466",
+  "Phone 2": "",
+  "Fax": "(863) 763-7230",
+  "Address": "403 N.W. 6th St",
+  "City": "Okeechobee",
+  "Zip": 34972,
+  "location": {
+    "lat": 27.2487258,
+    "lng": -80.8340115
+  },
+  "formatted_address": "403 NW 6th St, Okeechobee, FL 34972, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Clay County (FL),Duval County (FL),Flagler County (FL),Nassau County (FL),Putnam County (FL),St. Johns County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Palatka Branch",
+  "Phone 1": "(386) 328-2744",
+  "Phone 2": "",
+  "Fax": "(386) 325-5529",
+  "Address": "309 N. 2nd St",
+  "City": "Palatka",
+  "Zip": 32177,
+  "location": {
+    "lat": 29.6492954,
+    "lng": -81.6289341
+  },
+  "formatted_address": "309 N 2nd St, Palatka, FL 32177, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Dixie County (FL),Gilchrist County (FL),Levy County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Trenton Branch",
+  "Phone 1": "(352) 463-2376",
+  "Phone 2": "",
+  "Fax": "(352) 463-7416",
+  "Address": "721 S. Main St",
+  "City": "Trenton",
+  "Zip": 32693,
+  "location": {
+    "lat": 29.608657,
+    "lng": -82.818616
+  },
+  "formatted_address": "721 S Main St, Trenton, FL 32693, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Indian River County (FL),St. Lucie County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Vero Beach Branch",
+  "Phone 1": "(772) 770-2535",
+  "Phone 2": "",
+  "Fax": "(772) 770-6105",
+  "Address": "7150 20th St.",
+  "City": "Vero Beach",
+  "Zip": 32966,
+  "location": {
+    "lat": 27.6401089,
+    "lng": -80.47480019999999
+  },
+  "formatted_address": "7150 20th St, Vero Beach, FL 32966, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Hardee County (FL),Highlands County (FL),Glades County (FL),Manatee County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "Wauchula Branch",
+  "Phone 1": "(863) 773-3201",
+  "Phone 2": "",
+  "Fax": "(863) 773-0566",
+  "Address": "1311 U.S. Hwy. 17 North",
+  "City": "Wauchula",
+  "Zip": 33873,
+  "location": {
+    "lat": 33.67688740000001,
+    "lng": -78.9019237
+  },
+  "formatted_address": "1311 US-17 BUS, Myrtle Beach, SC 29577, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Broward County (FL),Palm Beach County (FL)",
+  "Association": "Farm Credit of Florida, ACA",
+  "Branch": "West Palm Beach Branch",
+  "Phone 1": "(561) 965-9001",
+  "Phone 2": "",
+  "Fax": "(561) 965-9099",
+  "Address": "11903 Southern Blvd.",
+  "City": "West Palm Beach",
+  "Zip": 33411,
+  "location": {
+    "lat": 26.681894,
+    "lng": -80.2334881
+  },
+  "formatted_address": "11903 Southern Blvd, Royal Palm Beach, FL 33411, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Holmes County (FL),Bay County (FL),Calhoun County (FL),Gulf County (FL),Jackson County (FL),Washington County (FL)",
+  "Association": "Farm Credit of Northwest Florida, ACA",
+  "Branch": "Marianna Branch",
+  "Phone 1": "(850) 526-4910",
+  "Phone 2": "",
+  "Fax": "(850) 482-6597",
+  "Address": "5052 Highway 90 East",
+  "City": "Marianna",
+  "Zip": 32446,
+  "location": {
+    "lat": 30.1363153,
+    "lng": -91.94540099999999
+  },
+  "formatted_address": "5052 Hwy 90 E, Broussard, LA 70518, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Okaloosa County (FL),Walton County (FL),Escambia County (FL),Santa Rosa County (FL)",
+  "Association": "Farm Credit of Northwest Florida, ACA",
+  "Branch": "Milton Branch",
+  "Phone 1": "(850) 623-0407",
+  "Phone 2": "",
+  "Fax": "(850) 623-4993",
+  "Address": "5336 Stewart St.",
+  "City": "Milton",
+  "Zip": 32570,
+  "location": {
+    "lat": 30.628385,
+    "lng": -87.042603
+  },
+  "formatted_address": "5336 Stewart St, Milton, FL 32570, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Madison County (FL),Taylor County (FL),Jefferson County (FL)",
+  "Association": "Farm Credit of Northwest Florida, ACA",
+  "Branch": "Monticello Branch",
+  "Phone 1": "(850) 977-3545",
+  "Phone 2": "",
+  "Fax": "(850) 977-5039",
+  "Address": "925 W. Washington St.",
+  "City": "Monticello",
+  "Zip": 32344,
+  "location": {
+    "lat": 30.5446925,
+    "lng": -83.8783505
+  },
+  "formatted_address": "925 W Washington St, Monticello, FL 32344, USA",
+  "website": ""
+}, {
+  "State": "FL",
+  "County": "Liberty County (FL),Franklin County (FL),Gadsden County (FL),Leon County (FL),Wakulla County (FL)",
+  "Association": "Farm Credit of Northwest Florida, ACA",
+  "Branch": "Tallahassee Branch",
+  "Phone 1": "(850) 656-2920",
+  "Phone 2": "",
+  "Fax": "(850) 656-3272",
+  "Address": "3323 Thomasville Road",
+  "City": "Tallahasee",
+  "Zip": 32308,
+  "location": {
+    "lat": 30.4989355,
+    "lng": -84.252449
+  },
+  "formatted_address": "3323 Thomasville Rd, Tallahassee, FL 32308, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Allegany County (MD),Garrett County (MD),Monongalia County (MD),Preston County (MD)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Oakland Branch",
+  "Phone 1": "(301) 334-8542",
+  "Phone 2": "",
+  "Fax": "(301) 334-8544",
+  "Address": "13195 Garrett Hwy",
+  "City": "Oakland",
+  "Zip": 21550,
+  "location": {
+    "lat": 39.4252171,
+    "lng": -79.39315979999999
+  },
+  "formatted_address": "13195 Garrett Hwy, Oakland, MD 21550, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Buchanan County (VA),Russell County (VA),Smyth County (VA),Tazewell County (VA),Washington County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Abingdon Branch",
+  "Phone 1": "(276) 628-5191",
+  "Phone 2": "",
+  "Fax": "(276) 628-1695",
+  "Address": "19292 Lee Hwy",
+  "City": "Abingdon",
+  "Zip": 24210,
+  "location": {
+    "lat": 36.6909304,
+    "lng": -82.0228857
+  },
+  "formatted_address": "19292 Lee Hwy, Abingdon, VA 24210, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Bedford County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Bedford Branch",
+  "Phone 1": "(540) 586-2188",
+  "Phone 2": "",
+  "Fax": "(540) 586-2189",
+  "Address": "1356-B American Way Court",
+  "City": "Bedford",
+  "Zip": 24523,
+  "location": {
+    "lat": 37.3262823,
+    "lng": -79.5022224
+  },
+  "formatted_address": "1356 American Way Ct, Bedford, VA 24523, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Albemarle County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Charlottesville Branch",
+  "Phone 1": "(434) 977-6718",
+  "Phone 2": "",
+  "Fax": "(434) 977-6719",
+  "Address": "1445 East Rio Road, Suite 103",
+  "City": "Charlottesville",
+  "Zip": 22901,
+  "location": {
+    "lat": 38.0763395,
+    "lng": -78.4679902
+  },
+  "formatted_address": "1445 Rio Rd E #103, Charlottesville, VA 22901, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Pittsylvania County (VA),Patrick County (VA),Henry County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Chatham Branch",
+  "Phone 1": "(434) 432-4641",
+  "Phone 2": "",
+  "Fax": "(434) 432-4642",
+  "Address": "29 Military Dr",
+  "City": "Chatham",
+  "Zip": 24531,
+  "location": {
+    "lat": 36.8285511,
+    "lng": -79.39987719999999
+  },
+  "formatted_address": "29 Military Dr, Chatham, VA 24531, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Culpeper County (VA),Madison County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Culpeper Branch",
+  "Phone 1": "(540) 825-6686",
+  "Phone 2": "",
+  "Fax": "(540) 825-5810",
+  "Address": "15574 Ira Hoffman Lane",
+  "City": "Culpeper",
+  "Zip": 22701,
+  "location": {
+    "lat": 38.4896097,
+    "lng": -77.97677139999999
+  },
+  "formatted_address": "15574 Ira Hoffman Ln, Culpeper, VA 22701, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Dickenson County (VA),Lee County (VA),Scott County (VA),Wise County (VA),Tazewell County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Gate City Branch",
+  "Phone 1": "(276) 386-6551",
+  "Phone 2": "",
+  "Fax": "(276) 386-2532",
+  "Address": "268 East Jackson Street",
+  "City": "Gate City",
+  "Zip": 24251,
+  "location": {
+    "lat": 36.6406161,
+    "lng": -82.5769742
+  },
+  "formatted_address": "268 E Jackson St, Gate City, VA 24251, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Halifax County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Halifax Branch",
+  "Phone 1": "(434) 476-6533",
+  "Phone 2": "",
+  "Fax": "(434) 476-6534",
+  "Address": "161 S. Main St",
+  "City": "Halifax",
+  "Zip": 24558,
+  "location": {
+    "lat": 36.764136,
+    "lng": -78.927702
+  },
+  "formatted_address": "161 S Main St, Halifax, VA 24558, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Rockingham County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Harrisonburg Branch",
+  "Phone 1": "(540) 434-5385",
+  "Phone 2": "",
+  "Fax": "(540) 434-5220",
+  "Address": "4646 South Valley Pike",
+  "City": "Harrisonburg",
+  "Zip": 22801,
+  "location": {
+    "lat": 38.3884408,
+    "lng": -78.9211298
+  },
+  "formatted_address": "4646 S Valley Pike, Harrisonburg, VA 22801, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Arlington County (VA),Fairfax County (VA),Loudoun County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Leesburg Branch",
+  "Phone 1": "(703) 777-3311",
+  "Phone 2": "",
+  "Fax": "(703) 771-9210",
+  "Address": "27 Fort Evans Rd., N.E.",
+  "City": "Leesburg",
+  "Zip": 20176,
+  "location": {
+    "lat": 39.1075253,
+    "lng": -77.54614629999999
+  },
+  "formatted_address": "27 Fort Evans Rd NE, Leesburg, VA 20176, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Rockbridge County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Lexington Branch",
+  "Phone 1": "(540) 463-5255",
+  "Phone 2": "",
+  "Fax": "(540) 463-2219",
+  "Address": "152 Maury River Rd",
+  "City": "Lexington",
+  "Zip": 24450,
+  "location": {
+    "lat": 37.803817,
+    "lng": -79.4165821
+  },
+  "formatted_address": "152 Maury River Rd, Lexington, VA 24450, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Greene County (VA),Orange County (VA),Spotsylvania County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Orange Branch",
+  "Phone 1": "(540) 672-3644",
+  "Phone 2": "",
+  "Fax": "(540) 672-3911",
+  "Address": "13284 James Madison Hwy",
+  "City": "Orange",
+  "Zip": 22960,
+  "location": {
+    "lat": 38.222932,
+    "lng": -78.123733
+  },
+  "formatted_address": "13284 James Madison Hwy, Orange, VA 22960, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Alleghany County (VA),Botetourt County (VA),Craig County (VA),Roanoke County (VA),Floyd County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Roanoke Branch",
+  "Phone 1": "(540) 977-5707",
+  "Phone 2": "",
+  "Fax": "(540) 977-0084",
+  "Address": "38 Murray Farm Rd., Ste. 2",
+  "City": "Roanoke",
+  "Zip": 24019,
+  "location": {
+    "lat": 37.3352632,
+    "lng": -79.8740294
+  },
+  "formatted_address": "38 Murray Farm Rd #2, Roanoke, VA 24019, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Franklin County (VA),Henry County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Rocky Mount Branch",
+  "Phone 1": "(540) 483-4572",
+  "Phone 2": "",
+  "Fax": "(540) 483-5726",
+  "Address": "670 Old Franklin Turnpike",
+  "City": "Rocky Mount",
+  "Zip": 24151,
+  "location": {
+    "lat": 37.0161583,
+    "lng": -79.8632611
+  },
+  "formatted_address": "670 Old Franklin Turnpike, Rocky Mount, VA 24151, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Augusta County (VA),Bath County (VA),Highland County (VA),Nelson County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Verona Branch",
+  "Phone 1": "(540) 248-0365",
+  "Phone 2": "",
+  "Fax": "(540) 248-0366",
+  "Address": "1557 Commerce Road, Ste. 202",
+  "City": "Verona",
+  "Zip": 24482,
+  "location": {
+    "lat": 38.1889051,
+    "lng": -79.0235287
+  },
+  "formatted_address": "1557 Commerce Rd #202, Staunton, VA 24401, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Fauquier County (VA),Prince William County (VA),Rappahannock County (VA),Stafford County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Warrenton Branch",
+  "Phone 1": "(540) 347-3344",
+  "Phone 2": "",
+  "Fax": "(540) 349-9051",
+  "Address": "516 Fauquier Rd",
+  "City": "Warrenton",
+  "Zip": 20186,
+  "location": {
+    "lat": 38.728762,
+    "lng": -77.8031362
+  },
+  "formatted_address": "516 Fauquier Rd, Warrenton, VA 20186, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Bland County (VA),Carroll County (VA),Tazewell County (VA),Giles County (VA),Grayson County (VA),Montgomery County (VA),Pulaski County (VA),Wythe County (VA)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Wytheville Branch",
+  "Phone 1": "(276) 228-8666",
+  "Phone 2": "",
+  "Fax": "(276) 228-8186",
+  "Address": "660 Peppers Ferry Rd",
+  "City": "Wytheville",
+  "Zip": 24382,
+  "location": {
+    "lat": 36.9628063,
+    "lng": -81.0743641
+  },
+  "formatted_address": "660 Peppers Ferry Rd, Wytheville, VA 24382, USA",
+  "website": ""
+}, {
+  "State": "WV",
+  "County": "Barbour County (WV),Braxton County (WV),Doddridge County (WV),Gilmer County (WV),Harrison County (WV),Lewis County (WV),Marion County (WV),Randolph County (WV),Ritchie County (WV),Taylor County (WV),Tucker County (WV),Tyler County (WV),Upshur County (WV),Webster County (WV),Wetzel County (WV)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Clarksburg Branch",
+  "Phone 1": "(304) 624-5551",
+  "Phone 2": "",
+  "Fax": "(304) 624-7197",
+  "Address": "4579 Buckhannon Pike, Suite 102",
+  "City": "Mt. Clare",
+  "Zip": 26408,
+  "location": {
+    "lat": 39.2217794,
+    "lng": -80.2946333
+  },
+  "formatted_address": "4579 Buckhannon Pike #102, Mt Clare, WV 26408, USA",
+  "website": ""
+}, {
+  "State": "WV",
+  "County": "Fayette County (WV),Greenbrier County (WV),McDowell County (WV),Mercer County (WV),Monroe County (WV),Nicholas County (WV),Pocahontas County (WV),Raleigh County (WV),Summers County (WV),Wyoming County (WV)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Lewisburg Branch",
+  "Phone 1": "(304) 645-1575",
+  "Phone 2": "",
+  "Fax": "(304) 645-1607",
+  "Address": "14428 Seneca Trail N.",
+  "City": "Lewisburg",
+  "Zip": 24901,
+  "location": {
+    "lat": 37.8857268,
+    "lng": -80.4141952
+  },
+  "formatted_address": "14428 Seneca Trail, Maxwelton, WV 24957, USA",
+  "website": ""
+}, {
+  "State": "WV",
+  "County": "Grant County (WV),Hardy County (WV),Pendleton County (WV)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Moorefield Branch",
+  "Phone 1": "(304) 538-7224",
+  "Phone 2": "",
+  "Fax": "(304) 538-6534",
+  "Address": "550 South Main Street",
+  "City": "Moorefield",
+  "Zip": 26836,
+  "location": {
+    "lat": 39.0511761,
+    "lng": -78.9755103
+  },
+  "formatted_address": "550 S Main St, Moorefield, WV 26836, USA",
+  "website": ""
+}, {
+  "State": "WV",
+  "County": "Boone County (WV),Cabell County (WV),Calhoun County (WV),Clay County (WV),Jackson County (WV),Kanawha County (WV),Lincoln County (WV),Logan County (WV),Mason County (WV),Mingo County (WV),Pleasants County (WV),Putnam County (WV),Roane County (WV),Wayne County (WV),Wirt County (WV),Wood County (WV)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Ripley Branch",
+  "Phone 1": "(304) 372-5671",
+  "Phone 2": "",
+  "Fax": "(304) 372-8994",
+  "Address": "2112 Ripley Road",
+  "City": "Ripley",
+  "Zip": 25271,
+  "location": {
+    "lat": 38.824509,
+    "lng": -81.748802
+  },
+  "formatted_address": "2112 Ripley Rd, Ripley, WV 25271, USA",
+  "website": ""
+}, {
+  "State": "WV",
+  "County": "Hampshire County (WV),Mineral County (WV)",
+  "Association": "Farm Credit of the Virginias, ACA",
+  "Branch": "Romney Branch",
+  "Phone 1": "(304) 822-4414",
+  "Phone 2": "",
+  "Fax": "(304) 822-4376",
+  "Address": "452 N High St",
+  "City": "Romney",
+  "Zip": 26757,
+  "location": {
+    "lat": 39.3468901,
+    "lng": -78.75408569999999
+  },
+  "formatted_address": "452 N High St, Romney, WV 26757, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Marshall County (AL),Cherokee County (AL),DeKalb County (AL),Etowah County (AL),Jackson County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Albertville Branch",
+  "Phone 1": "(256) 878-8308",
+  "Phone 2": "",
+  "Fax": "(256) 891-1150",
+  "Address": "320 Alabama Hwy. 75, N",
+  "City": "Albertville",
+  "Zip": 35951,
+  "location": {
+    "lat": 34.2784948,
+    "lng": -86.1999767
+  },
+  "formatted_address": "320 AL-75, Albertville, AL 35951, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Calhoun County (AL),Clay County (AL),Cleburne County (AL),Randolph County (AL),St. Clair County (AL),Talladega County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Oxford Branch",
+  "Phone 1": "(256) 831-6778",
+  "Phone 2": "",
+  "Fax": "(256) 831-6882",
+  "Address": "2341 Alabama Hwy. 21 South",
+  "City": "Oxford",
+  "Zip": 36203,
+  "location": {
+    "lat": 33.5913994,
+    "lng": -85.8444207
+  },
+  "formatted_address": "2341 AL-21, Oxford, AL 36203, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Limestone County (AL),Madison County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Athens Branch",
+  "Phone 1": "(256) 232-5710",
+  "Phone 2": "",
+  "Fax": "(256) 232-2511",
+  "Address": "30035 US Hwy. 72 West",
+  "City": "Madison",
+  "Zip": 35757,
+  "location": {
+    "lat": 34.7494306,
+    "lng": -86.7648406
+  },
+  "formatted_address": "Hwy 72 W, Madison, AL, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Jefferson County (AL),Shelby County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Birmingham Branch",
+  "Phone 1": "(205) 970-6030",
+  "Phone 2": "",
+  "Fax": "",
+  "Address": "One Perimeter Park South, Suite 100N",
+  "City": "Birmingham",
+  "Zip": 35243,
+  "location": {
+    "lat": 33.4374078,
+    "lng": -86.723919
+  },
+  "formatted_address": "1 Perimeter Park S #100n, Birmingham, AL 35243, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Cullman County (AL),Blount County (AL),Morgan County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Cullman Branch",
+  "Phone 1": "(256) 734-0133",
+  "Phone 2": "",
+  "Fax": "(256) 734-0164",
+  "Address": "1824 Eva Rd. N.E.",
+  "City": "Cullman",
+  "Zip": 35055,
+  "location": {
+    "lat": 34.2012392,
+    "lng": -86.8278837
+  },
+  "formatted_address": "1824 Eva Rd NE, Cullman, AL 35055, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Marengo County (AL),Choctaw County (AL),Greene County (AL),Hale County (AL),Perry County (AL),Sumter County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Demopolis Branch",
+  "Phone 1": "(334) 289-3280",
+  "Phone 2": "",
+  "Fax": "(334) 289-1420",
+  "Address": "700 Hwy. 80 West",
+  "City": "Demopolis",
+  "Zip": 36732,
+  "location": {
+    "lat": 32.503687,
+    "lng": -87.83436669999999
+  },
+  "formatted_address": "700 US-80, Demopolis, AL 36732, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Lawrence County (AL),Walker County (AL),Winston County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Moulton Branch",
+  "Phone 1": "(256) 974-1124",
+  "Phone 2": "",
+  "Fax": "(256) 974-0764",
+  "Address": "14390 Market St",
+  "City": "Moulton",
+  "Zip": 35650,
+  "location": {
+    "lat": 34.479305,
+    "lng": -87.29247
+  },
+  "formatted_address": "14390 Market St, Moulton, AL 35650, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Colbert County (AL),Franklin County (AL),Lauderdale County (AL),Marion County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Muscle Shoals Branch",
+  "Phone 1": "(256) 381-0721",
+  "Phone 2": "",
+  "Fax": "(256) 381-0722",
+  "Address": "970 Hwy. 20 East",
+  "City": "Tuscumbia",
+  "Zip": 35674,
+  "location": {
+    "lat": 34.7044022,
+    "lng": -87.6528841
+  },
+  "formatted_address": "970 AL-20, Tuscumbia, AL 35674, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Tuscaloosa County (AL),Bibb County (AL),Fayette County (AL),Lamar County (AL),Pickens County (AL)",
+  "Association": "First South ACA",
+  "Branch": "North Alabama - Northport Branch",
+  "Phone 1": "(205) 339-4577",
+  "Phone 2": "",
+  "Fax": "(205) 339-4677",
+  "Address": "4210 McFarland Blvd",
+  "City": "Northport",
+  "Zip": 35476,
+  "location": {
+    "lat": 33.23931100000001,
+    "lng": -87.598276
+  },
+  "formatted_address": "4210 McFarland Blvd, Northport, AL 35476, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Covington County (AL),Conecuh County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Andalusia Branch",
+  "Phone 1": "(334) 222-3123",
+  "Phone 2": "",
+  "Fax": "(334) 222-3251",
+  "Address": "1103 Bypass West",
+  "City": "Andalusia",
+  "Zip": 36420,
+  "location": {
+    "lat": 31.293226,
+    "lng": -86.50170299999999
+  },
+  "formatted_address": "1103 Western Bypass, Andalusia, AL 36420, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Baldwin County (AL),Clarke County (AL),Mobile County (AL),Washington County (AL),Escambia County (AL),Monroe County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Bay Minette Branch",
+  "Phone 1": "(251) 580-8678",
+  "Phone 2": "",
+  "Fax": "(251) 580-8677",
+  "Address": "209 East Second St",
+  "City": "Bay Minette",
+  "Zip": 36507,
+  "location": {
+    "lat": 30.8842276,
+    "lng": -87.7722742
+  },
+  "formatted_address": "209 E 2nd St, Bay Minette, AL 36507, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Coffee County (AL),Geneva County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Enterprise Branch",
+  "Phone 1": "(334) 347-1738",
+  "Phone 2": "",
+  "Fax": "(334) 393-3413",
+  "Address": "5070 Boll Weevil Circle",
+  "City": "Enterprise",
+  "Zip": 36330,
+  "location": {
+    "lat": 31.291673,
+    "lng": -85.860016
+  },
+  "formatted_address": "5070 Boll Weevil Cir, Enterprise, AL 36330, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Crenshaw County (AL),Butler County (AL),Pike County (AL),Wilcox County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Luverne Branch",
+  "Phone 1": "(334) 335-6531",
+  "Phone 2": "",
+  "Fax": "(334) 335-6042",
+  "Address": "Hwy. 10",
+  "City": "Luverne",
+  "Zip": 36049,
+  "location": {
+    "lat": 31.7319704,
+    "lng": -86.29025329999999
+  },
+  "formatted_address": "AL-10, Luverne, AL, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Montgomery County (AL),Autauga County (AL),Bullock County (AL),Chilton County (AL),Coosa County (AL),Dallas County (AL),Elmore County (AL),Lowndes County (AL),Macon County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Montgomery Branch",
+  "Phone 1": "(334) 265-8535",
+  "Phone 2": "",
+  "Fax": "(334) 265-8550",
+  "Address": "1401 Forest Ave",
+  "City": "Montgomery",
+  "Zip": 36106,
+  "location": {
+    "lat": 32.3647884,
+    "lng": -86.2859326
+  },
+  "formatted_address": "1401 Forest Ave, Montgomery, AL 36106, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Lee County (AL),Chambers County (AL),Russell County (AL),Tallapoosa County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Auburn Branch",
+  "Phone 1": "(334) 826-5263",
+  "Phone 2": "",
+  "Fax": "(334) 826-5626",
+  "Address": "1642 South College St",
+  "City": "Auburn",
+  "Zip": 36832,
+  "location": {
+    "lat": 32.5762481,
+    "lng": -85.498999
+  },
+  "formatted_address": "1642 S College St, Auburn, AL 36832, USA",
+  "website": ""
+}, {
+  "State": "AL",
+  "County": "Dale County (AL),Houston County (AL),Henry County (AL),Barbour County (AL)",
+  "Association": "First South ACA",
+  "Branch": "South Alabama - Ozark Branch",
+  "Phone 1": "(334) 774-2666",
+  "Phone 2": "",
+  "Fax": "(334) 774-4091",
+  "Address": "1060 S. Union Ave",
+  "City": "Ozark",
+  "Zip": 36360,
+  "location": {
+    "lat": 31.4419844,
+    "lng": -85.6330297
+  },
+  "formatted_address": "1060 S Union Ave, Ozark, AL 36360, USA",
+  "website": ""
+}, {
+  "State": "LA",
+  "County": "Acadia County (LA),Vermillion County (LA)",
+  "Association": "First South ACA",
+  "Branch": "Louisiana - Crowley Branch",
+  "Phone 1": "(337) 783-3954",
+  "Phone 2": "",
+  "Fax": "(337) 783-0556",
+  "Address": "3206 S. LA 13",
+  "City": "Crowley",
+  "Zip": 70526,
+  "location": {
+    "lat": 30.116072,
+    "lng": -92.361268
+  },
+  "formatted_address": "3206 LA-13, Crowley, LA 70526, USA",
+  "website": ""
+}, {
+  "State": "LA",
+  "County": "Allen County (LA),Beauregard County (LA),Calcasieu County (LA),Cameron County (LA),Jefferson Davis County (LA)",
+  "Association": "First South ACA",
+  "Branch": "Louisiana - Jennings Branch",
+  "Phone 1": "(337) 824-2661",
+  "Phone 2": "",
+  "Fax": "(337) 824-6812",
+  "Address": "407 N. Church",
+  "City": "Jennings",
+  "Zip": 70546,
+  "location": {
+    "lat": 30.223594,
+    "lng": -92.655782
+  },
+  "formatted_address": "407 N Church St, Jennings, LA 70546, USA",
+  "website": ""
+}, {
+  "State": "LA",
+  "County": "East Carroll County (LA),West Carroll County (LA)",
+  "Association": "First South ACA",
+  "Branch": "Louisiana - Lake Providence Branch",
+  "Phone 1": "(318) 559-2626",
+  "Phone 2": "",
+  "Fax": "(318) 559-0424",
+  "Address": "109 Davis Street",
+  "City": "Lake Providence",
+  "Zip": 71254,
+  "location": {
+    "lat": 32.804757,
+    "lng": -91.17356699999999
+  },
+  "formatted_address": "109 Davis St, Lake Providence, LA 71254, USA",
+  "website": ""
+}, {
+  "State": "LA",
+  "County": "Evangeline County (LA),St. Landry County (LA)",
+  "Association": "First South ACA",
+  "Branch": "Louisiana - Opelousas Branch",
+  "Phone 1": "(337) 948-3062",
+  "Phone 2": "",
+  "Fax": "(337) 948-3063",
+  "Address": "5057 I-49 S. Service Rd",
+  "City": "Opelousas",
+  "Zip": 70570,
+  "location": {
+    "lat": 30.4980045,
+    "lng": -92.07251570000001
+  },
+  "formatted_address": "5057 Interstate 49 South Service Rd, Opelousas, LA ,
+  "website": ""70570, USA"
+}, {
+  "State": "MS",
+  "County": "Calhoun County (MS),Choctaw County (MS),Montgomery County (MS),Webster County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Calhoun City Branch",
+  "Phone 1": "(662) 628-5441",
+  "Phone 2": "",
+  "Fax": "(662) 628-8173",
+  "Address": "1009 North Main Street",
+  "City": "Calhoun City",
+  "Zip": 38916,
+  "location": {
+    "lat": 33.8677062,
+    "lng": -89.3151822
+  },
+  "formatted_address": "1009 N Main St, Calhoun City, MS 38916, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Grenada County (MS),Tallahatchie County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Charleston Branch",
+  "Phone 1": "(662) 647-3401",
+  "Phone 2": "",
+  "Fax": "(662) 647-2544",
+  "Address": "203 Cossar Blvd",
+  "City": "Charleston",
+  "Zip": 38921,
+  "location": {
+    "lat": 34.007593,
+    "lng": -90.04891599999999
+  },
+  "formatted_address": "203 Cossar Blvd, Charleston, MS 38921, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Coahoma County (MS),Quitman County (MS),Tunica County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Clarksdale Branch",
+  "Phone 1": "(662) 624-5486",
+  "Phone 2": "",
+  "Fax": "(662) 624-4673",
+  "Address": "505 E. Second St",
+  "City": "Clarksdale",
+  "Zip": 38614,
+  "location": {
+    "lat": 34.2040624,
+    "lng": -90.5695145
+  },
+  "formatted_address": "505 E 2nd St, Clarksdale, MS 38614, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Carroll County (MS),Holmes County (MS),Leflore County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Greenwood Branch",
+  "Phone 1": "(662) 453-1392",
+  "Phone 2": "",
+  "Fax": "(662) 455-2140",
+  "Address": "103 Professional Plaza",
+  "City": "Greenwood",
+  "Zip": 38930,
+  "location": {
+    "lat": 33.5248236,
+    "lng": -90.20466429999999
+  },
+  "formatted_address": "103 Professional Pl, Greenwood, MS 38930, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Forrest County (MS),George County (MS),Hancock County (MS),Harrison County (MS),Jackson County (MS),Jefferson Davis County (MS),Lamar County (MS),Marion County (MS),Pearl River County (MS),Perry County (MS),Stone County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Hattiesburg Branch",
+  "Phone 1": "(601) 545-7020",
+  "Phone 2": "",
+  "Fax": "(601) 582-3904",
+  "Address": "4 Thompson Park",
+  "City": "Hattiesburg",
+  "Zip": 39401,
+  "location": {
+    "lat": 31.3238035,
+    "lng": -89.30232939999999
+  },
+  "formatted_address": "4 Thompson Park, Hattiesburg, MS 39401, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Humphreys County (MS),Sunflower County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Indianola Branch",
+  "Phone 1": "(662) 887-1664",
+  "Phone 2": "",
+  "Fax": "(662) 887-1763",
+  "Address": "122 Main Street",
+  "City": "Indianola",
+  "Zip": 38751,
+  "location": {
+    "lat": 33.451744,
+    "lng": -90.65045900000001
+  },
+  "formatted_address": "122 Main St, Indianola, MS 38751, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Attala County (MS),Claiborne County (MS),Hinds County (MS),Madison County (MS),Rankin County (MS),Simpson County (MS),Warren County (MS),Yazoo County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Ridgeland Branch",
+  "Phone 1": "(601) 898-8540",
+  "Phone 2": "",
+  "Fax": "(601) 898-8511",
+  "Address": "260 Trace Colony Park Drive",
+  "City": "Ridgeland",
+  "Zip": 39157,
+  "location": {
+    "lat": 32.4263584,
+    "lng": -90.152355
+  },
+  "formatted_address": "260 Trace Colony Park Dr, Ridgeland, MS 39157, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Covington County (MS),Greene County (MS),Jones County (MS),Wayne County (MS),Bolivar County (MS),Issaquena County (MS),Sharkey County (MS),Washington County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Laurel Branch",
+  "Phone 1": "(601) 428-5464",
+  "Phone 2": "",
+  "Fax": "(601) 428-7119",
+  "Address": "23 Dunnbarr",
+  "City": "Laurel",
+  "Zip": 39440,
+  "location": {
+    "lat": 31.7753701,
+    "lng": -89.0326865
+  },
+  "formatted_address": "915 Main St, Sandersville, MS 39477, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Adams County (MS),Amite County (MS),Copiah County (MS),Franklin County (MS),Jefferson County (MS),Lawrence County (MS),Lincoln County (MS),Pike County (MS),Walthall County (MS),Wilkinson County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - McComb Branch",
+  "Phone 1": "(601) 250-0062",
+  "Phone 2": "",
+  "Fax": "(601) 250-0068",
+  "Address": "501 Apache Drive",
+  "City": "McComb",
+  "Zip": 39648,
+  "location": {
+    "lat": 31.2547022,
+    "lng": -90.480497
+  },
+  "formatted_address": "501 Apache Dr, McComb, MS 39648, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Clarke County (MS),Jasper County (MS),Kemper County (MS),Lauderdale County (MS),Leake County (MS),Neshoba County (MS),Newton County (MS),Scott County (MS),Smith County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Newton Branch",
+  "Phone 1": "(601) 635-5664",
+  "Phone 2": "",
+  "Fax": "(601) 635-5666",
+  "Address": "9769 Eastside Dr. Extension",
+  "City": "Newton",
+  "Zip": 39345,
+  "location": {
+    "lat": 32.3581818,
+    "lng": -89.1284053
+  },
+  "formatted_address": "9769 Eastside Drive Extension, Newton, MS 39345, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Benton County (MS),Desoto County (MS),Lafayette County (MS),Marshall County (MS),Panola County (MS),Tate County (MS),Yalobusha County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Oxford Branch",
+  "Phone 1": "(662) 234-5015",
+  "Phone 2": "",
+  "Fax": "(662) 234-5018",
+  "Address": "914 Van Buren Ave",
+  "City": "Oxford",
+  "Zip": 38655,
+  "location": {
+    "lat": 34.365989,
+    "lng": -89.521069
+  },
+  "formatted_address": "914 Van Buren Ave, Oxford, MS 38655, USA",
+  "website": ""
+}, {
+  "State": "MS",
+  "County": "Choctaw County (MS),Lowdes County (MS),Noxubee County (MS),Oktibbeha County (MS),Winston County (MS)",
+  "Association": "First South ACA",
+  "Branch": "Mississippi - Starkville Branch",
+  "Phone 1": "(662) 324-2520",
+  "Phone 2": "",
+  "Fax": "(662) 324-2511",
+  "Address": "1089D Stark Rd. Ste. 3",
+  "City": "Starkville",
+  "Zip": 39759,
+  "location": {
+    "lat": 33.4550723,
+    "lng": -88.8458878
+  },
+  "formatted_address": "1089C Stark Rd #3, Starkville, MS 39759, USA",
+  "website": ""
+}, {
+  "State": "DE",
+  "County": "New Castle County (DE),Sussex County (DE)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Dover Branch",
+  "Phone 1": "(302) 734-7534",
+  "Phone 2": "",
+  "Fax": "(302) 734-7541",
+  "Address": "1410 State Street",
+  "City": "Dover",
+  "Zip": 19901,
+  "location": {
+    "lat": 39.13638760000001,
+    "lng": -75.5224192
+  },
+  "formatted_address": "1410 S State St, Dover, DE 19901, USA",
+  "website": ""
+}, {
+  "State": "DE",
+  "County": "Sussex County (DE)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Georgetown Branch",
+  "Phone 1": "(302) 856-9081",
+  "Phone 2": "",
+  "Fax": "(302) 856-7299",
+  "Address": "20816 DuPont Blvd",
+  "City": "Georgetown",
+  "Zip": 19947,
+  "location": {
+    "lat": 38.6927418,
+    "lng": -75.3996688
+  },
+  "formatted_address": "20816 Dupont Blvd, Georgetown, DE 19947, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Baltimore County (MD),Cecil County (MD),Harford County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Bel Air Branch",
+  "Phone 1": "(410) 838-4242",
+  "Phone 2": "",
+  "Fax": "(410) 838-5584",
+  "Address": "1614 E. Churcville Rd., Suite 102",
+  "City": "Bel Air",
+  "Zip": 21015,
+  "location": {
+    "lat": 39.5479531,
+    "lng": -76.31216979999999
+  },
+  "formatted_address": "1614 E Churchville Rd #102, Bel Air, MD 21015, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Queen Anne's County (MD),Kent County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Chestertown Branch",
+  "Phone 1": "(410) 778-0757",
+  "Phone 2": "",
+  "Fax": "(410) 778-1377",
+  "Address": "102 Morgnec Rd",
+  "City": "Chestertown",
+  "Zip": 21620,
+  "location": {
+    "lat": 39.21941959999999,
+    "lng": -76.0784611
+  },
+  "formatted_address": "102 Morgnec Rd, Chestertown, MD 21620, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Queen Anne's County (MD),Caroline County (MD),Talbot County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Denton Branch",
+  "Phone 1": "(410) 479-2323",
+  "Phone 2": "",
+  "Fax": "(410) 479-3345",
+  "Address": "379 Deep Shore Rd",
+  "City": "Denton",
+  "Zip": 21629,
+  "location": {
+    "lat": 38.8659934,
+    "lng": -75.8247097
+  },
+  "formatted_address": "379 Deep Shore Rd, Denton, MD 21629, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Caroline County (MD),Dorchester County (MD),Talbot County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "East New Market Branch",
+  "Phone 1": "(410) 943-8500",
+  "Phone 2": "",
+  "Fax": "(410) 673-2938",
+  "Address": "105 Railroad Ave",
+  "City": "East New Market",
+  "Zip": 21631,
+  "location": {
+    "lat": 38.5984459,
+    "lng": -75.9233556
+  },
+  "formatted_address": "105 Railroad Ave, East New Market, MD 21631, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Montgomery County (MD),Frederick County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Frederick Branch",
+  "Phone 1": "(301) 663-4192",
+  "Phone 2": "",
+  "Fax": "(301) 663-4305",
+  "Address": "925 N East Street",
+  "City": "Frederick",
+  "Zip": 21701,
+  "location": {
+    "lat": 39.4272966,
+    "lng": -77.40380259999999
+  },
+  "formatted_address": "925 N East St, Frederick, MD 21701, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Washington County (MD),Berkeley County (MD),Jefferson County (MD),Morgan County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Martinsburg Branch",
+  "Phone 1": "(800) 666-9185",
+  "Phone 2": "",
+  "Fax": "(304) 263-0282",
+  "Address": "158 Crimson Cir",
+  "City": "Martinsburg",
+  "Zip": 25403,
+  "location": {
+    "lat": 39.5029197,
+    "lng": -77.96758439999999
+  },
+  "formatted_address": "158 Crimson Cir, Martinsburg, WV 25403, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Somerset County (MD),Worcester County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Pocomoke Branch",
+  "Phone 1": "(410) 957-1181",
+  "Phone 2": "",
+  "Fax": "(410) 957-4331",
+  "Address": "1035 Ocean Hwy",
+  "City": "Pocomoke",
+  "Zip": 21851,
+  "location": {
+    "lat": 38.034614,
+    "lng": -75.54275799999999
+  },
+  "formatted_address": "1035 Ocean Hwy, Pocomoke City, MD 21851, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Somerset County (MD),Wicomico County (MD),Worcester County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Salisbury Branch",
+  "Phone 1": "(410) 742-7191",
+  "Phone 2": "",
+  "Fax": "(410) 742-7815",
+  "Address": "6564 Mid Atlantic Ln",
+  "City": "Salisbury",
+  "Zip": 21804,
+  "location": {
+    "lat": 38.66580829999999,
+    "lng": -76.6140491
+  },
+  "formatted_address": "6564 Southern Maryland Blvd, Owings, MD 20736, USA",
+  "website": ""
+}, {
+  "State": "MD",
+  "County": "Carroll County (MD),Baltimore County (MD),Howard County (MD)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Westminster",
+  "Phone 1": "(410) 848-1033",
+  "Phone 2": "",
+  "Fax": "(410) 876-1072",
+  "Address": "45 Aileron Ct",
+  "City": "Westminster",
+  "Zip": 21158,
+  "location": {
+    "lat": 39.6116684,
+    "lng": -76.9981889
+  },
+  "formatted_address": "45 Aileron Ct, Westminster, MD 21157, USA",
+  "website": ""
+}, {
+  "State": "PA",
+  "County": "Dauphin County (PA),Lancaster County (PA),Lebanon County (PA)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Lancaster Branch",
+  "Phone 1": "(888) 339-3334",
+  "Phone 2": "",
+  "Fax": "(717) 295-9397",
+  "Address": "411 W. Roseville Rd",
+  "City": "Lancaster",
+  "Zip": 17601,
+  "location": {
+    "lat": 40.07136800000001,
+    "lng": -76.3289636
+  },
+  "formatted_address": "411 W Roseville Rd, Lancaster, PA 17601, USA",
+  "website": ""
+}, {
+  "State": "PA",
+  "County": "Chester County (PA),Delaware County (PA),Philadelphia County (PA)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Quarryville Branch",
+  "Phone 1": "(888) 339-3334",
+  "Phone 2": "",
+  "Fax": "(717) 786-7119",
+  "Address": "680 Robert Fulton Hwy",
+  "City": "Quarryville",
+  "Zip": 17566,
+  "location": {
+    "lat": 39.8842115,
+    "lng": -76.1614511
+  },
+  "formatted_address": "680 Robert Fulton Hwy, Quarryville, PA 17566, USA",
+  "website": ""
+}, {
+  "State": "PA",
+  "County": "Bucks County (PA),Berks County (PA),Carbon County (PA),Lehigh County (PA),Monroe County (PA),Montgomery County (PA),Northampton County (PA),Pike County (PA),Schuylkill County (PA)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Shoemakersville Branch",
+  "Phone 1": "(888) 339-3334",
+  "Phone 2": "",
+  "Fax": "(610) 562-2179",
+  "Address": "1513 Main St",
+  "City": "Shoemakersville",
+  "Zip": 19555,
+  "location": {
+    "lat": 40.52144639999999,
+    "lng": -75.9709642
+  },
+  "formatted_address": "1513 Main St, Shoemakersville, PA 19555, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Clarke County (VA),Frederick County (VA),Warren County (VA)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Winchester Branch",
+  "Phone 1": "(540) 662-3473",
+  "Phone 2": "",
+  "Fax": "(540) 869-6790",
+  "Address": "125 Prosperity Dr, Suite 100",
+  "City": "Winchester",
+  "Zip": 22602,
+  "location": {
+    "lat": 39.1179069,
+    "lng": -78.199596
+  },
+  "formatted_address": "125 Prosperity Drive #100, Winchester, VA 22602, USA",
+  "website": ""
+}, {
+  "State": "VA",
+  "County": "Shenandoah County (VA),Page County (VA)",
+  "Association": "MidAtlantic Farm Credit, ACA",
+  "Branch": "Woodstock Branch",
+  "Phone 1": "(540) 459-2232",
+  "Phone 2": "",
+  "Fax": "(540) 459-3259",
+  "Address": "1031 S. Main St",
+  "City": "Woodstock",
+  "Zip": 22664,
+  "location": {
+    "lat": 38.8651973,
+    "lng": -78.5180748
+  },
+  "formatted_address": "1031 S Main St, Woodstock, VA 22664, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Carlisle County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Bardwell Branch",
+  "Phone 1": "(270) 628-5418",
+  "Phone 2": "",
+  "Fax": "(270) 628-3627",
+  "Address": "196 US Hwy. 51 N",
+  "City": "Bardwell",
+  "Zip": 42023,
+  "location": {
+    "lat": 38.2659888,
+    "lng": -89.2300824
+  },
+  "formatted_address": "US-51, United States",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Hickman County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Clinton Branch",
+  "Phone 1": "(270) 653-4307",
+  "Phone 2": "",
+  "Fax": "(270) 653-6993",
+  "Address": "102 N. Washington St.",
+  "City": "Clinton",
+  "Zip": 42031,
+  "location": {
+    "lat": 36.6672409,
+    "lng": -88.99322529999999
+  },
+  "formatted_address": "102 N Washington St, Clinton, KY 42031, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Marshall County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Draffenville Branch",
+  "Phone 1": "(270) 527-8600",
+  "Phone 2": "",
+  "Fax": "(270) 527-2266",
+  "Address": "2730 US Hwy 641 N",
+  "City": "Benton",
+  "Zip": 42025,
+  "location": {
+    "lat": 36.9182182,
+    "lng": -88.3384547
+  },
+  "formatted_address": "2730 US-641, Benton, KY 42025, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Fulton County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Hickman Branch",
+  "Phone 1": "(270) 236-2531",
+  "Phone 2": "",
+  "Fax": "(270) 236-3407",
+  "Address": "1514 Union City Hwy",
+  "City": "Hickman",
+  "Zip": 42050,
+  "location": {
+    "lat": 36.5613525,
+    "lng": -89.1796754
+  },
+  "formatted_address": "1514 Union City Hwy, Hickman, KY 42050, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Ballard County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Kevil Branch",
+  "Phone 1": "(270) 462-2155",
+  "Phone 2": "",
+  "Fax": "(270) 462-3222",
+  "Address": "12350 US Hwy 60 W",
+  "City": "Kevil",
+  "Zip": 42053,
+  "location": {
+    "lat": 37.0763464,
+    "lng": -88.8681477
+  },
+  "formatted_address": "12350 US-60, Kevil, KY 42053, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "McCracken County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Lone Oak Branch",
+  "Phone 1": "(270) 534-1219",
+  "Phone 2": "",
+  "Fax": "(270) 534-9392",
+  "Address": "3565 Lone Oak Rd.",
+  "City": "Paducah",
+  "Zip": 42003,
+  "location": {
+    "lat": 37.0287364,
+    "lng": -88.6712696
+  },
+  "formatted_address": "3565 Lone Oak Rd, Paducah, KY 42003, USA",
+  "website": ""
+}, {
+  "State": "KY",
+  "County": "Graves County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Mayfield Branch",
+  "Phone 1": "(270) 247-5665",
+  "Phone 2": "",
+  "Fax": "(270) 247-5609",
+  "Address": "545 Dick Castleman Bypass",
+  "City": "Mayfield",
+  "Zip": 42066,
+  "location": {
+    "lat": 36.741724,
+    "lng": -88.636715
+  },
+  "formatted_address": "545 Dick Castleman Bypass, Mayfield, KY 42066, United ,
+  "website": ""States"
+}, {
+  "State": "KY",
+  "County": "Calloway County (KY)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Murray Branch",
+  "Phone 1": "(270) 753-5602",
+  "Phone 2": "",
+  "Fax": "(270) 753-3010",
+  "Address": "1401 North 12th St",
+  "City": "Murray",
+  "Zip": 42071,
+  "location": {
+    "lat": 36.6315231,
+    "lng": -88.312906
+  },
+  "formatted_address": "1401 N 12th St, Murray, KY 42071, USA",
+  "website": ""
+}, {
+  "State": "TN",
+  "County": "McMinn County (TN),Meigs County (TN),Monroe County (TN)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Athens Branch",
+  "Phone 1": "(432) 745-0323",
+  "Phone 2": "",
+  "Fax": "(423) 745-0339",
+  "Address": "1117 S Congress Pkwy",
+  "City": "Athens",
+  "Zip": 37303,
+  "location": {
+    "lat": 35.4534173,
+    "lng": -84.61984249999999
+  },
+  "formatted_address": "1117 Congress Pkwy S, Athens, TN 37303, USA",
+  "website": ""
+}, {
+  "State": "TN",
+  "County": "Hamilton County (TN),Marion County (TN)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Chattanooga Branch",
+  "Phone 1": "(423) 624-4633",
+  "Phone 2": "",
+  "Fax": "(423) 624-4638",
+  "Address": "601 Morrison Springs Rd.",
+  "City": "Chattanooga",
+  "Zip": 37415,
+  "location": {
+    "lat": 35.1228166,
+    "lng": -85.2979845
+  },
+  "formatted_address": "601 Morrison Springs Rd, Red Bank, TN 37415, USA",
+  "website": ""
+}, {
+  "State": "TN",
+  "County": "Bradley County (TN),Polk County (TN)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Cleveland Branch",
+  "Phone 1": "(423) 479-8553",
+  "Phone 2": "",
+  "Fax": "(423) 479-8554",
+  "Address": "2620 APD 40",
+  "City": "Cleveland",
+  "Zip": 37320,
+  "location": {
+    "lat": 35.1313564,
+    "lng": -84.8796004
+  },
+  "formatted_address": "2620 APD 40, Cleveland, TN 37323, USA",
+  "website": ""
+}, {
+  "State": "TN",
+  "County": "Rhea County (TN)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Dayton Branch",
+  "Phone 1": "(423) 775-1161",
+  "Phone 2": "",
+  "Fax": "(423) 775-1162",
+  "Address": "230 Main St",
+  "City": "Dayton",
+  "Zip": 37321,
+  "location": {
+    "lat": 35.4922601,
+    "lng": -85.0124483
+  },
+  "formatted_address": "230 Main St, Dayton, TN 37321, USA",
+  "website": ""
+}, {
+  "State": "TN",
+  "County": "Loudon County (TN),Roane County (TN)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Loudon Branch",
+  "Phone 1": "(423) 458-5422",
+  "Phone 2": "",
+  "Fax": "(423) 458-5423",
+  "Address": "2052 Highway 72",
+  "City": "Loudon",
+  "Zip": 37774,
+  "location": {
+    "lat": 35.7204118,
+    "lng": -84.3644006
+  },
+  "formatted_address": "2052 TN-72, Loudon, TN 37774, USA",
+  "website": ""
+}, {
+  "State": "TN",
+  "County": "Bledsoe County (TN),Sequatchie County (TN)",
+  "Association": "River Valley AgCredit",
+  "Branch": "Pikeville Branch",
+  "Phone 1": "(423) 447-2154",
+  "Phone 2": "",
+  "Fax": "(423) 447-7450",
+  "Address": "3270 Main St.",
+  "City": "Pikeville",
+  "Zip": 37367,
+  "location": {
+    "lat": 35.607627,
+    "lng": -85.18836
+  },
+  "formatted_address": "3270 Main St, Pikeville, TN 37367, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Chattahoochee County (GA),Marion County (GA),Schley County (GA),Stewart County (GA),Sumter County (GA),Webster County (GA)",
+  "Association": "Southwest Georgia Farm Credit, ACA",
+  "Branch": "Americus Branch",
+  "Phone 1": "(229) 924-6025",
+  "Phone 2": "",
+  "Fax": "(888) 436-5417",
+  "Address": "1037 E. Forsyth Street",
+  "City": "Americus",
+  "Zip": 31709,
+  "location": {
+    "lat": 32.0730375,
+    "lng": -84.2198143
+  },
+  "formatted_address": "1037 E Forsyth St, Americus, GA 31709, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Decatur County (GA),Miller County (GA),Calhoun County (GA),Early County (GA),Seminole County (GA)",
+  "Association": "Southwest Georgia Farm Credit, ACA",
+  "Branch": "Bainbridge Branch",
+  "Phone 1": "(229) 246-0384",
+  "Phone 2": "",
+  "Fax": "(888) 439-0904",
+  "Address": "305 Colquitt Highway",
+  "City": "Bainbridge",
+  "Zip": 39817,
+  "location": {
+    "lat": 30.9264902,
+    "lng": -84.6038781
+  },
+  "formatted_address": "305 Colquitt Hwy, Bainbridge, GA 39817, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Grady County (GA),Thomas County (GA)",
+  "Association": "Southwest Georgia Farm Credit, ACA",
+  "Branch": "Thomasville Branch",
+  "Phone 1": "(229) 226-2660",
+  "Phone 2": "",
+  "Fax": "(888) 300-6190",
+  "Address": "137 East Jackson Street",
+  "City": "Thomasville",
+  "Zip": 31792,
+  "location": {
+    "lat": 30.838393,
+    "lng": -83.97931100000001
+  },
+  "formatted_address": "137 E Jackson St, Thomasville, GA 31792, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Baker County (GA),Dougherty County (GA),Mitchell County (GA),",
+  "Association": "Southwest Georgia Farm Credit, ACA",
+  "Branch": "Camilla Branch",
+  "Phone 1": "(229) 336-5237",
+  "Phone 2": "",
+  "Fax": "(888) 342-6887",
+  "Address": "40 East Broad Street",
+  "City": "Camilla",
+  "Zip": 31730,
+  "location": {
+    "lat": 31.2313938,
+    "lng": -84.20729039999999
+  },
+  "formatted_address": "40 E Broad St, Camilla, GA 31730, USA",
+  "website": ""
+}, {
+  "State": "GA",
+  "County": "Clay County (GA),Lee County (GA),Quitman County (GA),Randolph County (GA),Terrell County (GA)",
+  "Association": "Southwest Georgia Farm Credit, ACA",
+  "Branch": "Dawson Branch",
+  "Phone 1": "(229) 995-4491",
+  "Phone 2": "",
+  "Fax": "(888) 554-6138",
+  "Address": "937 Forrester Drive S.E.",
+  "City": "Dawson",
+  "Zip": 39842,
+  "location": {
+    "lat": 31.7612713,
+    "lng": -84.4367836
+  },
+  "formatted_address": "937 Forrester Dr SE, Dawson, GA 39842, USA",
+  "website": ""
+}, {
+  "State": "NY",
+  "County": "Clinton County (NY)",
+  "Association": "Yankee Farm Credit ACA",
+  "Branch": "Chazy",
+  "Phone 1": "(800) 545-8374",
+  "Phone 2": "(518) 8446-7330",
+  "Fax": "",
+  "Address": "9784 Route 9",
+  "City": "Chazy",
+  "Zip": 12921,
+  "location": {
+    "lat": 44.8949102,
+    "lng": -73.43683720000001
+  },
+  "formatted_address": "9748 U.S. 9, Chazy, NY 12921, USA",
+  "website": ""
+}]
