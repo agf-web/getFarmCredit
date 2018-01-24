@@ -34,7 +34,7 @@
 import zenscroll from 'zenscroll';
 import agMap from './Map';
 import agCountySearch from './CountySearch';
-import branchesFull from '../../static/branches_full.json';
+import branchesFull from '../../static/branches_full_with_websites.json';
 
 export default {
   name: 'FarmCreditFinder',

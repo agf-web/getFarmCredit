@@ -52,6 +52,9 @@
               <p v-if="item['Fax']">
                 <strong>Fax:</strong> {{ item['Fax'] }}
               </p>
+              <p v-if="item['website']">
+                <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
+              </p>
             </div>
           </li>
         </transition-group>
