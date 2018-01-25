@@ -136,7 +136,7 @@ export default {
 .CountySearch {
   &__title {
     font-family: 'futura-pt', sans-serif;
-    background: #678b28;
+    background: #5B8F22;
     color: #fff;
     padding: .75rem 1.5rem;
     text-transform: uppercase;
@@ -241,7 +241,7 @@ export default {
       border: 0;
       background: transparent;
       text-decoration: underline;
-      color: #678b28;
+      color: #5B8F22;
       font-family: "futura-pt", sans-serif;
       font-size: 1rem;
       cursor: pointer;
@@ -286,7 +286,7 @@ export default {
   }
 
   &__title {
-    color: #678b28;
+    color: #5B8F22;
     font-family: 'futura-pt-bold', sans-serif;
     text-transform: uppercase;
     margin: 0;

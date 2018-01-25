@@ -183,7 +183,7 @@ export default {
       bottom: 3rem;
       right: 1rem;
       z-index: 10;
-      background: #678b28;
+      background: #5B8F22;
       color: #fff;
       border: 0;
       padding: .25rem .5rem;
@@ -230,7 +230,7 @@ export default {
     position: relative;
     width: 100%;
     height: 100vh;
-    border-left: 10px solid #678b28;
+    border-left: 10px solid #5B8F22;
 
     @media only screen and (min-width: 768px) {
       display: block;
