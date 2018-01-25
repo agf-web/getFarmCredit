@@ -2,6 +2,14 @@
 
 > getfarmcredit.com app written in VueJS
 
+## Required
+
+[Get a Google API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) then follow instructions inside `/config/default.googleMapsApiKey.js`
+
+## Filtered Build Options
+
+Instructions inside `/config/app.filterConfig.js`.
+
 ## Build Setup
 
 ``` bash
