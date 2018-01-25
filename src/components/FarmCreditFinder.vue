@@ -39,7 +39,7 @@ import branchesFull from '../../static/branches_full_with_websites.json';
 export default {
   name: 'FarmCreditFinder',
   props: {
-    acaFilter: {
+    filterCfg: {
       type: Object
     }
   },
@@ -92,9 +92,17 @@ export default {
       const searchTerm = this.search ? this.search : '';
 
       // if this build IS CONFIGURED to filter by Association
-      if (this.acaFilter.isFiltered && typeof this.acaFilter.associationName === 'string') {
+      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
         return branchesFull.filter(branch =>
-          branch.Association === this.acaFilter.associationName &&
+          branch.Association === this.filterCfg.associationName &&
+            branch.County !== '' &&
+            branch.County.toLowerCase()
+              .indexOf(searchTerm.toLowerCase()) !== -1);
+      }
+
+      if (this.filterCfg.byState && typeof this.filterCfg.stateName === 'string') {
+        return branchesFull.filter(branch =>
+          branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase() &&
             branch.County !== '' &&
             branch.County.toLowerCase()
               .indexOf(searchTerm.toLowerCase()) !== -1);
@@ -114,9 +122,9 @@ export default {
 
       let allCounties;
 
-      if (this.acaFilter.isFiltered && typeof this.acaFilter.associationName === 'string') {
+      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
         allCounties = branchesFull.filter(branch =>
-          branch.Association === this.acaFilter.associationName)
+          branch.Association === this.filterCfg.associationName)
           .map(branch =>
             branch.County.split(',')
               .map(county => county.trim())
@@ -136,7 +144,7 @@ export default {
       return this.scrollToTop;
     }
     // function to make the list of Associations.
-    // copied the Object to `app.associationFilterConfig.js`
+    // copied the Object to `app.filterConfig.js`
     // this is commented out if we need to use this again in the future,
     // if we are still manually updating the `branches_full.json` file.
     //

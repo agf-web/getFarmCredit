@@ -1,24 +1,32 @@
 /*
   associationFilter.js
   --------------------
+  ### INTRODUCTION #############################################################
+  You can configure a custom build of this app that filters by branch 
+  Association, State, or a combination of both.
 
-  INSTRUCTIONS:
 
+  ### INSTRUCTIONS FOR ASSOCIATION FILTER ######################################
   1.) look for your association in the `associations` array. note the # (index)
-
   2.) under `export default`, change the property value of `associationName` to
       use the index of your chosen association. for example, if you wanted to
       filter by `Colonial Farm Credit`, the value should look like this:
       
       `associationName: association[9]`
 
-  3.) change `isFiltered` to true.
-
+  3.) change `byAssociation` to `true`.
   4.) run `npm run build`. the `dist` folder should contain the app, prefiltered
       by association. 
 
-  Note: to make a build without being filtered by association, `isFiltered`
-        should be false when running `npm run build`
+
+  ### INSTRUCTIONS FOR STATE FILTER ############################################
+  1.) set `byState` to `true`.
+  2.) replace `sC` with the 2-character state abbreviation.
+  3.) run `npm run build`. the `dist` folder should contain the app, prefiltered
+      by association.
+
+  ### REMINDER #################################################################
+  Set `byAssociation` and  `byState` to `false` to get the full list of branches.
 */
 
 const associations = [
@@ -44,7 +52,8 @@ const associations = [
 ]
 
 export default {
-  isFiltered: false,
-  associationName: associations[0]
+  byAssociation: false,               // to filter by association
+  associationName: associations[0],   // must be index from `association` array
+  byState: false,                     // to filter by state
+  stateName: 'sC'                     // must be string. can be upper/lower/mixed case.
 }
-
