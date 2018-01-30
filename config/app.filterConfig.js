@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// NOTE: THIS FILE IS NO LONGER USED. PLEASE SEE `/static/agf_config.js`.
+//
+////////////////////////////////////////////////////////////////////////////////
+
 /*
   associationFilter.js
   --------------------
@@ -26,7 +32,7 @@
       by association.
 
   ### REMINDER #################################################################
-  Set `byAssociation` and  `byState` to `false` to get the full list of branches.
+  Set `byAssociation` and `byState` to `false` to get the full list of branches.
 */
 
 const associations = [

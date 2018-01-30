@@ -11,9 +11,11 @@ import Vue from 'vue';
 import lodash from 'lodash';
 
 import FarmCreditFinder from './components/FarmCreditFinder';
-import filterConfig from '../config/app.filterConfig';
+// import filterConfig from '../config/app.filterConfig';
 
 Object.defineProperty(Vue.prototype, '$lodash', { value: lodash });
+const defaultFilterConfig = { byAssociation: false, byState: false };
+const loadedFilterConfig = window.AGF_CONFIG ? window.AGF_CONFIG : defaultFilterConfig;
 
 export default {
   name: 'app',
@@ -21,8 +23,9 @@ export default {
     FarmCreditFinder
   },
   data() {
+    console.log(loadedFilterConfig);
     return {
-      filterConfig: filterConfig
+      filterConfig: loadedFilterConfig
     };
   }
 };
