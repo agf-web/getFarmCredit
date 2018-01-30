@@ -23,7 +23,6 @@ export default {
     FarmCreditFinder
   },
   data() {
-    console.log(loadedFilterConfig);
     return {
       filterConfig: loadedFilterConfig
     };
