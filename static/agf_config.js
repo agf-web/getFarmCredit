@@ -5,17 +5,18 @@ window.AGF_CONFIG = {
   // to filter by state
   byState: false,
 
-  // must be string. can be mixed case.
+  // must be string. can be lower/upper/mixed case.
   stateName: 'sC',
 
   // to filter by association
   byAssociation: false,
 
-
-  // must be index from `association` array. Example: this.associations[7]
+  // must be index from `associations` array. Example: this.associations[7]
   associationName: function () {
-    return this.associations[0];
+    return this.associations[7];
   }, 
+
+  // associations array
   associations: [
     'AgCarolina Farm Credit, ACA',              // 0
     'AgChoice Farm Credit, ACA',                // 1
