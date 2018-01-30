@@ -84,11 +84,11 @@ export default {
       });
     }
   },
-  mounted() {
-    this.centerMap();
-    // eslint-disable-next-line
-    console.log('[MOUNTED] Map');
-  },
+  // mounted() {
+  //   this.centerMap();
+  //   // eslint-disable-next-line
+  //   console.log('[MOUNTED] Map');
+  // },
   computed: {
     currentBounds() {
       // eslint-disable-next-line

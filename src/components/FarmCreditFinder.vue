@@ -63,7 +63,7 @@ export default {
   },
   mounted() {
     // eslint-disable-next-line
-    console.log('[MOUNTED] FarmCreditFinder');
+    // console.log('[MOUNTED] FarmCreditFinder');
 
     const sidebar = document.getElementById('sidebar');
     this.sidebarScroll = zenscroll.createScroller(sidebar, 500, 30);

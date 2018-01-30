@@ -6,7 +6,7 @@
       </span>
       <h1 class="CountySearch__title">Find a Location</h1>
       <p class="CountySearch__intro">
-        We provide loans to farmers and rural home buyers in rural counties across 15 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you.
+        We provide loans to farmers and rural home buyers in rural counties across 15 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 15 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
       </p>
     </div>
 
@@ -85,10 +85,10 @@ export default {
       suggestionAttribute: 'countyName'
     };
   },
-  mounted() {
-    // eslint-disable-next-line
-    console.dir('[MOUNTED] Search');
-  },
+  // mounted() {
+  //   // eslint-disable-next-line
+  //   console.dir('[MOUNTED] Search');
+  // },
   methods: {
     clearSearch() {
       this.$refs.searchbox.mutableValue = null;
@@ -149,6 +149,15 @@ export default {
     background: #494949;
     color: #fff;
     font-size: 0.938rem;
+
+    a {
+      color: #5B8F22;
+
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
   }
 
   &__body {
