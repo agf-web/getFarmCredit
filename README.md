@@ -8,7 +8,34 @@
 
 ## Filtered Build Options
 
-Instructions inside `/config/app.filterConfig.js`.
+~~Instructions inside `/config/app.filterConfig.js`.~~
+Edit `/static/agf_config.js` and load in html:
+
+```html
+  <script src="YOUR_PATH/js/agf_config.js"></script>
+```
+
+## Integrating in other systems
+
+You'll need to reference the following:
+
+``` html
+<!-- place in <HEAD> -->
+<!-- You can reference your own typekit that whitelists your domain -->
+<link rel="stylesheet" href="https://use.typekit.net/aqh0bgp.css" />
+<link href="YOUR_PATH/css/app.css" rel="stylesheet">
+<script src="YOUR_PATH/js/agf_config.js"></script>
+```
+
+``` html
+  <!-- Have this somewhere in <body> -->
+  <div id="app"></div>
+
+  <!-- These can be near </body> -->
+  <script type="text/javascript" src="/YOUR_PATH/js/manifest.js"></script>
+  <script type="text/javascript" src="/YOUR_PATH/js/vendor.js"></script>
+  <script type="text/javascript" src="/YOUR_PATH/js/app.js"></script>
+```
 
 ## Build Setup
 
