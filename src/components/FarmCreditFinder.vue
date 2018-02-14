@@ -57,15 +57,7 @@ export default {
       sidebarScroll: null
     };
   },
-  created() {
-    // axios.get('/static/branches_full.json')
-    //   .then((res) => { this.results = res.data; })
-    //   .catch((e) => { this.errors.push(e); });
-  },
   mounted() {
-    // eslint-disable-next-line
-    // console.log('[MOUNTED] FarmCreditFinder');
-
     const sidebar = document.getElementById('sidebar');
     this.sidebarScroll = zenscroll.createScroller(sidebar, 500, 30);
   },

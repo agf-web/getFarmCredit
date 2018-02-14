@@ -84,14 +84,8 @@ export default {
       });
     }
   },
-  // mounted() {
-  //   this.centerMap();
-  //   // eslint-disable-next-line
-  //   console.log('[MOUNTED] Map');
-  // },
   computed: {
     currentBounds() {
-      // eslint-disable-next-line
       let theCurrentBounds = new google.maps.LatLngBounds();
       this.branches.forEach(branch => theCurrentBounds.extend(branch.location));
       return theCurrentBounds;

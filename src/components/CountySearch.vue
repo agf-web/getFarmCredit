@@ -1,9 +1,7 @@
 <template>
   <div id="CountySearch">
     <div class="CountySearch__head">
-      <span
-        class="logo"
-      >
+      <span class="logo">
         <a href="https://www.getfarmcredit.com" v-bind:style="customLogo">GetFarmCredit.com</a>
       </span>
       <h1 class="CountySearch__title">Find a Location</h1>
@@ -11,9 +9,7 @@
         <span v-if="!customIntro">
           We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 15 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
         </span>
-        <span v-else>
-          {{ this.config.customIntro.text }}
-        </span>
+        <span v-else>{{ this.config.customIntro.text }}</span>
       </p>
     </div>
 
@@ -62,7 +58,7 @@
               <p v-if="item['website']">
                 <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
               </p>
-              <p v-if="item.CountyPartial" class="disclaimer">
+              <p v-if="item.CountyPartial === searchTerm" class="disclaimer">
                 <em>Please call to confirm that this branch serves your location.</em>
               </p>
             </div>
@@ -98,15 +94,12 @@ export default {
       suggestionAttribute: 'countyName'
     };
   },
-  // mounted() {
-  //   // eslint-disable-next-line
-  //   console.dir('[MOUNTED] Search');
-  // },
   methods: {
     clearSearch () {
       this.$refs.searchbox.mutableValue = null;
     },
     changed (val) {
+      this.searchTerm = val
       this.$emit('searchedCounty', val);
     },
     phoneLink (phoneNum) {
