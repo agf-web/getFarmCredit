@@ -34,7 +34,7 @@
 import zenscroll from 'zenscroll';
 import agMap from './Map';
 import agCountySearch from './CountySearch';
-import branchesFull from '../../static/branches_full_with_websites.json';
+import branchesFull from '../../static/appData.json';
 
 export default {
   name: 'FarmCreditFinder',
@@ -89,30 +89,36 @@ export default {
   computed: {
     branchFilter() {
       // set search term to filter by
-      const searchTerm = this.search ? this.search : '';
+      const searchTerm = this.search ? this.search.toLowerCase() : '';
 
-      // if this build IS CONFIGURED to filter by Association
+      // if this build IS CONFIGURED to filter by ASSOCIATION
       if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
         return branchesFull.filter(branch =>
           branch.Association === this.filterCfg.associationName &&
-            branch.County !== '' &&
-            branch.County.toLowerCase()
-              .indexOf(searchTerm.toLowerCase()) !== -1);
+            (branch.County !== ''
+              && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
+            (branch.CountyPartial !== ''
+              && branch.CountyPartial.toLowerCase().indexOf(searchTerm) !== -1))
       }
 
+      // if this build IS CONFIGURED to filter by STATE
       if (this.filterCfg.byState && typeof this.filterCfg.stateName === 'string') {
         return branchesFull.filter(branch =>
           branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase() &&
-            branch.County !== '' &&
-            branch.County.toLowerCase()
-              .indexOf(searchTerm.toLowerCase()) !== -1);
+            ((branch.County !== ''
+                && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
+              (branch.CountyPartial !== ''
+                && branch.CountyPartial.toLowerCase().indexOf(searchTerm) !== -1)));
       }
 
-      // if this build is NOT CONFIGURED to filter by Association
+      // if this build is NOT CONFIGURED to be filtered
       return branchesFull.filter(branch =>
         branch.County !== '' &&
         branch.County.toLowerCase()
-          .indexOf(searchTerm.toLowerCase()) !== -1);
+          .indexOf(searchTerm) !== -1 ||
+        branch.CountyPartial !== '' &&
+        branch.CountyPartial.toLowerCase()
+          .indexOf(searchTerm) !== -1);
     },
     countyFilter() {
       // go through branch array and get the County to make a new array.
@@ -121,24 +127,61 @@ export default {
       // over the Counties by using `map()` and `filter()`.
 
       let allCounties;
+      let allPartialCounties;
 
       if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
+        // FILTERED BY ASSOCIATION
         allCounties = branchesFull.filter(branch =>
           branch.Association === this.filterCfg.associationName)
           .map(branch =>
             branch.County.split(',')
               .map(county => county.trim())
-              .filter(county => county !== ''));
+              .filter(county => county !== ''))
+        allPartialCounties = branchesFull.filter(branch =>
+          branch.Association === this.filterCfg.associationName)
+          .map(branch => {
+            if (branch.CountyPartial) {
+              return branch.CountyPartial.split(',')
+                .map(county => county.trim())
+                .filter(county => county !== '')
+            }
+          })
+      } else if (this.filterCfg.byState && typeof this.filterCfg.stateName === 'string') {
+        // FILTERED BY STATE
+        allCounties = branchesFull.filter(branch =>
+          branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase())
+          .map(branch =>
+            branch.County.split(',')
+              .map(county => county.trim())
+              .filter(county => county !== ''))
+        allPartialCounties = branchesFull.filter(branch =>
+          branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase())
+          .map(branch => {
+            if (branch.CountyPartial) {
+              return branch.CountyPartial.split(',')
+                .map(county => county.trim())
+                .filter(county => county !== '')
+            }
+          })
       } else {
-        allCounties = branchesFull.map(branch =>
-          branch.County.split(',')
+        // NO FILTERING
+        allCounties = branchesFull.map(branch => {
+          return branch.County.split(',')
             .map(county => county.trim())
-            .filter(county => county !== ''));
+            .filter(county => county !== '')
+        })
+        allPartialCounties = branchesFull.map(branch => {
+          if (branch.CountyPartial) {
+            return branch.CountyPartial.split(',')
+              .map(county => county.trim())
+              .filter(county => county !== '')
+          }
+        })
       }
 
       // using lodash to flatten the array of County arrays,
       // removing duplicates with `lodash.union()`, then we sort it.
-      return this.$lodash.union(...allCounties).sort();
+      return this.$lodash.union(...allCounties,...allPartialCounties).sort();
     },
     isBackToTop() {
       return this.scrollToTop;
