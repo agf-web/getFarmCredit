@@ -2,7 +2,7 @@
   {
     "Address": "2308 S. MacArthur Dr",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Alexandria Branch",
+    "Branch": "Alexandria Branch",
     "City": "Alexandria",
     "County": "Grant County (LA),Lasalle County (LA),Natchitoches County (LA),Rapides County (LA),Sabine County (LA),Vernon County (LA),Winn County (LA)",
     "CountyPartial": "Concordia County (LA)",
@@ -40,7 +40,7 @@
   {
     "Address": "60050 Westway Drive",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Amite Branch",
+    "Branch": "Amite Branch",
     "City": "Amite",
     "County": "St. Helena County (LA),St. Tammany County (LA),Tangipahoa County (LA),Washington County (LA)",
     "CountyPartial": "Livingston County (LA)",
@@ -59,7 +59,7 @@
   {
     "Address": "811 Jackson St",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Winnsboro Branch",
+    "Branch": "Winnsboro Branch",
     "City": "Winnsboro",
     "County": "Franklin County (LA)",
     "CountyPartial": "Catahoula County (LA)",
@@ -135,7 +135,7 @@
   {
     "Address": "19550 Old Scenic Hwy.",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Zachary Branch",
+    "Branch": "Zachary Branch",
     "City": "Zachary",
     "County": "Baton Rouge County (LA),Feliciana County (LA),Iberville County (LA),Pointe Coupee County (LA)",
     "CountyPartial": "Ascension County (LA),Livingston County (LA)",
@@ -154,7 +154,7 @@
   {
     "Address": "1896 Hudson Circle, Ste 7",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Monroe Branch",
+    "Branch": "Monroe Branch",
     "City": "Monroe",
     "County": "Caldwell County (LA),Morehouse County (LA)",
     "CountyPartial": "Ouachita County (LA)",
@@ -173,7 +173,7 @@
   {
     "Address": "222 N. Cedar",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Tallulah Branch",
+    "Branch": "Tallulah Branch",
     "City": "Tallulah",
     "County": "Madison County (LA),Richland County (LA),Tensas County (LA)",
     "CountyPartial": "Concordia County (LA)",
@@ -192,7 +192,7 @@
   {
     "Address": "1007 Guy Dr",
     "Association": "First South ACA",
-    "Branch": "Louisiana - New Iberia Branch",
+    "Branch": "New Iberia Branch",
     "City": "St. Martinville",
     "County": "Iberia County (LA),Lafayette County (LA),St. Martin County (LA)",
     "CountyPartial": "St. Mary County (LA)",
@@ -211,7 +211,7 @@
   {
     "Address": "321 S. Main",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Marksville Branch",
+    "Branch": "Marksville Branch",
     "City": "Marksville",
     "County": "Avoyelles County (LA)",
     "CountyPartial": "Catahoula County (LA)",
@@ -249,7 +249,7 @@
   {
     "Address": "1725 St. Mary Hwy",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Thibodaux Branch",
+    "Branch": "Thibodaux Branch",
     "City": "Thibodaux",
     "County": "Ascension County (LA),Assumption County (LA),Jefferson County (LA),Lafourche County (LA),Orleans County (LA),Plaquemines County (LA),St. Bernard County (LA),St. Charles County (LA),St. James County (LA),St. John the Baptist County (LA),Terrebonne County (LA)",
     "CountyPartial": "St. Mary County (LA)",
@@ -3935,7 +3935,7 @@
   {
     "Address": "3206 S. LA 13",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Crowley Branch",
+    "Branch": "Crowley Branch",
     "City": "Crowley",
     "County": "Acadia County (LA),Vermillion County (LA)",
     "CountyPartial": "",
@@ -3954,7 +3954,7 @@
   {
     "Address": "407 N. Church",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Jennings Branch",
+    "Branch": "Jennings Branch",
     "City": "Jennings",
     "County": "Allen County (LA),Beauregard County (LA),Calcasieu County (LA),Cameron County (LA),Jefferson Davis County (LA)",
     "CountyPartial": "",
@@ -3973,7 +3973,7 @@
   {
     "Address": "109 Davis Street",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Lake Providence Branch",
+    "Branch": "Lake Providence Branch",
     "City": "Lake Providence",
     "County": "East Carroll County (LA),West Carroll County (LA)",
     "CountyPartial": "",
@@ -3992,7 +3992,7 @@
   {
     "Address": "5057 I-49 S. Service Rd",
     "Association": "First South ACA",
-    "Branch": "Louisiana - Opelousas Branch",
+    "Branch": "Opelousas Branch",
     "City": "Opelousas",
     "County": "Evangeline County (LA),St. Landry County (LA)",
     "CountyPartial": "",
