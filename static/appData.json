@@ -762,7 +762,7 @@
   {
     "Address": "1300 East Main St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Cartersville Branch",
+    "Branch": "Cartersville Branch",
     "City": "Cartersville",
     "County": "Bartow County (GA),Cherokee County (GA),Cobb County (GA),Gordon County (GA),Paulding County (GA),Pickens County (GA)",
     "CountyPartial": "",
@@ -781,7 +781,7 @@
   {
     "Address": "19 Woodlake Dr",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Chatsworth Branch",
+    "Branch": "Chatsworth Branch",
     "City": "Chatsworth",
     "County": "Fannin County (GA),Gilmer County (GA),Gordon County (GA),Murray County (GA),Pickens County (GA),Whitfield County (GA)",
     "CountyPartial": "",
@@ -800,7 +800,7 @@
   {
     "Address": "102 Blacksnake Rd",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Clarkesville Branch",
+    "Branch": "Clarkesville Branch",
     "City": "Mt. Airy",
     "County": "Banks County (GA),Habersham County (GA),Rabun County (GA),Stephens County (GA),Towns County (GA),Union County (GA)",
     "CountyPartial": "",
@@ -819,7 +819,7 @@
   {
     "Address": "501 Broad St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Gainesville Branch",
+    "Branch": "Gainesville Branch",
     "City": "Gainesville",
     "County": "Banks County (GA),Barrow County (GA),Dawson County (GA),Forsyth County (GA),Hall County (GA),Jackson County (GA),Lumpkin County (GA),White County (GA)",
     "CountyPartial": "",
@@ -838,7 +838,7 @@
   {
     "Address": "700 East Villanow St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Lafayette Outpost",
+    "Branch": "Lafayette Outpost",
     "City": "LaFayette",
     "County": "Catoosa County (GA),Dade County (GA),Walker County (GA)",
     "CountyPartial": "",
@@ -857,7 +857,7 @@
   {
     "Address": "701 East 2nd Ave",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Rome Outpost",
+    "Branch": "Rome Outpost",
     "City": "Rome",
     "County": "Chattooga County (GA),Floyd County (GA),Polk County (GA)",
     "CountyPartial": "",
@@ -876,7 +876,7 @@
   {
     "Address": "675 Church St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Royston Branch",
+    "Branch": "Royston Branch",
     "City": "Royston",
     "County": "Banks County (GA),Clarke County (GA),Elbert County (GA),Franklin County (GA),Hart County (GA),Madison County (GA),Stephens County (GA)",
     "CountyPartial": "",
@@ -895,7 +895,7 @@
   {
     "Address": "US 78, 311 North Bypass",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Northern Div - Washington Branch",
+    "Branch": "Washington Branch",
     "City": "Washington",
     "County": "Lincoln County (GA),Oglethorpe County (GA),Taliaferro County (GA),Wilkes County (GA)",
     "CountyPartial": "",
@@ -914,7 +914,7 @@
   {
     "Address": "1207 South Greer St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Cordele Branch",
+    "Branch": "Cordele Branch",
     "City": "Cordele",
     "County": "Crisp County (GA),Dooly County (GA),Wilcox County (GA)",
     "CountyPartial": "",
@@ -933,7 +933,7 @@
   {
     "Address": "826 Bellevue Ave",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Dublin Branch",
+    "Branch": "Dublin Branch",
     "City": "Dublin",
     "County": "Bleckley County (GA),Dodge County (GA),Johnson County (GA),Laurens County (GA),Telfair County (GA),Treutlen County (GA),Twiggs County (GA),Wilkinson County (GA)",
     "CountyPartial": "",
@@ -952,7 +952,7 @@
   {
     "Address": "317 Walnut St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Montezuma Outpost",
+    "Branch": "Montezuma Outpost",
     "City": "Montezuma",
     "County": "Macon County (GA)",
     "CountyPartial": "",
@@ -971,7 +971,7 @@
   {
     "Address": "22 5th Ave. S.E.",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Moultrie Branch",
+    "Branch": "Moultrie Branch",
     "City": "Moultrie",
     "County": "Colquitt County (GA)",
     "CountyPartial": "",
@@ -990,7 +990,7 @@
   {
     "Address": "707 N. Davis St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Nashville Branch",
+    "Branch": "Nashville Branch",
     "City": "Nashville",
     "County": "Berrien County (GA),Cook County (GA),Lanier County (GA)",
     "CountyPartial": "",
@@ -1009,7 +1009,7 @@
   {
     "Address": "302 South Cherry St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Ocilla Branch",
+    "Branch": "Ocilla Branch",
     "City": "Ocilla",
     "County": "Berrien County (GA),Ben Hill County (GA),Irwin County (GA),Telfair County (GA),Tift County (GA),Turner County (GA)",
     "CountyPartial": "",
@@ -1028,7 +1028,7 @@
   {
     "Address": "468 Perry Pkwy",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Perry Branch",
+    "Branch": "Perry Branch",
     "City": "Perry",
     "County": "Bibb County (GA),Crawford County (GA),Houston County (GA),Macon County (GA),Peach County (GA),Pulaski County (GA),Taylor County (GA)",
     "CountyPartial": "",
@@ -1047,7 +1047,7 @@
   {
     "Address": "504 E. Screven St",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Quitman Branch",
+    "Branch": "Quitman Branch",
     "City": "Quitman",
     "County": "Brooks County (GA),Echols County (GA),Lowndes County (GA)",
     "CountyPartial": "",
@@ -1066,7 +1066,7 @@
   {
     "Address": "775 Sparta Rd.",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Sandersville Branch",
+    "Branch": "Sandersville Branch",
     "City": "Sandersville",
     "County": "Baldwin County (GA),Glascock County (GA),Hancock County (GA),Jefferson County (GA),Jones County (GA),Warren County (GA),Washington County (GA)",
     "CountyPartial": "",
@@ -1085,7 +1085,7 @@
   {
     "Address": "105 Dexter Wilson Blvd",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Sylvester Branch",
+    "Branch": "Sylvester Branch",
     "City": "Sylvester",
     "County": "Worth County (GA)",
     "CountyPartial": "",
@@ -1104,7 +1104,7 @@
   {
     "Address": "1807 King Rd",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Tifton Branch",
+    "Branch": "Tifton Branch",
     "City": "Tifton",
     "County": "Cook County (GA),Tift County (GA),Turner County (GA)",
     "CountyPartial": "",
@@ -1123,7 +1123,7 @@
   {
     "Address": "176 GA-80",
     "Association": "AgGeorgia Farm Credit, ACA",
-    "Branch": "Southern Div - Waynesboro Branch",
+    "Branch": "Waynesboro Branch",
     "City": "Waynesboro",
     "County": "Burke County (GA),Columbia County (GA),Jefferson County (GA),McDuffie County (GA),Richmond County (GA)",
     "CountyPartial": "",

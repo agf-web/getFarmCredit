@@ -9,7 +9,7 @@
       <h1 class="CountySearch__title">Find a Location</h1>
       <p class="CountySearch__intro">
         <span v-if="!customIntro">
-          We provide loans to farmers and rural home buyers in rural counties across 15 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 15 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
+          We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 15 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
         </span>
         <span v-else>
           {{ this.config.customIntro.text }}
