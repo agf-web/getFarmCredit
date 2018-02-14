@@ -1,12 +1,19 @@
 <template>
   <div id="CountySearch">
     <div class="CountySearch__head">
-      <span class="logo">
-        <a href="https://www.getfarmcredit.com">GetFarmCredit.com</a>
+      <span
+        class="logo"
+      >
+        <a href="https://www.getfarmcredit.com" v-bind:style="customLogo">GetFarmCredit.com</a>
       </span>
       <h1 class="CountySearch__title">Find a Location</h1>
       <p class="CountySearch__intro">
-        We provide loans to farmers and rural home buyers in rural counties across 15 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 15 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
+        <span v-if="!customIntro">
+          We provide loans to farmers and rural home buyers in rural counties across 15 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 15 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
+        </span>
+        <span v-else>
+          {{ this.config.customIntro.text }}
+        </span>
       </p>
     </div>
 
@@ -80,6 +87,9 @@ export default {
     },
     counties: {
       type: Array
+    },
+    config: {
+      type: Object
     }
   },
   data() {
@@ -93,16 +103,16 @@ export default {
   //   console.dir('[MOUNTED] Search');
   // },
   methods: {
-    clearSearch() {
+    clearSearch () {
       this.$refs.searchbox.mutableValue = null;
     },
-    changed(val) {
+    changed (val) {
       this.$emit('searchedCounty', val);
     },
-    phoneLink(phoneNum) {
+    phoneLink (phoneNum) {
       return `tel:${phoneNum.replace(' ', '-')}`;
     },
-    mapLink(branch) {
+    mapLink (branch) {
       const address = branch.Address.split(' ').join('+').split('-').join('--');
       const city = branch.City.split(' ').join('+');
       const state = branch.State;
@@ -110,6 +120,22 @@ export default {
 
       const googMapLink = `https://www.google.com/maps/search/?api=1&query=${address}+${city}+${state}+${zip}`;
       return googMapLink;
+    }
+  },
+  computed: {
+    customLogo () {
+      if (this.config.customLogo) {
+        if (this.config.customLogo.useCustomLogo) {
+          return {
+            'background-image': `url('${this.config.customLogo.url}')`
+          }
+        }
+      }
+    },
+    customIntro () {
+      if (this.config.customIntro) {
+        return this.config.customIntro.useCustomIntro
+      }
     }
   }
 };

@@ -7,6 +7,7 @@
         <ag-county-search
           :branches="branchFilter"
           :counties="countyFilter"
+          :config="filterCfg"
           @searchedCounty="updateBranchFilter"
           ref="searchComponent"
         />

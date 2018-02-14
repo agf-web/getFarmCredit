@@ -2,6 +2,15 @@
 
 /* eslint-disable */
 window.AGF_CONFIG = {
+  customLogo: {
+    useCustomLogo: false,
+    url: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png'
+  },
+  customIntro: {
+    useCustomIntro: false,
+    text: 'This is a custom intro. You are only allowed regular text in this space.'
+  },
+
   // to filter by state
   byState: false,
 
