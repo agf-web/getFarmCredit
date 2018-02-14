@@ -55,6 +55,9 @@
               <p v-if="item['website']">
                 <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
               </p>
+              <p v-if="item.CountyPartial" class="disclaimer">
+                <em>Please call to confirm that this branch serves your location.</em>
+              </p>
             </div>
           </li>
         </transition-group>
@@ -308,9 +311,15 @@ export default {
   p {
     margin: 0;
     line-height: 1.4;
+
+    &.disclaimer {
+      margin: 1rem auto 0;
+      font-size: .75rem;
+    }
   }
 }
 
+// animation
 .branchFade-enter-active, .branchFade-leave-active {
   transition: all 0.25s ease-out;
 }
