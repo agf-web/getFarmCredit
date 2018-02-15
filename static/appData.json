@@ -78,7 +78,7 @@
   {
     "Address": "1626 N. Veterans Memorial Boulevard",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Tupelo Branch",
+    "Branch": "Tupelo Branch",
     "City": "Tupelo",
     "County": "Alcorn County (MS),Itawamba County (MS),Lee County (MS),Pontotoc County (MS),Prentiss County (MS),Tippah County (MS),Tishomingo County (MS),Union County (MS)",
     "CountyPartial": "Chickasaw County (MS)",
@@ -116,7 +116,7 @@
   {
     "Address": "306 E. Jefferson St",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Aberdeen Branch",
+    "Branch": "Aberdeen Branch",
     "City": "Aberdeen",
     "County": "Clay County (MS),Lowdes County (MS),Monroe County (MS),Noxubee County (MS),Oktibbeha County (MS),Winston County (MS)",
     "CountyPartial": "Chickasaw County (MS)",
@@ -287,7 +287,7 @@
   {
     "Address": "13193 Ferguson Valley Rd",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 1 - Seven Mountains Office",
+    "Branch": "Seven Mountains Office",
     "City": "Yeagertown",
     "County": "Centre County (PA),Clearfield County (PA)",
     "CountyPartial": "",
@@ -306,7 +306,7 @@
   {
     "Address": "4504 Westbranch Highway",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 1 - Susquehanna Valley Office",
+    "Branch": "Susquehanna Valley Office",
     "City": "Lewisburg",
     "County": "Clinton County (PA),Lycoming County (PA)",
     "CountyPartial": "",
@@ -325,7 +325,7 @@
   {
     "Address": "24668 Route 6",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 2 - Endless Mountains Office",
+    "Branch": "Endless Mountains Office",
     "City": "Towanda",
     "County": "Bradford County (PA),Lackawanna County (PA),Sullivan County (PA),Susquehanna County (PA),Wayne County (PA),Wyoming County (PA)",
     "CountyPartial": "",
@@ -344,7 +344,7 @@
   {
     "Address": "13193 Ferguson Valley Rd",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 2 - Seven Mountains Office",
+    "Branch": "Seven Mountains Office",
     "City": "Yeagertown",
     "County": "Huntingdon County (PA),Juniata County (PA),Mifflin County (PA),Perry County (PA)",
     "CountyPartial": "",
@@ -363,7 +363,7 @@
   {
     "Address": "4504 Westbranch Highway",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 2 - Susquehanna Valley Office",
+    "Branch": "Susquehanna Valley Office",
     "City": "Lewisburg",
     "County": "Columbia County (PA),Luzerne County (PA),Montour County (PA),Northumberland County (PA),Snyder County (PA),Union County (PA)",
     "CountyPartial": "",
@@ -382,7 +382,7 @@
   {
     "Address": "109 Farm Credit Dr",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 3 - Cumberland Valley Office",
+    "Branch": "Cumberland Valley Office",
     "City": "Chambersburg",
     "County": "Cumberland County (PA),Franklin County (PA),Fulton County (PA),",
     "CountyPartial": "",
@@ -401,7 +401,7 @@
   {
     "Address": "2322 Curryville Road",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 3 - Martinsburg Office",
+    "Branch": "Martinsburg Office",
     "City": "Martinsburg",
     "County": "Bedford County (PA),Blair County (PA)",
     "CountyPartial": "",
@@ -420,7 +420,7 @@
   {
     "Address": "1434 Seven Valleys Road",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 3 - York Office",
+    "Branch": "York Office",
     "City": "York",
     "County": "Adams County (PA),York County (PA)",
     "CountyPartial": "",
@@ -439,7 +439,7 @@
   {
     "Address": "610 Evans City Rd",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 4 - Butler Office",
+    "Branch": "Butler Office",
     "City": "Butler",
     "County": "Armstrong County (PA),Beaver County (PA),Butler County (PA),Clarion County (PA),Jefferson County (PA),Lawrence County (PA),Indiana County (PA)",
     "CountyPartial": "",
@@ -458,7 +458,7 @@
   {
     "Address": "2322 Curryville Road",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 4 - Martinsburg Office",
+    "Branch": "Martinsburg Office",
     "City": "Martinsburg",
     "County": "Cambria County (PA),Somerset County (PA)",
     "CountyPartial": "",
@@ -477,7 +477,7 @@
   {
     "Address": "921 S. Center Ave., PO Box 716",
     "Association": "AgChoice Farm Credit, ACA",
-    "Branch": "Region 4 - New Stanton Office",
+    "Branch": "New Stanton Office",
     "City": "New Stanton",
     "County": "Brooke County (WV),Fayette County (WV),Greene County (WV),Hancock County (WV),Marshall County (WV),Ohio County (WV),Washington County (WV),Westmoreland County (WV),Allegheny County (WV)",
     "CountyPartial": "",
@@ -3631,7 +3631,7 @@
   {
     "Address": "320 Alabama Hwy. 75, N",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Albertville Branch",
+    "Branch": "Albertville Branch",
     "City": "Albertville",
     "County": "Marshall County (AL),Cherokee County (AL),DeKalb County (AL),Etowah County (AL),Jackson County (AL)",
     "CountyPartial": "",
@@ -3650,7 +3650,7 @@
   {
     "Address": "2341 Alabama Hwy. 21 South",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Oxford Branch",
+    "Branch": "Oxford Branch",
     "City": "Oxford",
     "County": "Calhoun County (AL),Clay County (AL),Cleburne County (AL),Randolph County (AL),St. Clair County (AL),Talladega County (AL)",
     "CountyPartial": "",
@@ -3669,7 +3669,7 @@
   {
     "Address": "30035 US Hwy. 72 West",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Athens Branch",
+    "Branch": "Athens Branch",
     "City": "Madison",
     "County": "Limestone County (AL),Madison County (AL)",
     "CountyPartial": "",
@@ -3688,7 +3688,7 @@
   {
     "Address": "One Perimeter Park South, Suite 100N",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Birmingham Branch",
+    "Branch": "Birmingham Branch",
     "City": "Birmingham",
     "County": "Jefferson County (AL),Shelby County (AL)",
     "CountyPartial": "",
@@ -3707,7 +3707,7 @@
   {
     "Address": "1824 Eva Rd. N.E.",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Cullman Branch",
+    "Branch": "Cullman Branch",
     "City": "Cullman",
     "County": "Cullman County (AL),Blount County (AL),Morgan County (AL)",
     "CountyPartial": "",
@@ -3726,7 +3726,7 @@
   {
     "Address": "700 Hwy. 80 West",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Demopolis Branch",
+    "Branch": "Demopolis Branch",
     "City": "Demopolis",
     "County": "Marengo County (AL),Choctaw County (AL),Greene County (AL),Hale County (AL),Perry County (AL),Sumter County (AL)",
     "CountyPartial": "",
@@ -3745,7 +3745,7 @@
   {
     "Address": "14390 Market St",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Moulton Branch",
+    "Branch": "Moulton Branch",
     "City": "Moulton",
     "County": "Lawrence County (AL),Walker County (AL),Winston County (AL)",
     "CountyPartial": "",
@@ -3764,7 +3764,7 @@
   {
     "Address": "970 Hwy. 20 East",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Muscle Shoals Branch",
+    "Branch": "Muscle Shoals Branch",
     "City": "Tuscumbia",
     "County": "Colbert County (AL),Franklin County (AL),Lauderdale County (AL),Marion County (AL)",
     "CountyPartial": "",
@@ -3783,7 +3783,7 @@
   {
     "Address": "4210 McFarland Blvd",
     "Association": "First South ACA",
-    "Branch": "North Alabama - Northport Branch",
+    "Branch": "Northport Branch",
     "City": "Northport",
     "County": "Tuscaloosa County (AL),Bibb County (AL),Fayette County (AL),Lamar County (AL),Pickens County (AL)",
     "CountyPartial": "",
@@ -3802,7 +3802,7 @@
   {
     "Address": "1103 Bypass West",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Andalusia Branch",
+    "Branch": "Andalusia Branch",
     "City": "Andalusia",
     "County": "Covington County (AL),Conecuh County (AL)",
     "CountyPartial": "",
@@ -3821,7 +3821,7 @@
   {
     "Address": "209 East Second St",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Bay Minette Branch",
+    "Branch": "Bay Minette Branch",
     "City": "Bay Minette",
     "County": "Baldwin County (AL),Clarke County (AL),Mobile County (AL),Washington County (AL),Escambia County (AL),Monroe County (AL)",
     "CountyPartial": "",
@@ -3840,7 +3840,7 @@
   {
     "Address": "5070 Boll Weevil Circle",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Enterprise Branch",
+    "Branch": "Enterprise Branch",
     "City": "Enterprise",
     "County": "Coffee County (AL),Geneva County (AL)",
     "CountyPartial": "",
@@ -3859,7 +3859,7 @@
   {
     "Address": "Hwy. 10",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Luverne Branch",
+    "Branch": "Luverne Branch",
     "City": "Luverne",
     "County": "Crenshaw County (AL),Butler County (AL),Pike County (AL),Wilcox County (AL)",
     "CountyPartial": "",
@@ -3878,7 +3878,7 @@
   {
     "Address": "1401 Forest Ave",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Montgomery Branch",
+    "Branch": "Montgomery Branch",
     "City": "Montgomery",
     "County": "Montgomery County (AL),Autauga County (AL),Bullock County (AL),Chilton County (AL),Coosa County (AL),Dallas County (AL),Elmore County (AL),Lowndes County (AL),Macon County (AL)",
     "CountyPartial": "",
@@ -3897,7 +3897,7 @@
   {
     "Address": "1642 South College St",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Auburn Branch",
+    "Branch": "Auburn Branch",
     "City": "Auburn",
     "County": "Lee County (AL),Chambers County (AL),Russell County (AL),Tallapoosa County (AL)",
     "CountyPartial": "",
@@ -3916,7 +3916,7 @@
   {
     "Address": "1060 S. Union Ave",
     "Association": "First South ACA",
-    "Branch": "South Alabama - Ozark Branch",
+    "Branch": "Ozark Branch",
     "City": "Ozark",
     "County": "Dale County (AL),Houston County (AL),Henry County (AL),Barbour County (AL)",
     "CountyPartial": "",
@@ -4011,7 +4011,7 @@
   {
     "Address": "1009 North Main Street",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Calhoun City Branch",
+    "Branch": "Calhoun City Branch",
     "City": "Calhoun City",
     "County": "Calhoun County (MS),Choctaw County (MS),Montgomery County (MS),Webster County (MS)",
     "CountyPartial": "",
@@ -4030,7 +4030,7 @@
   {
     "Address": "203 Cossar Blvd",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Charleston Branch",
+    "Branch": "Charleston Branch",
     "City": "Charleston",
     "County": "Grenada County (MS),Tallahatchie County (MS)",
     "CountyPartial": "",
@@ -4049,7 +4049,7 @@
   {
     "Address": "505 E. Second St",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Clarksdale Branch",
+    "Branch": "Clarksdale Branch",
     "City": "Clarksdale",
     "County": "Coahoma County (MS),Quitman County (MS),Tunica County (MS)",
     "CountyPartial": "",
@@ -4068,7 +4068,7 @@
   {
     "Address": "103 Professional Plaza",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Greenwood Branch",
+    "Branch": "Greenwood Branch",
     "City": "Greenwood",
     "County": "Carroll County (MS),Holmes County (MS),Leflore County (MS)",
     "CountyPartial": "",
@@ -4087,7 +4087,7 @@
   {
     "Address": "4 Thompson Park",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Hattiesburg Branch",
+    "Branch": "Hattiesburg Branch",
     "City": "Hattiesburg",
     "County": "Forrest County (MS),George County (MS),Hancock County (MS),Harrison County (MS),Jackson County (MS),Jefferson Davis County (MS),Lamar County (MS),Marion County (MS),Pearl River County (MS),Perry County (MS),Stone County (MS)",
     "CountyPartial": "",
@@ -4106,7 +4106,7 @@
   {
     "Address": "122 Main Street",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Indianola Branch",
+    "Branch": "Indianola Branch",
     "City": "Indianola",
     "County": "Humphreys County (MS),Sunflower County (MS)",
     "CountyPartial": "",
@@ -4125,7 +4125,7 @@
   {
     "Address": "260 Trace Colony Park Drive",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Ridgeland Branch",
+    "Branch": "Ridgeland Branch",
     "City": "Ridgeland",
     "County": "Attala County (MS),Claiborne County (MS),Hinds County (MS),Madison County (MS),Rankin County (MS),Simpson County (MS),Warren County (MS),Yazoo County (MS)",
     "CountyPartial": "",
@@ -4144,7 +4144,7 @@
   {
     "Address": "23 Dunnbarr",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Laurel Branch",
+    "Branch": "Laurel Branch",
     "City": "Laurel",
     "County": "Covington County (MS),Greene County (MS),Jones County (MS),Wayne County (MS),Bolivar County (MS),Issaquena County (MS),Sharkey County (MS),Washington County (MS)",
     "CountyPartial": "",
@@ -4163,7 +4163,7 @@
   {
     "Address": "501 Apache Drive",
     "Association": "First South ACA",
-    "Branch": "Mississippi - McComb Branch",
+    "Branch": "McComb Branch",
     "City": "McComb",
     "County": "Adams County (MS),Amite County (MS),Copiah County (MS),Franklin County (MS),Jefferson County (MS),Lawrence County (MS),Lincoln County (MS),Pike County (MS),Walthall County (MS),Wilkinson County (MS)",
     "CountyPartial": "",
@@ -4182,7 +4182,7 @@
   {
     "Address": "9769 Eastside Dr. Extension",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Newton Branch",
+    "Branch": "Newton Branch",
     "City": "Newton",
     "County": "Clarke County (MS),Jasper County (MS),Kemper County (MS),Lauderdale County (MS),Leake County (MS),Neshoba County (MS),Newton County (MS),Scott County (MS),Smith County (MS)",
     "CountyPartial": "",
@@ -4201,7 +4201,7 @@
   {
     "Address": "914 Van Buren Ave",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Oxford Branch",
+    "Branch": "Oxford Branch",
     "City": "Oxford",
     "County": "Benton County (MS),Desoto County (MS),Lafayette County (MS),Marshall County (MS),Panola County (MS),Tate County (MS),Yalobusha County (MS)",
     "CountyPartial": "",
@@ -4220,7 +4220,7 @@
   {
     "Address": "1089D Stark Rd. Ste. 3",
     "Association": "First South ACA",
-    "Branch": "Mississippi - Starkville Branch",
+    "Branch": "Starkville Branch",
     "City": "Starkville",
     "County": "Choctaw County (MS),Lowdes County (MS),Noxubee County (MS),Oktibbeha County (MS),Winston County (MS)",
     "CountyPartial": "",
