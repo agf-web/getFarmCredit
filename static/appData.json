@@ -76,7 +76,7 @@
     "website": "https://firstsouthfarmcredit.com/"
   },
   {
-    "Address": "2216 S. Gloster St",
+    "Address": "1626 N. Veterans Memorial Boulevard",
     "Association": "First South ACA",
     "Branch": "Mississippi - Tupelo Branch",
     "City": "Tupelo",
@@ -86,11 +86,11 @@
     "Phone 1": "(662) 842-2454",
     "Phone 2": "",
     "State": "MS",
-    "Zip": 38801,
-    "formatted_address": "2216 S Gloster St, Tupelo, MS 38801, USA",
+    "Zip": 38804,
+    "formatted_address": "1626 N Veterans Memorial Blvd, Tupelo, MS 38804, USA",
     "location": {
-      "lat": 34.2133263,
-      "lng": -88.7204879
+      "lat": 34.2808297,
+      "lng": -88.67966179999999
     },
     "website": "https://firstsouthfarmcredit.com/"
   },
