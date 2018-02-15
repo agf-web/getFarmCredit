@@ -35,7 +35,7 @@
 import zenscroll from 'zenscroll';
 import agMap from './Map';
 import agCountySearch from './CountySearch';
-import branchesFull from '../../static/appData.json';
+import appData from '../../static/appData.json';
 
 export default {
   name: 'FarmCreditFinder',
@@ -54,8 +54,12 @@ export default {
       // results: [],
       errors: [],
       scrollToTop: false,
-      sidebarScroll: null
+      sidebarScroll: null,
+      branchData: null
     };
+  },
+  created () {
+    this.branchData = this.$lodash.orderBy(appData, ['Branch'])
   },
   mounted() {
     const sidebar = document.getElementById('sidebar');
@@ -86,7 +90,7 @@ export default {
 
       // if this build IS CONFIGURED to filter by ASSOCIATION
       if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
-        return branchesFull.filter(branch =>
+        return this.branchData.filter(branch =>
           branch.Association === this.filterCfg.associationName &&
             (branch.County !== ''
               && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
@@ -96,7 +100,7 @@ export default {
 
       // if this build IS CONFIGURED to filter by STATE
       if (this.filterCfg.byState && typeof this.filterCfg.stateName === 'string') {
-        return branchesFull.filter(branch =>
+        return this.branchData.filter(branch =>
           branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase() &&
             ((branch.County !== ''
                 && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
@@ -105,7 +109,7 @@ export default {
       }
 
       // if this build is NOT CONFIGURED to be filtered
-      return branchesFull.filter(branch =>
+      return this.branchData.filter(branch =>
         branch.County !== '' &&
         branch.County.toLowerCase()
           .indexOf(searchTerm) !== -1 ||
@@ -124,13 +128,13 @@ export default {
 
       if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
         // FILTERED BY ASSOCIATION
-        allCounties = branchesFull.filter(branch =>
+        allCounties = this.branchData.filter(branch =>
           branch.Association === this.filterCfg.associationName)
           .map(branch =>
             branch.County.split(',')
               .map(county => county.trim())
               .filter(county => county !== ''))
-        allPartialCounties = branchesFull.filter(branch =>
+        allPartialCounties = this.branchData.filter(branch =>
           branch.Association === this.filterCfg.associationName)
           .map(branch => {
             if (branch.CountyPartial) {
@@ -141,13 +145,13 @@ export default {
           })
       } else if (this.filterCfg.byState && typeof this.filterCfg.stateName === 'string') {
         // FILTERED BY STATE
-        allCounties = branchesFull.filter(branch =>
+        allCounties = this.branchData.filter(branch =>
           branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase())
           .map(branch =>
             branch.County.split(',')
               .map(county => county.trim())
               .filter(county => county !== ''))
-        allPartialCounties = branchesFull.filter(branch =>
+        allPartialCounties = this.branchData.filter(branch =>
           branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase())
           .map(branch => {
             if (branch.CountyPartial) {
@@ -158,12 +162,12 @@ export default {
           })
       } else {
         // NO FILTERING
-        allCounties = branchesFull.map(branch => {
+        allCounties = this.branchData.map(branch => {
           return branch.County.split(',')
             .map(county => county.trim())
             .filter(county => county !== '')
         })
-        allPartialCounties = branchesFull.map(branch => {
+        allPartialCounties = this.branchData.map(branch => {
           if (branch.CountyPartial) {
             return branch.CountyPartial.split(',')
               .map(county => county.trim())
