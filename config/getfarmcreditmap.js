@@ -13,7 +13,7 @@
   document.body.appendChild(getFarmWrapper);
   // manifest.js
   var getFarmManifest = document.createElement('script');
-  getFarmManifest.src = 'https://www.getfarmcredit.com/modules/custom/getfarmcreditmap/js/manifest.d89ab41436c67f84fda0.js';
+  getFarmManifest.src = 'https://www.getfarmcredit.com/modules/custom/getfarmcreditmap/js/manifest.2389157408fa675d3df1.js';
   getFarmManifest.setAttribute('type','text/javascript');
   getFarmManifest.async = true;
   document.body.appendChild(getFarmManifest);
@@ -26,7 +26,7 @@
   window.onload = function() {
     // app.js
     var getFarmApp = document.createElement('script');
-    getFarmApp.src = 'https://www.getfarmcredit.com/modules/custom/getfarmcreditmap/js/app.15581290753b359ec6d8.js';
+    getFarmApp.src = 'https://www.getfarmcredit.com/modules/custom/getfarmcreditmap/js/app.b4a9f7d61ac77085ef80.js';
     getFarmApp.setAttribute('type','text/javascript');
     getFarmApp.async = true;
     document.body.appendChild(getFarmApp);
