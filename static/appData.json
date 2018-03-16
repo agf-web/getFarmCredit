@@ -1,5 +1,24 @@
 [
   {
+    "Address": "3927 Highway 4, Suite 103",
+    "Association": "Farm Credit of Northwest Florida, ACA",
+    "Branch": "Jay Branch",
+    "City": "Jay",
+    "County": "Santa Rosa County (FL),Escambia County (FL)",
+    "CountyPartial": "",
+    "Fax": "(850) 918-4802",
+    "Phone 1": "(850) 918-4801",
+    "Phone 2": "",
+    "State": "FL",
+    "Zip": 32565,
+    "formatted_address": "3927 Highway 4 #103, Jay, FL 32565, USA",
+    "location": {
+      "lat": 30.952403,
+      "lng": -87.150177
+    },
+    "website": "https://www.farmcredit-fl.com/"
+  },
+  {
     "Address": "2308 S. MacArthur Dr",
     "Association": "First South ACA",
     "Branch": "Alexandria Branch",
