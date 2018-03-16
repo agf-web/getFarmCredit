@@ -16,7 +16,8 @@
       "lat": 30.952403,
       "lng": -87.150177
     },
-    "website": "https://www.farmcredit-fl.com/"
+    "website": "https://www.farmcredit-fl.com/",
+    "google_maps_url": "https://www.google.com/maps/place/Farm+Credit+of+Northwest+Florida/@30.9523974,-87.152372,17z/data=!4m13!1m7!3m6!1s0x88905ea8e69dd887:0xc0df5c102180d139!2s3927+FL-4,+Jay,+FL+32565!3b1!8m2!3d30.9523928!4d-87.150178!3m4!1s0x88905ea8e69dd887:0x8a2c22bac88d0c7e!8m2!3d30.952398!4d-87.150179"
   },
   {
     "Address": "2308 S. MacArthur Dr",
@@ -35,7 +36,8 @@
       "lat": 31.2718065,
       "lng": -92.4649474
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "52 Farmvu Drive",
@@ -54,7 +56,8 @@
       "lat": 43.643107,
       "lng": -72.33261399999999
     },
-    "website": "https://www.yankeefarmcredit.com/"
+    "website": "https://www.yankeefarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "60050 Westway Drive",
@@ -73,7 +76,8 @@
       "lat": 30.72752,
       "lng": -90.535584
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "811 Jackson St",
@@ -92,7 +96,8 @@
       "lat": 32.165639,
       "lng": -91.71314
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "1626 N. Veterans Memorial Boulevard",
@@ -111,7 +116,8 @@
       "lat": 34.2808297,
       "lng": -88.67966179999999
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "130 Upper Welden Street",
@@ -130,7 +136,8 @@
       "lat": 44.8020332,
       "lng": -73.0710763
     },
-    "website": "https://www.yankeefarmcredit.com/"
+    "website": "https://www.yankeefarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "306 E. Jefferson St",
@@ -149,7 +156,8 @@
       "lat": 33.8227754,
       "lng": -88.54131000000001
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "19550 Old Scenic Hwy.",
@@ -168,7 +176,8 @@
       "lat": 30.6427778,
       "lng": -91.1916787
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "1896 Hudson Circle, Ste 7",
@@ -187,7 +196,8 @@
       "lat": 32.5281109,
       "lng": -92.1132446
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "222 N. Cedar",
@@ -206,7 +216,8 @@
       "lat": 32.4087043,
       "lng": -91.18624059999999
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "1007 Guy Dr",
@@ -225,7 +236,8 @@
       "lat": 30.05144889999999,
       "lng": -91.8193586
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "321 S. Main",
@@ -244,7 +256,8 @@
       "lat": 31.1239734,
       "lng": -92.070461
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "320 Exchange Street",
@@ -263,7 +276,8 @@
       "lat": 44.02308499999999,
       "lng": -73.1694978
     },
-    "website": "https://www.yankeefarmcredit.com/"
+    "website": "https://www.yankeefarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "1725 St. Mary Hwy",
@@ -282,7 +296,8 @@
       "lat": 29.7320237,
       "lng": -90.6295037
     },
-    "website": "https://firstsouthfarmcredit.com/"
+    "website": "https://firstsouthfarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "250 Commerce Way",
@@ -301,7 +316,8 @@
       "lat": 44.9555133,
       "lng": -72.15717049999999
     },
-    "website": "https://www.yankeefarmcredit.com/"
+    "website": "https://www.yankeefarmcredit.com/",
+    "google_maps_url": ""
   },
   {
     "Address": "13193 Ferguson Valley Rd",
@@ -320,7 +336,8 @@
       "lat": 40.6343775,
       "lng": -77.5802872
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4504 Westbranch Highway",
@@ -339,7 +356,8 @@
       "lat": 40.9429796,
       "lng": -76.8794683
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "24668 Route 6",
@@ -358,7 +376,8 @@
       "lat": 41.767575,
       "lng": -76.4427188
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "13193 Ferguson Valley Rd",
@@ -377,7 +396,8 @@
       "lat": 40.6343775,
       "lng": -77.5802872
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4504 Westbranch Highway",
@@ -396,7 +416,8 @@
       "lat": 40.9429796,
       "lng": -76.8794683
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "109 Farm Credit Dr",
@@ -415,7 +436,8 @@
       "lat": 39.9859779,
       "lng": -77.6159156
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2322 Curryville Road",
@@ -434,7 +456,8 @@
       "lat": 40.3002526,
       "lng": -78.3299725
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1434 Seven Valleys Road",
@@ -453,7 +476,8 @@
       "lat": 39.8901954,
       "lng": -76.7864656
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "610 Evans City Rd",
@@ -472,7 +496,8 @@
       "lat": 40.8584796,
       "lng": -79.9741095
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2322 Curryville Road",
@@ -491,7 +516,8 @@
       "lat": 40.3002526,
       "lng": -78.3299725
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "921 S. Center Ave., PO Box 716",
@@ -510,7 +536,8 @@
       "lat": 38.72519520000001,
       "lng": -82.9658735
     },
-    "website": "https://www.agchoice.com"
+    "website": "https://www.agchoice.com",
+    "google_maps_url": ""
   },
   {
     "Address": "111 E. Gypsy Lane Rd",
@@ -529,7 +556,8 @@
       "lat": 41.3570751,
       "lng": -83.6492426
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "3113 SR 98",
@@ -548,7 +576,8 @@
       "lat": 40.8200999,
       "lng": -82.9627299
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "7868 CR 140, Ste. A",
@@ -567,7 +596,8 @@
       "lat": 41.05257,
       "lng": -83.68948499999999
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "2155 Oak Harbor Rd",
@@ -586,7 +616,8 @@
       "lat": 41.3759054,
       "lng": -83.13390609999999
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "12923 SR 309",
@@ -605,7 +636,8 @@
       "lat": 40.6564836,
       "lng": -83.6346944
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "1100 East Center St",
@@ -624,7 +656,8 @@
       "lat": 40.5901507,
       "lng": -83.1019175
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "5362 US Hwy 42, Ste. 100",
@@ -643,7 +676,8 @@
       "lat": 40.53733950000001,
       "lng": -82.83160099999999
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "1485 Scott St.",
@@ -662,7 +696,8 @@
       "lat": 41.4030625,
       "lng": -84.132539
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "735A US Hwy 20 East",
@@ -681,7 +716,8 @@
       "lat": 38.9991996,
       "lng": -84.8282815
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "315 W. Williamstown Rd",
@@ -700,7 +736,8 @@
       "lat": 41.01133799999999,
       "lng": -84.050586
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "2500 W. Market St",
@@ -719,7 +756,8 @@
       "lat": 41.1096038,
       "lng": -83.215706
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "97 Houpt Dr., Room E",
@@ -738,7 +776,8 @@
       "lat": 40.8396067,
       "lng": -83.28161209999999
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "1195 Professional Dr",
@@ -757,7 +796,8 @@
       "lat": 40.8519765,
       "lng": -84.5925585
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "311 Maple St, Ste 100",
@@ -776,7 +816,8 @@
       "lat": 41.179751,
       "lng": -82.20882100000001
     },
-    "website": "https://agcredit.net"
+    "website": "https://agcredit.net",
+    "google_maps_url": ""
   },
   {
     "Address": "1300 East Main St",
@@ -795,7 +836,8 @@
       "lat": 34.175626,
       "lng": -84.7673973
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "19 Woodlake Dr",
@@ -814,7 +856,8 @@
       "lat": 34.739797,
       "lng": -84.761939
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "102 Blacksnake Rd",
@@ -833,7 +876,8 @@
       "lat": 34.5805859,
       "lng": -83.4911429
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "501 Broad St",
@@ -852,7 +896,8 @@
       "lat": 34.300702,
       "lng": -83.8217523
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "700 East Villanow St",
@@ -871,7 +916,8 @@
       "lat": 34.7010641,
       "lng": -85.2710156
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "701 East 2nd Ave",
@@ -890,7 +936,8 @@
       "lat": 34.2446615,
       "lng": -85.1658033
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "675 Church St",
@@ -909,7 +956,8 @@
       "lat": 34.2823199,
       "lng": -83.1108028
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "US 78, 311 North Bypass",
@@ -928,7 +976,8 @@
       "lat": 33.7396301,
       "lng": -82.7394412
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1207 South Greer St",
@@ -947,7 +996,8 @@
       "lat": 31.9565993,
       "lng": -83.75559009999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "826 Bellevue Ave",
@@ -966,7 +1016,8 @@
       "lat": 32.5366613,
       "lng": -82.917735
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "317 Walnut St",
@@ -985,7 +1036,8 @@
       "lat": 32.2930018,
       "lng": -84.02441329999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "22 5th Ave. S.E.",
@@ -1004,7 +1056,8 @@
       "lat": 31.175043,
       "lng": -83.7886204
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "707 N. Davis St",
@@ -1023,7 +1076,8 @@
       "lat": 31.2137202,
       "lng": -83.2490705
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "302 South Cherry St",
@@ -1042,7 +1096,8 @@
       "lat": 31.5916759,
       "lng": -83.2493066
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "468 Perry Pkwy",
@@ -1061,7 +1116,8 @@
       "lat": 32.487361,
       "lng": -83.72287299999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "504 E. Screven St",
@@ -1080,7 +1136,8 @@
       "lat": 30.7851687,
       "lng": -83.55575759999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "775 Sparta Rd.",
@@ -1099,7 +1156,8 @@
       "lat": 33.0012637,
       "lng": -82.80087019999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "105 Dexter Wilson Blvd",
@@ -1118,7 +1176,8 @@
       "lat": 31.5347781,
       "lng": -83.85426919999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1807 King Rd",
@@ -1137,7 +1196,8 @@
       "lat": 31.459716,
       "lng": -83.542969
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "176 GA-80",
@@ -1156,7 +1216,8 @@
       "lat": 33.0894634,
       "lng": -82.01641719999999
     },
-    "website": "https://aggeorgia.com"
+    "website": "https://aggeorgia.com",
+    "google_maps_url": ""
   },
   {
     "Address": "64 Heritage Street",
@@ -1175,7 +1236,8 @@
       "lat": 31.7759231,
       "lng": -82.3376162
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "111 Carter Ave",
@@ -1194,7 +1256,8 @@
       "lat": 31.3118297,
       "lng": -82.24171129999999
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2520 Hwy 27 South",
@@ -1213,7 +1276,8 @@
       "lat": 33.5220534,
       "lng": -85.07507939999999
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "204 Bowens Mill Road",
@@ -1232,7 +1296,8 @@
       "lat": 31.5157186,
       "lng": -82.8692988
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "596 S. Talbotton St",
@@ -1251,7 +1316,8 @@
       "lat": 33.0190127,
       "lng": -84.70970659999999
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1298 Enterprise Way",
@@ -1270,7 +1336,8 @@
       "lat": 33.2175093,
       "lng": -84.28780379999999
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "855 Odum Highway",
@@ -1289,7 +1356,8 @@
       "lat": 31.6252519,
       "lng": -81.915232
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1691 Lions Club Road",
@@ -1308,7 +1376,8 @@
       "lat": 33.5662779,
       "lng": -83.4725361
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "40 S. Main St",
@@ -1327,7 +1396,8 @@
       "lat": 32.4471899,
       "lng": -81.78281659999999
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "302 Mins Road",
@@ -1346,7 +1416,8 @@
       "lat": 32.7482624,
       "lng": -81.6358434
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "620 N. Church St",
@@ -1365,7 +1436,8 @@
       "lat": 32.8998992,
       "lng": -84.32836119999999
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "314 Commerce Way",
@@ -1384,7 +1456,8 @@
       "lat": 32.2013051,
       "lng": -82.3683124
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "951 E Pine Log Rd",
@@ -1403,7 +1476,8 @@
       "lat": 33.5348256,
       "lng": -81.6940259
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4930 Burton's Ferry Hwy",
@@ -1422,7 +1496,8 @@
       "lat": 33.0207314,
       "lng": -81.2920307
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "109 East Church Street",
@@ -1441,7 +1516,8 @@
       "lat": 33.914848,
       "lng": -81.5281253
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "951 US-1",
@@ -1460,7 +1536,8 @@
       "lat": 34.2234664,
       "lng": -80.6814303
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "306 Hillcrest Drive",
@@ -1479,7 +1556,8 @@
       "lat": 34.5056331,
       "lng": -82.0173927
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1880 Joe S. Jeffords Hwy",
@@ -1498,7 +1576,8 @@
       "lat": 33.472899,
       "lng": -80.846592
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1321 Springdale Rd",
@@ -1517,7 +1596,8 @@
       "lat": 34.9381829,
       "lng": -80.964142
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "101 North Town Drive",
@@ -1536,7 +1616,8 @@
       "lat": 34.9837238,
       "lng": -81.9698104
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2630 Colonel Thomson Hwy",
@@ -1555,7 +1636,8 @@
       "lat": 33.6751725,
       "lng": -80.7665131
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "702 Kate Lane",
@@ -1574,7 +1656,8 @@
       "lat": 33.0421128,
       "lng": -80.1347909
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "529 Bells Hwy",
@@ -1593,7 +1676,8 @@
       "lat": 32.916816,
       "lng": -80.6747819
     },
-    "website": "https://www.agsouthfc.com"
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1720 Millpond Road",
@@ -1612,7 +1696,8 @@
       "lat": 33.839194,
       "lng": -79.0741591
     },
-    "website": "https://arborone.com"
+    "website": "https://arborone.com",
+    "google_maps_url": ""
   },
   {
     "Address": "800 Woody Jones Boulevard",
@@ -1631,7 +1716,8 @@
       "lat": 34.1834628,
       "lng": -79.8373964
     },
-    "website": "https://arborone.com"
+    "website": "https://arborone.com",
+    "google_maps_url": ""
   },
   {
     "Address": "811 South Walker St",
@@ -1650,7 +1736,8 @@
       "lat": 34.5436705,
       "lng": -77.9147996
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1780 Southeast Blvd",
@@ -1669,7 +1756,8 @@
       "lat": 34.9813234,
       "lng": -78.3044018
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "400 W Broad St",
@@ -1688,7 +1776,8 @@
       "lat": 35.3104155,
       "lng": -78.6140755
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "400 W. Broad St",
@@ -1707,7 +1796,8 @@
       "lat": 35.3105208,
       "lng": -78.6136793
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "108 N. Poplar St",
@@ -1726,7 +1816,8 @@
       "lat": 34.6296208,
       "lng": -78.6048066
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "333 E. Russell St",
@@ -1745,7 +1836,8 @@
       "lat": 35.0491843,
       "lng": -78.8733513
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "127 Beasley St",
@@ -1764,7 +1856,8 @@
       "lat": 34.964296,
       "lng": -77.95871199999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "105 E. Front St",
@@ -1783,7 +1876,8 @@
       "lat": 35.3985606,
       "lng": -78.8142993
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1902 N. Cedar St",
@@ -1802,7 +1896,8 @@
       "lat": 34.630548,
       "lng": -79.00276
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "331 S. Main St",
@@ -1821,7 +1916,8 @@
       "lat": 34.973839,
       "lng": -79.223446
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "300 Liberty St",
@@ -1840,7 +1936,8 @@
       "lat": 34.3458192,
       "lng": -78.7098438
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "620 N First St",
@@ -1859,7 +1956,8 @@
       "lat": 35.3599332,
       "lng": -80.1988241
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "251 Rock Crusher Road",
@@ -1878,7 +1976,8 @@
       "lat": 35.70681830000001,
       "lng": -79.7848928
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "701 Brevard Rd",
@@ -1897,7 +1996,8 @@
       "lat": 35.5413901,
       "lng": -82.5977406
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "181 Meadowview Dr",
@@ -1916,7 +2016,8 @@
       "lat": 36.2014595,
       "lng": -81.6642404
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "502 W. Main St",
@@ -1935,7 +2036,8 @@
       "lat": 35.915982,
       "lng": -82.30490999999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "101 N. Ray St",
@@ -1954,7 +2056,8 @@
       "lat": 35.34703560000001,
       "lng": -79.4180238
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "371 Old Salisbury-Concord Rd",
@@ -1973,7 +2076,8 @@
       "lat": 35.4201942,
       "lng": -80.5707731
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "273 Second St",
@@ -1992,7 +2096,8 @@
       "lat": 35.0719224,
       "lng": -79.7628076
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "225 N. Main St",
@@ -2011,7 +2116,8 @@
       "lat": 36.0719959,
       "lng": -79.39995569999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2549 Chimney Rock Hwy.,  US 64 East",
@@ -2030,7 +2136,8 @@
       "lat": 35.347958,
       "lng": -82.432301
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "507 E. Main St",
@@ -2049,7 +2156,8 @@
       "lat": 36.4210483,
       "lng": -81.4670748
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "332 Morganton Blvd",
@@ -2068,7 +2176,8 @@
       "lat": 35.9112578,
       "lng": -81.5295464
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "222 W. Center St",
@@ -2087,7 +2196,8 @@
       "lat": 35.82795370000001,
       "lng": -80.25762519999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "813 West Highway 150",
@@ -2106,7 +2216,8 @@
       "lat": 35.4636016,
       "lng": -81.26964029999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "604 Lancaster Ave",
@@ -2125,7 +2236,8 @@
       "lat": 34.9766602,
       "lng": -80.5555681
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "300 Hiawassie St",
@@ -2144,7 +2256,8 @@
       "lat": 35.0875975,
       "lng": -84.03466879999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1109 Conover Blvd. E",
@@ -2163,7 +2276,8 @@
       "lat": 35.7032352,
       "lng": -81.2035903
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "628 S. Key St",
@@ -2182,7 +2296,8 @@
       "lat": 36.379357,
       "lng": -80.4770379
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4960 Oldway Road",
@@ -2201,7 +2316,8 @@
       "lat": 36.2154309,
       "lng": -79.6814626
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "607 Leasburg Rd",
@@ -2220,7 +2336,8 @@
       "lat": 36.391059,
       "lng": -78.9992259
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2810 Statesville Blvd",
@@ -2239,7 +2356,8 @@
       "lat": 35.702082,
       "lng": -80.53768000000001
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1216 Fallston Road",
@@ -2258,7 +2376,8 @@
       "lat": 35.3144967,
       "lng": -81.5208277
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "225  E. Beaver St",
@@ -2277,7 +2396,8 @@
       "lat": 35.7232267,
       "lng": -79.460577
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "330 N. Main St",
@@ -2296,7 +2416,8 @@
       "lat": 36.50873060000001,
       "lng": -81.1250755
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "405 Oak St",
@@ -2315,7 +2436,8 @@
       "lat": 35.3506033,
       "lng": -81.9363027
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1704 Wilkesboro Hwy",
@@ -2334,7 +2456,8 @@
       "lat": 35.8087218,
       "lng": -80.90983349999999
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1218 NC Hwy. 90 West",
@@ -2353,7 +2476,8 @@
       "lat": 35.9174262,
       "lng": -81.15533330000001
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1510 Asheville Rd",
@@ -2372,7 +2496,8 @@
       "lat": 35.4978365,
       "lng": -82.9678546
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "902 Curtis Bridge Rd",
@@ -2391,7 +2516,8 @@
       "lat": 36.1459004,
       "lng": -81.1662783
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "340 Bethania Rural Hall Road",
@@ -2410,7 +2536,8 @@
       "lat": 36.2396985,
       "lng": -80.2980951
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1001 S. State St",
@@ -2429,7 +2556,8 @@
       "lat": 36.1158396,
       "lng": -80.659408
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1159 NC 86 North",
@@ -2448,7 +2576,8 @@
       "lat": 36.4077862,
       "lng": -79.3394927
     },
-    "website": "https://carolinafarmcredit.com"
+    "website": "https://carolinafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "485 N. Danville By Pass",
@@ -2467,7 +2596,8 @@
       "lat": 37.6556465,
       "lng": -84.80010639999999
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1120 US Highway 127 S",
@@ -2486,7 +2616,8 @@
       "lat": 38.1746966,
       "lng": -84.89847429999999
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "842 W. Main",
@@ -2505,7 +2636,8 @@
       "lat": 37.5567478,
       "lng": -85.2790737
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "640 S. Broadway",
@@ -2524,7 +2656,8 @@
       "lat": 38.0424233,
       "lng": -84.5082223
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "201 Commerce Drive",
@@ -2543,7 +2676,8 @@
       "lat": 38.2182702,
       "lng": -84.27585599999999
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1000 Ival James Blvd.",
@@ -2562,7 +2696,8 @@
       "lat": 37.7579375,
       "lng": -84.2710757
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "106 Agriculture Way",
@@ -2581,7 +2716,8 @@
       "lat": 37.5333883,
       "lng": -84.652208
     },
-    "website": "https://www.agcreditonline.com"
+    "website": "https://www.agcreditonline.com",
+    "google_maps_url": ""
   },
   {
     "Address": "7431 Leonardtown Rd",
@@ -2600,7 +2736,8 @@
       "lat": 38.5496455,
       "lng": -76.8085219
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "135 Hanbury Road West, Suite C-2",
@@ -2619,7 +2756,8 @@
       "lat": 36.6888491,
       "lng": -76.2329754
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "22323 Main St",
@@ -2638,7 +2776,8 @@
       "lat": 36.714591,
       "lng": -77.0671984
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "13915 Boydton Plank Rd, Ste B",
@@ -2657,7 +2796,8 @@
       "lat": 37.0800796,
       "lng": -77.5841001
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1700 S. Main St",
@@ -2676,7 +2816,8 @@
       "lat": 37.2799225,
       "lng": -78.3963291
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "3064 River Road West, Suite E",
@@ -2695,7 +2836,8 @@
       "lat": 37.6919141,
       "lng": -77.88564730000002
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "22776 Timberlake Road, Suite A",
@@ -2714,7 +2856,8 @@
       "lat": 37.3154267,
       "lng": -79.26161549999999
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "7104 Mechanicsville Tnpk",
@@ -2733,7 +2876,8 @@
       "lat": 37.6118852,
       "lng": -77.34296069999999
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "201 E. Danville St",
@@ -2752,7 +2896,8 @@
       "lat": 36.724205,
       "lng": -78.1286319
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "135 Queen St",
@@ -2771,7 +2916,8 @@
       "lat": 37.92978859999999,
       "lng": -76.8590049
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "428 E. Main St",
@@ -2790,7 +2936,8 @@
       "lat": 37.038647,
       "lng": -77.08143059999999
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "18639 Eltham Rd",
@@ -2809,7 +2956,8 @@
       "lat": 37.5202106,
       "lng": -76.83033600000002
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "11295 Windsor Blvd",
@@ -2828,7 +2976,8 @@
       "lat": 36.8052673,
       "lng": -76.7300861
     },
-    "website": "https://colonialfarmcredit.com"
+    "website": "https://colonialfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "115 S Missouri Ave Suite 400",
@@ -2847,7 +2996,8 @@
       "lat": 28.0436871,
       "lng": -81.95892479999999
     },
-    "website": "https://farmcreditcfl.com"
+    "website": "https://farmcreditcfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "57 E. Third St",
@@ -2866,7 +3016,8 @@
       "lat": 28.6746022,
       "lng": -81.5105217
     },
-    "website": "https://farmcreditcfl.com"
+    "website": "https://farmcreditcfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "31081 Cortez Blvd.",
@@ -2885,7 +3036,8 @@
       "lat": 28.5237598,
       "lng": -82.2315453
     },
-    "website": "https://farmcreditcfl.com"
+    "website": "https://farmcreditcfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "115 S Missouri Ave Suite 400",
@@ -2904,7 +3056,8 @@
       "lat": 28.0436871,
       "lng": -81.95892479999999
     },
-    "website": "https://farmcreditcfl.com"
+    "website": "https://farmcreditcfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2301 Thonotosassa Rd",
@@ -2923,7 +3076,8 @@
       "lat": 28.023071,
       "lng": -82.14697
     },
-    "website": "https://farmcreditcfl.com"
+    "website": "https://farmcreditcfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "12300 US Hwy 441",
@@ -2942,7 +3096,8 @@
       "lat": 29.766998,
       "lng": -82.420205
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "12300 US Hwy 441",
@@ -2961,7 +3116,8 @@
       "lat": 29.766998,
       "lng": -82.420205
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "340 N. Brevard Ave",
@@ -2980,7 +3136,8 @@
       "lat": 27.2213564,
       "lng": -81.85629329999999
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "24700 S.W. 177th Ave",
@@ -2999,7 +3156,8 @@
       "lat": 25.5364993,
       "lng": -80.47874809999999
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1606 Canyon Ave.",
@@ -3018,7 +3176,8 @@
       "lat": 30.3104276,
       "lng": -82.9727839
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "5075 N.W. Blitchton Rd",
@@ -3037,7 +3196,8 @@
       "lat": 29.216692,
       "lng": -82.20438519999999
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "403 N.W. 6th St",
@@ -3056,7 +3216,8 @@
       "lat": 27.2487258,
       "lng": -80.8340115
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "309 N. 2nd St",
@@ -3075,7 +3236,8 @@
       "lat": 29.6492954,
       "lng": -81.6289341
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "721 S. Main St",
@@ -3094,7 +3256,8 @@
       "lat": 29.608657,
       "lng": -82.818616
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "7150 20th St.",
@@ -3113,7 +3276,8 @@
       "lat": 27.6401089,
       "lng": -80.47480019999999
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1311 U.S. Hwy. 17 North",
@@ -3132,7 +3296,8 @@
       "lat": 33.67688740000001,
       "lng": -78.9019237
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "11903 Southern Blvd.",
@@ -3151,7 +3316,8 @@
       "lat": 26.681894,
       "lng": -80.2334881
     },
-    "website": "https://farmcreditfl.com"
+    "website": "https://farmcreditfl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "5052 Highway 90 East",
@@ -3170,7 +3336,8 @@
       "lat": 30.1363153,
       "lng": -91.94540099999999
     },
-    "website": "https://farmcredit-fl.com"
+    "website": "https://farmcredit-fl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "5336 Stewart St.",
@@ -3189,7 +3356,8 @@
       "lat": 30.628385,
       "lng": -87.042603
     },
-    "website": "https://farmcredit-fl.com"
+    "website": "https://farmcredit-fl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "925 W. Washington St.",
@@ -3208,7 +3376,8 @@
       "lat": 30.5446925,
       "lng": -83.8783505
     },
-    "website": "https://farmcredit-fl.com"
+    "website": "https://farmcredit-fl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "3323 Thomasville Road",
@@ -3227,7 +3396,8 @@
       "lat": 30.4989355,
       "lng": -84.252449
     },
-    "website": "https://farmcredit-fl.com"
+    "website": "https://farmcredit-fl.com",
+    "google_maps_url": ""
   },
   {
     "Address": "13195 Garrett Hwy",
@@ -3246,7 +3416,8 @@
       "lat": 39.4252171,
       "lng": -79.39315979999999
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "19292 Lee Hwy",
@@ -3265,7 +3436,8 @@
       "lat": 36.6909304,
       "lng": -82.0228857
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1356-B American Way Court",
@@ -3284,7 +3456,8 @@
       "lat": 37.3262823,
       "lng": -79.5022224
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1445 East Rio Road, Suite 103",
@@ -3303,7 +3476,8 @@
       "lat": 38.0763395,
       "lng": -78.4679902
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "29 Military Dr",
@@ -3322,7 +3496,8 @@
       "lat": 36.8285511,
       "lng": -79.39987719999999
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "15574 Ira Hoffman Lane",
@@ -3341,7 +3516,8 @@
       "lat": 38.4896097,
       "lng": -77.97677139999999
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "268 East Jackson Street",
@@ -3360,7 +3536,8 @@
       "lat": 36.6406161,
       "lng": -82.5769742
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "161 S. Main St",
@@ -3379,7 +3556,8 @@
       "lat": 36.764136,
       "lng": -78.927702
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4646 South Valley Pike",
@@ -3398,7 +3576,8 @@
       "lat": 38.3884408,
       "lng": -78.9211298
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "27 Fort Evans Rd., N.E.",
@@ -3417,7 +3596,8 @@
       "lat": 39.1075253,
       "lng": -77.54614629999999
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "152 Maury River Rd",
@@ -3436,7 +3616,8 @@
       "lat": 37.803817,
       "lng": -79.4165821
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "13284 James Madison Hwy",
@@ -3455,7 +3636,8 @@
       "lat": 38.222932,
       "lng": -78.123733
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "38 Murray Farm Rd., Ste. 2",
@@ -3474,7 +3656,8 @@
       "lat": 37.3352632,
       "lng": -79.8740294
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "670 Old Franklin Turnpike",
@@ -3493,7 +3676,8 @@
       "lat": 37.0161583,
       "lng": -79.8632611
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1557 Commerce Road, Ste. 202",
@@ -3512,7 +3696,8 @@
       "lat": 38.1889051,
       "lng": -79.0235287
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "516 Fauquier Rd",
@@ -3531,7 +3716,8 @@
       "lat": 38.728762,
       "lng": -77.8031362
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "660 Peppers Ferry Rd",
@@ -3550,7 +3736,8 @@
       "lat": 36.9628063,
       "lng": -81.0743641
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4579 Buckhannon Pike, Suite 102",
@@ -3569,7 +3756,8 @@
       "lat": 39.2217794,
       "lng": -80.2946333
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "14428 Seneca Trail N.",
@@ -3588,7 +3776,8 @@
       "lat": 37.8857268,
       "lng": -80.4141952
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "550 South Main Street",
@@ -3607,7 +3796,8 @@
       "lat": 39.0511761,
       "lng": -78.9755103
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2112 Ripley Road",
@@ -3626,7 +3816,8 @@
       "lat": 38.824509,
       "lng": -81.748802
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "452 N High St",
@@ -3645,7 +3836,8 @@
       "lat": 39.3468901,
       "lng": -78.75408569999999
     },
-    "website": "https://farmcreditofvirginias.com"
+    "website": "https://farmcreditofvirginias.com",
+    "google_maps_url": ""
   },
   {
     "Address": "320 Alabama Hwy. 75, N",
@@ -3664,7 +3856,8 @@
       "lat": 34.2784948,
       "lng": -86.1999767
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2341 Alabama Hwy. 21 South",
@@ -3683,7 +3876,8 @@
       "lat": 33.5913994,
       "lng": -85.8444207
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "30035 US Hwy. 72 West",
@@ -3702,7 +3896,8 @@
       "lat": 34.7494306,
       "lng": -86.7648406
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "One Perimeter Park South, Suite 100N",
@@ -3721,7 +3916,8 @@
       "lat": 33.4374078,
       "lng": -86.723919
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1824 Eva Rd. N.E.",
@@ -3740,7 +3936,8 @@
       "lat": 34.2012392,
       "lng": -86.8278837
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "700 Hwy. 80 West",
@@ -3759,7 +3956,8 @@
       "lat": 32.503687,
       "lng": -87.83436669999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "14390 Market St",
@@ -3778,7 +3976,8 @@
       "lat": 34.479305,
       "lng": -87.29247
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "970 Hwy. 20 East",
@@ -3797,7 +3996,8 @@
       "lat": 34.7044022,
       "lng": -87.6528841
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4210 McFarland Blvd",
@@ -3816,7 +4016,8 @@
       "lat": 33.23931100000001,
       "lng": -87.598276
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1103 Bypass West",
@@ -3835,7 +4036,8 @@
       "lat": 31.293226,
       "lng": -86.50170299999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "209 East Second St",
@@ -3854,7 +4056,8 @@
       "lat": 30.8842276,
       "lng": -87.7722742
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "5070 Boll Weevil Circle",
@@ -3873,7 +4076,8 @@
       "lat": 31.291673,
       "lng": -85.860016
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "Hwy. 10",
@@ -3892,7 +4096,8 @@
       "lat": 31.7319704,
       "lng": -86.29025329999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1401 Forest Ave",
@@ -3911,7 +4116,8 @@
       "lat": 32.3647884,
       "lng": -86.2859326
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1642 South College St",
@@ -3930,7 +4136,8 @@
       "lat": 32.5762481,
       "lng": -85.498999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1060 S. Union Ave",
@@ -3949,7 +4156,8 @@
       "lat": 31.4419844,
       "lng": -85.6330297
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "3206 S. LA 13",
@@ -3968,7 +4176,8 @@
       "lat": 30.116072,
       "lng": -92.361268
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "407 N. Church",
@@ -3987,7 +4196,8 @@
       "lat": 30.223594,
       "lng": -92.655782
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "109 Davis Street",
@@ -4006,7 +4216,8 @@
       "lat": 32.804757,
       "lng": -91.17356699999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "5057 I-49 S. Service Rd",
@@ -4025,7 +4236,8 @@
       "lat": 30.4980045,
       "lng": -92.07251570000001
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1009 North Main Street",
@@ -4044,7 +4256,8 @@
       "lat": 33.8677062,
       "lng": -89.3151822
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "203 Cossar Blvd",
@@ -4063,7 +4276,8 @@
       "lat": 34.007593,
       "lng": -90.04891599999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "505 E. Second St",
@@ -4082,7 +4296,8 @@
       "lat": 34.2040624,
       "lng": -90.5695145
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "103 Professional Plaza",
@@ -4101,7 +4316,8 @@
       "lat": 33.5248236,
       "lng": -90.20466429999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "4 Thompson Park",
@@ -4120,7 +4336,8 @@
       "lat": 31.3238035,
       "lng": -89.30232939999999
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "122 Main Street",
@@ -4139,7 +4356,8 @@
       "lat": 33.451744,
       "lng": -90.65045900000001
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "260 Trace Colony Park Drive",
@@ -4158,7 +4376,8 @@
       "lat": 32.4263584,
       "lng": -90.152355
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "23 Dunnbarr",
@@ -4177,7 +4396,8 @@
       "lat": 31.7753701,
       "lng": -89.0326865
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "501 Apache Drive",
@@ -4196,7 +4416,8 @@
       "lat": 31.2547022,
       "lng": -90.480497
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "9769 Eastside Dr. Extension",
@@ -4215,7 +4436,8 @@
       "lat": 32.3581818,
       "lng": -89.1284053
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "914 Van Buren Ave",
@@ -4234,7 +4456,8 @@
       "lat": 34.365989,
       "lng": -89.521069
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1089D Stark Rd. Ste. 3",
@@ -4253,7 +4476,8 @@
       "lat": 33.4550723,
       "lng": -88.8458878
     },
-    "website": "https://firstsouthfarmcredit.com"
+    "website": "https://firstsouthfarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1410 State Street",
@@ -4272,7 +4496,8 @@
       "lat": 39.13638760000001,
       "lng": -75.5224192
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "20816 DuPont Blvd",
@@ -4291,7 +4516,8 @@
       "lat": 38.6927418,
       "lng": -75.3996688
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1614 E. Churcville Rd., Suite 102",
@@ -4310,7 +4536,8 @@
       "lat": 39.5479531,
       "lng": -76.31216979999999
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "102 Morgnec Rd",
@@ -4329,7 +4556,8 @@
       "lat": 39.21941959999999,
       "lng": -76.0784611
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "379 Deep Shore Rd",
@@ -4348,7 +4576,8 @@
       "lat": 38.8659934,
       "lng": -75.8247097
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "105 Railroad Ave",
@@ -4367,7 +4596,8 @@
       "lat": 38.5984459,
       "lng": -75.9233556
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "925 N East Street",
@@ -4386,7 +4616,8 @@
       "lat": 39.4272966,
       "lng": -77.40380259999999
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "158 Crimson Cir",
@@ -4405,7 +4636,8 @@
       "lat": 39.5029197,
       "lng": -77.96758439999999
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1035 Ocean Hwy",
@@ -4424,7 +4656,8 @@
       "lat": 38.034614,
       "lng": -75.54275799999999
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "6564 Mid Atlantic Ln",
@@ -4443,7 +4676,8 @@
       "lat": 38.66580829999999,
       "lng": -76.6140491
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "45 Aileron Ct",
@@ -4462,7 +4696,8 @@
       "lat": 39.6116684,
       "lng": -76.9981889
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "411 W. Roseville Rd",
@@ -4481,7 +4716,8 @@
       "lat": 40.07136800000001,
       "lng": -76.3289636
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "680 Robert Fulton Hwy",
@@ -4500,7 +4736,8 @@
       "lat": 39.8842115,
       "lng": -76.1614511
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1513 Main St",
@@ -4519,7 +4756,8 @@
       "lat": 40.52144639999999,
       "lng": -75.9709642
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "125 Prosperity Dr, Suite 100",
@@ -4538,7 +4776,8 @@
       "lat": 39.1179069,
       "lng": -78.199596
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1031 S. Main St",
@@ -4557,7 +4796,8 @@
       "lat": 38.8651973,
       "lng": -78.5180748
     },
-    "website": "https://www.mafc.com"
+    "website": "https://www.mafc.com",
+    "google_maps_url": ""
   },
   {
     "Address": "196 US Hwy. 51 N",
@@ -4576,7 +4816,8 @@
       "lat": 38.2659888,
       "lng": -89.2300824
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "102 N. Washington St.",
@@ -4595,7 +4836,8 @@
       "lat": 36.6672409,
       "lng": -88.99322529999999
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2730 US Hwy 641 N",
@@ -4614,7 +4856,8 @@
       "lat": 36.9182182,
       "lng": -88.3384547
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1514 Union City Hwy",
@@ -4633,7 +4876,8 @@
       "lat": 36.5613525,
       "lng": -89.1796754
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "12350 US Hwy 60 W",
@@ -4652,7 +4896,8 @@
       "lat": 37.0763464,
       "lng": -88.8681477
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "3565 Lone Oak Rd.",
@@ -4671,7 +4916,8 @@
       "lat": 37.0287364,
       "lng": -88.6712696
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "545 Dick Castleman Bypass",
@@ -4690,7 +4936,8 @@
       "lat": 36.741724,
       "lng": -88.636715
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1401 North 12th St",
@@ -4709,7 +4956,8 @@
       "lat": 36.6315231,
       "lng": -88.312906
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1117 S Congress Pkwy",
@@ -4728,7 +4976,8 @@
       "lat": 35.4534173,
       "lng": -84.61984249999999
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "601 Morrison Springs Rd.",
@@ -4747,7 +4996,8 @@
       "lat": 35.1228166,
       "lng": -85.2979845
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2620 APD 40",
@@ -4766,7 +5016,8 @@
       "lat": 35.1313564,
       "lng": -84.8796004
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "230 Main St",
@@ -4785,7 +5036,8 @@
       "lat": 35.4922601,
       "lng": -85.0124483
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "2052 Highway 72",
@@ -4804,7 +5056,8 @@
       "lat": 35.7204118,
       "lng": -84.3644006
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "3270 Main St.",
@@ -4823,7 +5076,8 @@
       "lat": 35.607627,
       "lng": -85.18836
     },
-    "website": "https://rivervalleyagcredit.com"
+    "website": "https://rivervalleyagcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "1037 E. Forsyth Street",
@@ -4842,7 +5096,8 @@
       "lat": 32.0730375,
       "lng": -84.2198143
     },
-    "website": "https://www.swgafarmcredit.com"
+    "website": "https://www.swgafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "305 Colquitt Highway",
@@ -4861,7 +5116,8 @@
       "lat": 30.9264902,
       "lng": -84.6038781
     },
-    "website": "https://www.swgafarmcredit.com"
+    "website": "https://www.swgafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "137 East Jackson Street",
@@ -4880,7 +5136,8 @@
       "lat": 30.838393,
       "lng": -83.97931100000001
     },
-    "website": "https://www.swgafarmcredit.com"
+    "website": "https://www.swgafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "40 East Broad Street",
@@ -4899,7 +5156,8 @@
       "lat": 31.2313938,
       "lng": -84.20729039999999
     },
-    "website": "https://www.swgafarmcredit.com"
+    "website": "https://www.swgafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "937 Forrester Drive S.E.",
@@ -4918,7 +5176,8 @@
       "lat": 31.7612713,
       "lng": -84.4367836
     },
-    "website": "https://www.swgafarmcredit.com"
+    "website": "https://www.swgafarmcredit.com",
+    "google_maps_url": ""
   },
   {
     "Address": "9784 Route 9",
