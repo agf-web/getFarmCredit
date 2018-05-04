@@ -220,16 +220,16 @@ export default {
 
     &__backToTop {
       position: absolute;
-      bottom: 3rem;
-      right: 1rem;
+      bottom: 48px;
+      right: 16px;
       z-index: 10;
       background: #5B8F22;
       color: #fff;
       border: 0;
-      padding: .25rem .5rem;
+      padding: 4px 8px;
       font-family: 'futura-pt';
       text-transform: uppercase;
-      font-size: .75rem;
+      font-size: 12px;
       border-radius: 3px;
       cursor: pointer;
     }
@@ -244,7 +244,7 @@ export default {
       bottom: 0;
       width: 100%;
       background: #fff;
-      padding: 0 1rem;
+      padding: 0 16px;
       text-align: center;
 
       &:after {
@@ -260,7 +260,7 @@ export default {
 
       &-copy {
         font-family: 'futura-pt', sans-serif;
-        font-size: .75rem;
+        font-size: 12px;
         width: 100%;
       }
     }

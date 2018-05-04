@@ -8,9 +8,11 @@
   getFarmStyles.setAttribute('type','text/css');
   document.head.appendChild(getFarmStyles);
   // <div id="app"></div>
-  var getFarmWrapper = document.createElement('div');
-  getFarmWrapper.setAttribute('id','app');
-  document.body.appendChild(getFarmWrapper);
+  if (!document.getElementById('app')) {
+    var getFarmWrapper = document.createElement('div');
+    getFarmWrapper.setAttribute('id','app');
+    document.body.appendChild(getFarmWrapper);
+  }
   // manifest.js
   var getFarmManifest = document.createElement('script');
   getFarmManifest.src = 'https://www.getfarmcredit.com/modules/custom/getfarmcreditmap/js/manifest.2389157408fa675d3df1.js';

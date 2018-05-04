@@ -1,7 +1,7 @@
 <template>
   <div id="CountySearch">
     <div class="CountySearch__head">
-      <span class="logo">
+      <span class="logo" v-if="!disableLogo">
         <a href="https://www.getfarmcredit.com" v-bind:style="customLogo">GetFarmCredit.com</a>
       </span>
       <h1 class="CountySearch__title">Find a Location</h1>
@@ -135,6 +135,11 @@ export default {
       if (this.config.customIntro) {
         return this.config.customIntro.useCustomIntro
       }
+    },
+    disableLogo () {
+      if (this.config.disableLogo) {
+        return this.config.disableLogo
+      }
     }
   }
 };
@@ -143,7 +148,7 @@ export default {
 <style lang="scss" scoped>
 .logo {
   display: block;
-  padding: 1rem;
+  padding: 16px;
 
   a {
     display: block;
@@ -166,17 +171,19 @@ export default {
     font-family: 'futura-pt', sans-serif;
     background: #5B8F22;
     color: #fff;
-    padding: .75rem 1.5rem;
+    padding: 12px 24px;
     text-transform: uppercase;
     margin: 0;
+    font-size: 32px;
   }
 
   &__intro {
     margin: 0;
-    padding: 1.5rem 1.5rem;
+    padding: 24px;
     background: #494949;
     color: #fff;
-    font-size: 0.938rem;
+    font-size: 15px;
+    line-height: 1.4;
 
     a {
       color: #5B8F22;
@@ -189,13 +196,13 @@ export default {
   }
 
   &__body {
-    padding: 1rem;
+    padding: 16px;
   }
 
   &__search {
     justify-content: space-between;
     align-items: center;
-    padding: 0 .5rem 1rem;
+    padding: 0 8px 16px;
 
     @media only screen and (min-width: 480px) {
       display: flex;
@@ -212,7 +219,7 @@ export default {
 
   &__input {
     flex: 1 0 auto;
-    padding-right: 1rem;
+    padding-right: 16px;
 
     // `/deep/` makes this scoped style available to child components
     // in this case, overriding the 3rd party child component `v-select`
@@ -224,8 +231,8 @@ export default {
 
       input[type="search"],
       input[type="search"]:focus {
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
+        padding-left: 20px;
+        padding-right: 20px;
       }
 
       .open-indicator {
@@ -245,28 +252,28 @@ export default {
         border: 0;
 
         li.no-options {
-          margin: 0 .5rem;
+          margin: 0 8px;
         }
       }
 
       .selected-tag {
         position: absolute;
         left: 0;
-        padding-left: 1rem;
+        padding-left: 16px;
       }
     }
   }
 
   &__clear {
     flex: 0 0 auto;
-    margin: 1rem 0 0;
+    margin: 16px 0 0;
 
     @media only screen and (min-width: 480px) {
       margin: 0 auto;
     }
 
     @media only screen and (min-width: 768px) {
-      margin: 1rem 0 0;
+      margin: 16px 0 0;
     }
 
     @media only screen and (min-width: 1024px) {
@@ -280,7 +287,7 @@ export default {
       text-decoration: underline;
       color: #5B8F22;
       font-family: "futura-pt", sans-serif;
-      font-size: 1rem;
+      font-size: 16px;
       cursor: pointer;
       margin: 0 auto;
       display: block;
@@ -295,7 +302,7 @@ export default {
 .branches {
   list-style: none;
   padding: 0;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 40px;
 
   li {
     border-bottom: 1px solid #e0e0e0;
@@ -312,12 +319,12 @@ export default {
 }
 
 .branch {
-  padding: 1rem 0;
+  padding: 16px 0;
   display: flex;
   align-items: center;
 
   &__position-number {
-    font-size: 2rem;
+    font-size: 32px;
     font-family: 'futura-pt-bold', sans-serif;
     color: #989898;
   }
@@ -327,10 +334,11 @@ export default {
     font-family: 'futura-pt-bold', sans-serif;
     text-transform: uppercase;
     margin: 0;
+    font-size: 18px;
   }
 
   &__info {
-    margin-left: 1rem;
+    margin-left: 16px;
   }
 
   p {
@@ -338,8 +346,8 @@ export default {
     line-height: 1.4;
 
     &.disclaimer {
-      margin: 1rem auto 0;
-      font-size: .75rem;
+      margin: 16px auto 0;
+      font-size: 12px;
     }
   }
 }
