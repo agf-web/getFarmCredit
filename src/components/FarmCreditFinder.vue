@@ -89,13 +89,13 @@ export default {
       const searchTerm = this.search ? this.search.toLowerCase() : '';
 
       // if this build IS CONFIGURED to filter by ASSOCIATION
-      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
+      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName() === 'string') {
         return this.branchData.filter(branch =>
-          branch.Association === this.filterCfg.associationName &&
-            (branch.County !== ''
+          branch.Association === this.filterCfg.associationName() &&
+            ((branch.County.length
               && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
-            (branch.CountyPartial !== ''
-              && branch.CountyPartial.toLowerCase().indexOf(searchTerm) !== -1))
+            (branch.CountyPartial.length
+              && branch.CountyPartial.toLowerCase().indexOf(searchTerm) !== -1)))
       }
 
       // if this build IS CONFIGURED to filter by STATE
@@ -126,16 +126,16 @@ export default {
       let allCounties;
       let allPartialCounties;
 
-      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName === 'string') {
+      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName() === 'string') {
         // FILTERED BY ASSOCIATION
         allCounties = this.branchData.filter(branch =>
-          branch.Association === this.filterCfg.associationName)
+          branch.Association === this.filterCfg.associationName())
           .map(branch =>
             branch.County.split(',')
               .map(county => county.trim())
               .filter(county => county !== ''))
         allPartialCounties = this.branchData.filter(branch =>
-          branch.Association === this.filterCfg.associationName)
+          branch.Association === this.filterCfg.associationName())
           .map(branch => {
             if (branch.CountyPartial) {
               return branch.CountyPartial.split(',')

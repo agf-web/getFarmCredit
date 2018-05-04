@@ -23,7 +23,7 @@ window.AGF_CONFIG = {
 
   // must be index from `associations` array. Example: this.associations[7]
   associationName: function () {
-    return this.associations[7];
+    return this.associations[16];
   }, 
 
   // associations array
