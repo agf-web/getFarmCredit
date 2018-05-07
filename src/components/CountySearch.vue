@@ -112,6 +112,7 @@ export default {
       const zip = branch.Zip;
 
       let googMapLink = `https://www.google.com/maps/search/?api=1&query=${address}+${city}+${state}+${zip}`;
+
       // Sometimes we need to use a specific Google Maps url
       // to find the right location (see Jay, FL branch)
       if (branch.google_maps_url) {

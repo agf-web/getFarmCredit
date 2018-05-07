@@ -69,6 +69,7 @@ export default {
     updateBranchFilter(searchTerm) {
       this.search = searchTerm;
       this.$refs.mapComponent.centerMap();
+      this.$refs.mapComponent.closeInfoWindow();
     },
     scrolling(event) {
       if (!this.scrollToTop) {
@@ -110,12 +111,12 @@ export default {
 
       // if this build is NOT CONFIGURED to be filtered
       return this.branchData.filter(branch =>
-        branch.County !== '' &&
+        (branch.County !== '' &&
         branch.County.toLowerCase()
-          .indexOf(searchTerm) !== -1 ||
-        branch.CountyPartial !== '' &&
+          .indexOf(searchTerm) !== -1) ||
+        (branch.CountyPartial !== '' &&
         branch.CountyPartial.toLowerCase()
-          .indexOf(searchTerm) !== -1);
+          .indexOf(searchTerm) !== -1))
     },
     countyFilter() {
       // go through branch array and get the County to make a new array.
