@@ -1,6 +1,6 @@
 {
   "name": "getfarmcredit",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "getfarmcredit.com app written in VueJS",
   "author": "Tai Vu <tai.vu@cyberwoven.com>",
   "private": true,
