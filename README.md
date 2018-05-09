@@ -54,3 +54,9 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Changelog
+
+### v0.2.1
+- `customization` - Added logic for drupal url
+- temporaily using fork `vue2-google-maps-fixed` for ie11 compatibility [See GitHub Issue](https://github.com/xkjyeah/vue-google-maps/issues/401). We'll switch back to main next release.
