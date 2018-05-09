@@ -55,8 +55,13 @@
               <p v-if="item['Fax']">
                 <strong>Fax:</strong> {{ item['Fax'] }}
               </p>
-              <p v-if="item['website']">
-                <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
+              <p v-if="branchWebsite(item)">
+                <template v-if="isUseDrupalUrl">
+                  <strong>Web:</strong> <a :href="branchWebsite(item)">Branch Details</a>
+                </template>
+                <template v-else>
+                  <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
+                </template>
               </p>
               <p v-if="item.CountyPartial === searchTerm" class="disclaimer">
                 <em>Please call to confirm that this branch serves your location.</em>
@@ -120,6 +125,15 @@ export default {
       }
 
       return googMapLink;
+    },
+    branchWebsite (branchInfo) {
+      if (this.config.useDrupalDetailUrl) {
+        return branchInfo.drupal_detail_url
+      } else if (branchInfo.website) {
+        return branchInfo.website
+      } else {
+        return false
+      }
     }
   },
   computed: {
@@ -141,6 +155,9 @@ export default {
       if (this.config.disableLogo) {
         return this.config.disableLogo
       }
+    },
+    isUseDrupalUrl () {
+      return this.config.useDrupalDetailUrl
     }
   }
 };
@@ -323,6 +340,10 @@ export default {
   padding: 16px 0;
   display: flex;
   align-items: center;
+
+  &__position {
+    flex: 0 0 3.5rem;
+  }
 
   &__position-number {
     font-size: 32px;

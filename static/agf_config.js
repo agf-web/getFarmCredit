@@ -2,6 +2,7 @@
 
 /* eslint-disable */
 window.AGF_CONFIG = {
+  useDrupalDetailUrl: false,
   disableLogo: false,
   customLogo: {
     useCustomLogo: false,

@@ -49,7 +49,7 @@
 
 <script>
 import Vue from 'vue';
-import * as VueGoogleMaps from 'vue2-google-maps';
+import * as VueGoogleMaps from 'vue2-google-maps-fixed';
 import googleMapsApiKey from './../../config/googleMapsApiKey.local';
 import googleMapStyles from './googleMapStyles.json';
 import mapmarker from '../../static/img/ui--map-marker.svg';
