@@ -4,6 +4,7 @@
 window.AGF_CONFIG = {
   useDrupalDetailUrl: false,
   disableLogo: false,
+  disableTitle: false,
   customLogo: {
     useCustomLogo: false,
     url: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png'
