@@ -57,6 +57,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Changelog
 
+### v0.2.2
+- added drupal_detail_url content to AgSouth branches in appData.json
+- removed `vue2-google-maps-fixed` since fix was added to main
+
 ### v0.2.1
 - `customization` - Added logic for drupal url
 - temporaily using fork `vue2-google-maps-fixed` for ie11 compatibility [See GitHub Issue](https://github.com/xkjyeah/vue-google-maps/issues/401). We'll switch back to main next release.

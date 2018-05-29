@@ -1237,7 +1237,8 @@
       "lng": -82.3376162
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Baxley.aspx"
   },
   {
     "Address": "111 Carter Ave",
@@ -1257,7 +1258,8 @@
       "lng": -82.24171129999999
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Blackshear.aspx"
   },
   {
     "Address": "2520 Hwy 27 South",
@@ -1277,7 +1279,8 @@
       "lng": -85.07507939999999
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Carrollton.aspx"
   },
   {
     "Address": "204 Bowens Mill Road",
@@ -1297,7 +1300,8 @@
       "lng": -82.8692988
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Douglas.aspx"
   },
   {
     "Address": "596 S. Talbotton St",
@@ -1317,7 +1321,8 @@
       "lng": -84.70970659999999
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Greenville.aspx"
   },
   {
     "Address": "1298 Enterprise Way",
@@ -1337,7 +1342,8 @@
       "lng": -84.28780379999999
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Griffin.aspx"
   },
   {
     "Address": "855 Odum Highway",
@@ -1357,7 +1363,8 @@
       "lng": -81.915232
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Jesup.aspx"
   },
   {
     "Address": "1691 Lions Club Road",
@@ -1377,7 +1384,8 @@
       "lng": -83.4725361
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Madison.aspx"
   },
   {
     "Address": "40 S. Main St",
@@ -1397,7 +1405,8 @@
       "lng": -81.78281659999999
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Statesboro.aspx"
   },
   {
     "Address": "302 Mins Road",
@@ -1417,7 +1426,8 @@
       "lng": -81.6358434
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Sylvania.aspx"
   },
   {
     "Address": "620 N. Church St",
@@ -1437,7 +1447,8 @@
       "lng": -84.32836119999999
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Thomaston.aspx"
   },
   {
     "Address": "314 Commerce Way",
@@ -1457,7 +1468,8 @@
       "lng": -82.3683124
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/Georgia-Branches/Vidalia.aspx"
   },
   {
     "Address": "951 E Pine Log Rd",
@@ -1477,14 +1489,15 @@
       "lng": -81.6940259
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Baxley.aspx"
   },
   {
     "Address": "4930 Burton's Ferry Hwy",
     "Association": "AgSouth Farm Credit, ACA",
     "Branch": "Allendale Branch",
     "City": "Allendale",
-    "County": "Allendale County (SC),Barnwell County (SC),Hampton County (SC),Abbeville County (SC),Anderson County (SC),Greenville County (SC),Oconee County (SC),Oconee County (SC),Pickens County (SC)",
+    "County": "Allendale County (SC),Barnwell County (SC),Hampton County (SC),Abbeville County (SC),Anderson County (SC),Greenville County (SC),Oconee County (SC),Pickens County (SC)",
     "CountyPartial": "",
     "Fax": "(803) 584-3224",
     "Phone 1": "(803) 584-3474",
@@ -1497,7 +1510,29 @@
       "lng": -81.2920307
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Allendale.aspx"
+  },
+  {
+    "Address": "1325 Pearman Dairy Rd",
+    "Association": "AgSouth Farm Credit, ACA",
+    "Branch": "Anderson Branch",
+    "City": "Anderson",
+    "County": "Abbeville County (SC),Anderson County (SC),Greenville County (SC),Oconee County (SC),Pickens County(SC)",
+    "CountyPartial": "",
+    "Fax": "(803) 584-3224",
+    "Phone 1": "(864) 226-8507",
+    "Phone 2": "",
+    "State": "SC",
+    "Zip": 29625,
+    "formatted_address": "1325 Pearman Dairy Rd, Anderson, SC 29625, USA",
+    "location": {
+      "lat": 34.5194454,
+      "lng": -82.6900524
+    },
+    "website": "https://www.agsouthfc.com",
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Anderson.aspx"
   },
   {
     "Address": "109 East Church Street",
@@ -1517,7 +1552,8 @@
       "lng": -81.5281253
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Batesburg.aspx"
   },
   {
     "Address": "951 US-1",
@@ -1537,7 +1573,8 @@
       "lng": -80.6814303
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Camden.aspx"
   },
   {
     "Address": "306 Hillcrest Drive",
@@ -1557,7 +1594,8 @@
       "lng": -82.0173927
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Laurens.aspx"
   },
   {
     "Address": "1880 Joe S. Jeffords Hwy",
@@ -1577,7 +1615,8 @@
       "lng": -80.846592
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Orangeburg.aspx"
   },
   {
     "Address": "1321 Springdale Rd",
@@ -1597,7 +1636,8 @@
       "lng": -80.964142
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Rock-Hill.aspx"
   },
   {
     "Address": "101 North Town Drive",
@@ -1617,7 +1657,8 @@
       "lng": -81.9698104
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Spartanburg.aspx"
   },
   {
     "Address": "2630 Colonel Thomson Hwy",
@@ -1637,7 +1678,8 @@
       "lng": -80.7665131
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/St-Matthews.aspx"
   },
   {
     "Address": "702 Kate Lane",
@@ -1657,7 +1699,8 @@
       "lng": -80.1347909
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Summerville.aspx"
   },
   {
     "Address": "529 Bells Hwy",
@@ -1677,7 +1720,8 @@
       "lng": -80.6747819
     },
     "website": "https://www.agsouthfc.com",
-    "google_maps_url": ""
+    "google_maps_url": "",
+    "drupal_detail_url": "/Locations/South-Carolina-Branches/Walterboro.aspx"
   },
   {
     "Address": "1720 Millpond Road",
