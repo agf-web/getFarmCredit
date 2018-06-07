@@ -2,6 +2,7 @@
   <gmap-map
     :center="center"
     :options="mapOptions"
+    :zoom="2"
     style="position: absolute; width: 100%; height: 100%"
     ref="branchMap"
   >
@@ -49,7 +50,7 @@
 
 <script>
 import Vue from 'vue';
-import * as VueGoogleMaps from 'vue2-google-maps';
+import * as VueGoogleMaps from 'vue2-google-maps-fixed';
 import googleMapsApiKey from './../../config/googleMapsApiKey.local';
 import googleMapStyles from './googleMapStyles.json';
 import mapmarker from '../../static/img/ui--map-marker.svg';
@@ -101,11 +102,20 @@ export default {
   },
   methods: {
     centerMap() {
+      let vm = this
       this.$refs.branchMap.$mapPromise.then((map) => {
-        map.fitBounds(this.currentBounds);
-        map.setCenter(this.currentBounds.getCenter());
-        if (this.branches.length <= 1) {
+        if (this.branches.length > 1) {
+          map.fitBounds(this.currentBounds);
+          map.setCenter(this.currentBounds.getCenter());
+        }
+        if (this.branches.length === 1) {
+          map.fitBounds(this.currentBounds);
+          map.setCenter(this.currentBounds.getCenter());
           map.setZoom(18);
+        }
+        if (this.branches.length === 0) {
+          map.setCenter({lat:37.429367,lng:-85.001530});
+          map.setZoom(5);
         }
       }).catch((err) => {
         // eslint-disable-next-line

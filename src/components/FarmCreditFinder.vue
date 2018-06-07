@@ -1,14 +1,14 @@
 <template>
-  <div id="FarmCreditFinder">
+  <div id="FarmCreditFinder" v-if="branchData">
     <div class="sidebar">
       <div class="sidebar__body" id="sidebar"
         v-on:scroll="scrolling" 
         ref="sidebar">
         <ag-county-search
-          :branches="branchFilter"
+          :branches="filteredBranchData"
           :counties="countyFilter"
           :config="filterCfg"
-          @searchedCounty="updateBranchFilter"
+          @searched="updateBranchFilter"
           ref="searchComponent"
         />
       </div>
@@ -23,7 +23,7 @@
     </div>
     <div class="body">
       <ag-map
-        :branches="branchFilter"
+        :branches="filteredBranchData"
         ref="mapComponent"
       />
     </div>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-// import axios from 'axios';
+
 import zenscroll from 'zenscroll';
 import agMap from './Map';
 import agCountySearch from './CountySearch';
@@ -42,6 +42,9 @@ export default {
   props: {
     filterCfg: {
       type: Object
+    },
+    branches: {
+      type: Array
     }
   },
   components: {
@@ -50,26 +53,135 @@ export default {
   },
   data() {
     return {
-      search: '',
-      // results: [],
+      searchCriteria: {
+        zip: '',
+        county: []
+      },
       errors: [],
       scrollToTop: false,
       sidebarScroll: null,
-      branchData: null
+      branchData: [],
+      filteredBranchData: []
     };
   },
   created () {
-    this.branchData = this.$lodash.orderBy(appData, ['Branch'])
+    this.branchData = this.branches
+    this.filteredBranchData = this.branches
   },
   mounted() {
     const sidebar = document.getElementById('sidebar');
     this.sidebarScroll = zenscroll.createScroller(sidebar, 500, 30);
   },
   methods: {
-    updateBranchFilter(searchTerm) {
-      this.search = searchTerm;
-      this.$refs.mapComponent.centerMap();
-      this.$refs.mapComponent.closeInfoWindow();
+    updateBranchFilter(countySearchTerm) {
+      let vm = this
+      vm.searchCriteria = countySearchTerm
+      let branchData = vm.branchData
+      let filterBranch = function (branch, type, area) {
+        let match = false
+        if (type === 'association') {
+          if (branch.Association === null) {
+            return false
+          }
+          if (branch.Association !== vm.filterCfg.associationName()) {
+            return false
+          }
+        }
+        if (type === 'state') {
+          if (branch.State === null) {
+            return false
+          }
+          if (branch.State !== vm.filterCfg.stateName) {
+            return false
+          }
+        }
+        if (area === 'zip') {
+          if (!match && branch.County !== null) {
+            if (branch.County.length > 0) {
+              for (let i = 0; i < vm.searchCriteria.county.length; i++) {
+                if (branch.County.toLowerCase()
+                    .indexOf(vm.searchCriteria.county[i].toLowerCase()) !== -1) {
+                  match = true
+                }
+              }
+            } else {
+              match = false
+            }
+          }
+          return match
+        }
+        if (area === 'county') {
+          if (!match && branch.County !== null) {
+            if (branch.County.length > 0) {
+              for (let i = 0; i < vm.searchCriteria.county.length; i++) {
+                if (branch.County.toLowerCase()
+                    .indexOf(vm.searchCriteria.county[i].toLowerCase()) !== -1) {
+                  match = true
+                }
+              }
+            } else {
+              match = false
+            }
+          }
+          if (!match && branch.CountyPartial !== null) {
+            if (branch.CountyPartial.length > 0) {
+              let countyPartial = branch.CountyPartial.split(',')
+              for (let i = 0; i < vm.searchCriteria.county.length; i++) {
+                for (let j = 0; j < countyPartial.length; j++) {
+                  if (countyPartial[j].toLowerCase()
+                      .indexOf(vm.searchCriteria.county[i].toLowerCase()) !== -1) {
+                    match = true
+                  }
+                }
+              }
+            } else {
+              match = false
+            }
+          }
+          return match
+        }
+        return true
+      };
+      // set search term to filter by
+      if (vm.searchCriteria.zip.length) {
+        // if this build IS CONFIGURED to filter by ASSOCIATION
+        if (vm.filterCfg.byAssociation && typeof vm.filterCfg.associationName() === 'string') {
+          branchData = branchData.filter(branch => filterBranch(branch, 'association', 'zip'))
+        }
+        // if this build IS CONFIGURED to filter by STATE
+        if (vm.filterCfg.byState && typeof vm.filterCfg.stateName === 'string') {
+          branchData = branchData.filter(branch => filterBranch(branch, 'state', 'zip'))
+        }
+        // if this build is NOT CONFIGURED to be filtered
+        if (!vm.filterCfg.byAssociation && !vm.filterCfg.byState) {
+          branchData = branchData.filter(branch => filterBranch(branch, '', 'zip'))
+        }
+      }
+      if (vm.searchCriteria.county.length) {
+        // if this build IS CONFIGURED to filter by ASSOCIATION
+        if (vm.filterCfg.byAssociation && typeof vm.filterCfg.associationName() === 'string') {
+          branchData = branchData.filter(branch => filterBranch(branch, 'association', 'county'))
+        }
+        // if this build IS CONFIGURED to filter by STATE
+        if (vm.filterCfg.byState && typeof vm.filterCfg.stateName === 'string') {
+          branchData = branchData.filter(branch => filterBranch(branch, 'state', 'county'))
+        }
+        // if this build is NOT CONFIGURED to be filtered
+        if (!vm.filterCfg.byAssociation && !vm.filterCfg.byState) {
+          branchData = branchData.filter(branch => filterBranch(branch, '', 'county'))
+        }
+      }
+      // if this build IS CONFIGURED to filter by ASSOCIATION
+      if (vm.filterCfg.byAssociation && typeof vm.filterCfg.associationName() === 'string') {
+        branchData = branchData.filter(branch => filterBranch(branch, 'association', ''))
+      }
+      // if this build IS CONFIGURED to filter by STATE
+      if (vm.filterCfg.byState && typeof vm.filterCfg.stateName === 'string') {
+        branchData = branchData.filter(branch => filterBranch(branch, 'state', ''))
+      }
+      this.filteredBranchData = branchData
+      this.$refs.mapComponent.centerMap()
+      this.$refs.mapComponent.closeInfoWindow()
     },
     scrolling(event) {
       if (!this.scrollToTop) {
@@ -85,39 +197,6 @@ export default {
     }
   },
   computed: {
-    branchFilter() {
-      // set search term to filter by
-      const searchTerm = this.search ? this.search.toLowerCase() : '';
-
-      // if this build IS CONFIGURED to filter by ASSOCIATION
-      if (this.filterCfg.byAssociation && typeof this.filterCfg.associationName() === 'string') {
-        return this.branchData.filter(branch =>
-          branch.Association === this.filterCfg.associationName() &&
-            ((branch.County.length
-              && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
-            (branch.CountyPartial.length
-              && branch.CountyPartial.toLowerCase().indexOf(searchTerm) !== -1)))
-      }
-
-      // if this build IS CONFIGURED to filter by STATE
-      if (this.filterCfg.byState && typeof this.filterCfg.stateName === 'string') {
-        return this.branchData.filter(branch =>
-          branch.State.toLowerCase() === this.filterCfg.stateName.toLowerCase() &&
-            ((branch.County !== ''
-                && branch.County.toLowerCase().indexOf(searchTerm) !== -1) ||
-              (branch.CountyPartial !== ''
-                && branch.CountyPartial.toLowerCase().indexOf(searchTerm) !== -1)));
-      }
-
-      // if this build is NOT CONFIGURED to be filtered
-      return this.branchData.filter(branch =>
-        (branch.County !== '' &&
-        branch.County.toLowerCase()
-          .indexOf(searchTerm) !== -1) ||
-        (branch.CountyPartial !== '' &&
-        branch.CountyPartial.toLowerCase()
-          .indexOf(searchTerm) !== -1))
-    },
     countyFilter() {
       // go through branch array and get the County to make a new array.
       // `branch.County` is a string of Counties separated by commas.

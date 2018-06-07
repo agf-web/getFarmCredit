@@ -2,6 +2,8 @@
 
 /* eslint-disable */
 window.AGF_CONFIG = {
+  // authKey: '1234',
+  authKey: '',
   useDrupalDetailUrl: false,
   disableLogo: false,
   disableTitle: false,

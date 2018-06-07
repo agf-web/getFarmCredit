@@ -57,6 +57,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Changelog
 
+### v0.3.0
+- added Zip Code field and zip code search
+- county field becomes active when zip code search returns multiple branches so that search can be refined
+- branch data now comes from https://www.getfarmcredit.com/locations_feed
+- branch data url requires valid `key` parameter to display app (ex: https://www.getfarmcredit.com/locations_feed?key=1234)
+- switched back to `vue2-google-maps-fixed` because fix isn't working on master
+
 ### v0.2.2
 - added drupal_detail_url content to AgSouth branches in appData.json
 - removed `vue2-google-maps-fixed` since fix was added to main

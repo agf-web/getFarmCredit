@@ -14,13 +14,25 @@
     </div>
 
     <div class="CountySearch__body">
+      <div class="CountySearch__type">
+        <h4>Search by:</h4>
+        <div class="field-radio">
+          <input type="radio" id="search-type-county" v-model="searchType" value="county" @change="searchTypeChanged"><label for="search-type-county">County</label>
+        </div>
+        <div class="field-radio">
+          <input type="radio" id="search-type-zip" v-model="searchType" value="zip" @change="searchTypeChanged"><label for="search-type-zip">Zip Code</label>
+        </div>
+      </div>
       <div class="CountySearch__search">
         <div class="CountySearch__input">
+          <input type="text" class="CountySearch__zip" placeholder="Enter your Zip Code" v-model="zip" @keyup="zipChanged" v-show="searchType === 'zip'">
+          <p class="CountySearch__zip-message" v-show="countyOverlap">Multiple branches were found for your zip code. Please enter your county.</p>
           <v-select
-            :options="counties"
+            v-show="searchType === 'county' || countyOverlap"
+            :options="filteredCounties"
             :placeholder="'Enter your County'"
-            :on-change="changed"
-            :value.sync="searchTerm"
+            :on-change="countyChanged"
+            :value.sync="county"
             ref="searchbox"
           />
         </div>
@@ -63,7 +75,7 @@
                   <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
                 </template>
               </p>
-              <p v-if="item.CountyPartial === searchTerm" class="disclaimer">
+              <p v-if="item.CountyPartial === county" class="disclaimer">
                 <em>Please call to confirm that this branch serves your location.</em>
               </p>
             </div>
@@ -76,6 +88,7 @@
 
 <script>
 import vSelect from 'vue-select';
+import axios from 'axios';
 
 export default {
   name: 'ag-county-search',
@@ -93,19 +106,61 @@ export default {
       type: Object
     }
   },
+  created () {
+    this.filteredCounties = this.counties
+  },
   data() {
     return {
-      searchTerm: null,
-      suggestionAttribute: 'countyName'
+      county: '',
+      zip: '',
+      suggestionAttribute: 'countyName',
+      searchType: 'county',
+      filteredCounties: []
     };
   },
   methods: {
     clearSearch () {
-      this.$refs.searchbox.mutableValue = null;
+      let vm = this;
+      vm.county = '';
+      vm.filteredCounties = vm.counties
+      vm.zip = '';
+      vm.$refs.searchbox.mutableValue = null;
+      vm.$emit('searched', { zip: vm.zip, county: [] });
     },
-    changed (val) {
-      this.searchTerm = val
-      this.$emit('searchedCounty', val);
+    searchTypeChanged () {
+      this.clearSearch();
+    },
+    countyChanged (val) {
+      let vm = this;
+      if (val === null) {
+        val = '';
+      }
+      vm.county = val;
+      vm.$emit('searched', { zip: vm.zip, county: [vm.county] });
+    },
+    zipChanged (e) {
+      let vm = this;
+      vm.county = '';
+      vm.filteredCounties = []
+      vm.$refs.searchbox.mutableValue = null;
+      if (vm.zip.length >= 5) {
+        vm.zip = vm.zip.substring(0,5)
+      }
+      if (isNaN(vm.zip.substr(vm.zip.length - 1))) {
+        vm.zip = vm.zip.substring(0,vm.zip.length - 1)
+      }
+      if (vm.zip.length === 5) {
+        let zipLookupURL = `https://www.getfarmcredit.com/locations_counties_by_zip?key=${vm.config.authKey}&zip=${vm.zip}`
+        axios.get(zipLookupURL)
+          .then(response => {
+            console.log(response.data)
+            vm.filteredCounties = response.data
+            vm.$emit('searched', { zip: vm.zip, county: response.data });
+          })
+          .catch(e => {
+            this.errors.push(e)
+          })
+      }
     },
     phoneLink (phoneNum) {
       return `tel:${phoneNum.replace(' ', '-')}`;
@@ -163,12 +218,59 @@ export default {
       if (this.config.disableTitle) {
         return this.config.disableTitle
       }
+    },
+    countyOverlap () {
+      if (this.zip.length >= 5) {
+        return this.filteredCounties.length > 1
+      } else {
+        return false
+      }
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.field-radio,
+.field-checkbox {
+  input {
+    display: none;
+  }
+  input + label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 23px;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #999;
+      transition: border-color 0.3s, background-color 0.3s;
+    }
+  }
+  input:checked + label {
+    &:before {
+      border: 1px solid #5B8F22;
+      background-color: #5B8F22;
+    }
+  }
+  input[type="radio"] + label {
+    &:before {
+      border-radius: 50%;
+    }
+  }
+}
 .logo {
   display: block;
   padding: 16px;
@@ -184,11 +286,9 @@ export default {
     max-width: 100%;
   }
 }
-
 .searchbox {
   width: 100%;
 }
-
 .CountySearch {
   &__title {
     font-family: 'futura-pt', sans-serif;
@@ -222,6 +322,30 @@ export default {
     padding: 16px;
   }
 
+  &__type {
+    margin: 0 0 20px;
+    padding: 5px 8px 0;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    h4 {
+      margin: 0 0 10px;
+      @media only screen and (min-width: 1024px) {
+        float: left;
+        margin: 0;
+      }
+    }
+    .field-radio {
+      float: left;
+      margin: 0 20px 0 0;
+      @media only screen and (min-width: 1024px) {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+
   &__search {
     justify-content: space-between;
     align-items: center;
@@ -242,6 +366,7 @@ export default {
 
   &__input {
     flex: 1 0 auto;
+    width: 75%;
     padding-right: 16px;
 
     // `/deep/` makes this scoped style available to child components
@@ -287,8 +412,28 @@ export default {
     }
   }
 
+  &__zip {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 0 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    background: #eff1ed;
+  }
+
+  &__zip-message {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   &__clear {
     flex: 0 0 auto;
+    align-self: flex-start;
     margin: 16px 0 0;
 
     @media only screen and (min-width: 480px) {
@@ -300,7 +445,7 @@ export default {
     }
 
     @media only screen and (min-width: 1024px) {
-      margin: 0 auto;
+      margin: 3px auto 0;
     }
 
     .btn-clear {

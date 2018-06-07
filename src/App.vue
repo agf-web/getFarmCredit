@@ -1,14 +1,18 @@
 <template>
   <div id="app">
     <FarmCreditFinder
+      v-if="branches.length > 0"
       :filterCfg="filterConfig"
+      :branches="branches"
     />
+    <p v-if="error.length > 0">{{ error }}</p>
   </div>
 </template>
 
 <script>
 import Vue from 'vue';
 import lodash from 'lodash';
+import axios from 'axios';
 
 import FarmCreditFinder from './components/FarmCreditFinder';
 // import filterConfig from '../config/app.filterConfig';
@@ -23,9 +27,27 @@ export default {
   components: {
     FarmCreditFinder
   },
-  data() {
+  created () {
+    let dataURL = `https://www.getfarmcredit.com/locations_feed?key=${this.filterConfig.authKey}`
+    axios.get(dataURL)
+      .then(response => {
+        if (typeof response.data[0] === 'string') {
+          this.error = 'Invalid auth key'
+        } else {
+          this.branches = this.$lodash.orderBy(response.data, ['Branch'])
+          //console.log(this.branches)
+        }
+      })
+      .catch(e => {
+        this.errors.push(e)
+      })
+    //this.branches = this.$lodash.orderBy(appData, ['Branch'])
+  },
+  data () {
     return {
-      filterConfig: loadedFilterConfig
+      filterConfig: loadedFilterConfig,
+      error: '',
+      branches: []
     };
   }
 };
