@@ -57,6 +57,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Changelog
 
+
 ### v0.3.0
 - added Zip Code field and zip code search
 - county field becomes active when zip code search returns multiple branches so that search can be refined
