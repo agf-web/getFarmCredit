@@ -202,7 +202,7 @@ export default {
           return true
         }
       }
-      if (typeof branchInfo.website === 'string') {
+      if (typeof branchInfo.website === 'string' && !this.config.byAssociation) {
         if (branchInfo.website.length > 0) {
           return true
         }
