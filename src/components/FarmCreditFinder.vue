@@ -66,7 +66,7 @@ export default {
   },
   created () {
     this.branchData = this.branches
-    this.filteredBranchData = this.branches
+    //this.filteredBranchData = this.branches
   },
   mounted() {
     const sidebar = document.getElementById('sidebar');
@@ -83,7 +83,7 @@ export default {
           if (branch.Association === null) {
             return false
           }
-          if (branch.Association !== vm.filterCfg.associationName()) {
+          if (branch.Association.toLowerCase() !== vm.filterCfg.associationName().toLowerCase()) {
             return false
           }
         }
@@ -91,17 +91,20 @@ export default {
           if (branch.State === null) {
             return false
           }
-          if (branch.State !== vm.filterCfg.stateName) {
+          if (branch.State.toLowerCase() !== vm.filterCfg.stateName.toLowerCase()) {
             return false
           }
         }
         if (area === 'zip') {
           if (!match && branch.County !== null) {
             if (branch.County.length > 0) {
+              let county = branch.County.split(',')
               for (let i = 0; i < vm.searchCriteria.county.length; i++) {
-                if (branch.County.toLowerCase()
-                    .indexOf(vm.searchCriteria.county[i].toLowerCase()) !== -1) {
-                  match = true
+                for (let j = 0; j < county.length; j++) {
+                  if (county[j].toLowerCase() ===
+                      vm.searchCriteria.county[i].toLowerCase()) {
+                    match = true
+                  }
                 }
               }
             } else {
@@ -113,10 +116,13 @@ export default {
         if (area === 'county') {
           if (!match && branch.County !== null) {
             if (branch.County.length > 0) {
+              let county = branch.County.split(',')
               for (let i = 0; i < vm.searchCriteria.county.length; i++) {
-                if (branch.County.toLowerCase()
-                    .indexOf(vm.searchCriteria.county[i].toLowerCase()) !== -1) {
-                  match = true
+                for (let j = 0; j < county.length; j++) {
+                  if (county[j].toLowerCase() ===
+                      vm.searchCriteria.county[i].toLowerCase()) {
+                    match = true
+                  }
                 }
               }
             } else {
@@ -128,8 +134,8 @@ export default {
               let countyPartial = branch.CountyPartial.split(',')
               for (let i = 0; i < vm.searchCriteria.county.length; i++) {
                 for (let j = 0; j < countyPartial.length; j++) {
-                  if (countyPartial[j].toLowerCase()
-                      .indexOf(vm.searchCriteria.county[i].toLowerCase()) !== -1) {
+                  if (countyPartial[j].toLowerCase() ===
+                      vm.searchCriteria.county[i].toLowerCase()) {
                     match = true
                   }
                 }
@@ -146,42 +152,50 @@ export default {
       if (vm.searchCriteria.zip.length) {
         // if this build IS CONFIGURED to filter by ASSOCIATION
         if (vm.filterCfg.byAssociation && typeof vm.filterCfg.associationName() === 'string') {
+          console.log('Filtering by association and zip')
           branchData = branchData.filter(branch => filterBranch(branch, 'association', 'zip'))
         }
         // if this build IS CONFIGURED to filter by STATE
         if (vm.filterCfg.byState && typeof vm.filterCfg.stateName === 'string') {
+          console.log('Filtering by state and zip')
           branchData = branchData.filter(branch => filterBranch(branch, 'state', 'zip'))
         }
         // if this build is NOT CONFIGURED to be filtered
         if (!vm.filterCfg.byAssociation && !vm.filterCfg.byState) {
+          console.log('Filtering by zip only')
           branchData = branchData.filter(branch => filterBranch(branch, '', 'zip'))
         }
       }
-      if (vm.searchCriteria.county.length) {
+      if (vm.searchCriteria.county.length > 0) {
         // if this build IS CONFIGURED to filter by ASSOCIATION
         if (vm.filterCfg.byAssociation && typeof vm.filterCfg.associationName() === 'string') {
+          console.log('Filtering by association and county')
           branchData = branchData.filter(branch => filterBranch(branch, 'association', 'county'))
         }
         // if this build IS CONFIGURED to filter by STATE
         if (vm.filterCfg.byState && typeof vm.filterCfg.stateName === 'string') {
+          console.log('Filtering by state and county')
           branchData = branchData.filter(branch => filterBranch(branch, 'state', 'county'))
         }
         // if this build is NOT CONFIGURED to be filtered
         if (!vm.filterCfg.byAssociation && !vm.filterCfg.byState) {
+          console.log('Filtering by county only')
           branchData = branchData.filter(branch => filterBranch(branch, '', 'county'))
         }
       }
       // if this build IS CONFIGURED to filter by ASSOCIATION
       if (vm.filterCfg.byAssociation && typeof vm.filterCfg.associationName() === 'string') {
+        console.log('Filtering by association only')
         branchData = branchData.filter(branch => filterBranch(branch, 'association', ''))
       }
       // if this build IS CONFIGURED to filter by STATE
       if (vm.filterCfg.byState && typeof vm.filterCfg.stateName === 'string') {
+        console.log('Filtering by state only')
         branchData = branchData.filter(branch => filterBranch(branch, 'state', ''))
       }
-      this.filteredBranchData = branchData
-      this.$refs.mapComponent.centerMap()
-      this.$refs.mapComponent.closeInfoWindow()
+      vm.filteredBranchData = branchData
+      vm.$refs.mapComponent.centerMap()
+      vm.$refs.mapComponent.closeInfoWindow()
     },
     scrolling(event) {
       if (!this.scrollToTop) {

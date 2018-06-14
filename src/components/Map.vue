@@ -31,6 +31,7 @@
     </gmap-info-window>
     <gmap-marker
       v-for="(m, index) in branches"
+      v-if="m.location.lat !== null && m.location.lng !== null"
       @click="openInfoWindow(m, index)"
       :key="index"
       :position="m.location"
@@ -101,25 +102,25 @@ export default {
     this.centerMap()
   },
   methods: {
-    centerMap() {
+    centerMap () {
       let vm = this
       this.$refs.branchMap.$mapPromise.then((map) => {
         if (this.branches.length > 1) {
-          map.fitBounds(this.currentBounds);
-          map.setCenter(this.currentBounds.getCenter());
+          map.fitBounds(this.currentBounds)
+          map.setCenter(this.currentBounds.getCenter())
         }
         if (this.branches.length === 1) {
-          map.fitBounds(this.currentBounds);
-          map.setCenter(this.currentBounds.getCenter());
-          map.setZoom(18);
+          map.fitBounds(this.currentBounds)
+          map.setCenter(this.currentBounds.getCenter())
+          map.setZoom(18)
         }
         if (this.branches.length === 0) {
-          map.setCenter({lat:37.429367,lng:-85.001530});
-          map.setZoom(5);
+          map.setCenter({lat:37.429367,lng:-85.001530})
+          map.setZoom(5)
         }
       }).catch((err) => {
         // eslint-disable-next-line
-        console.error(err);
+        console.error(err)
       });
     },
     // using object destructuring:
@@ -161,10 +162,14 @@ export default {
     }
   },
   computed: {
-    currentBounds() {
-      let theCurrentBounds = new google.maps.LatLngBounds();
-      this.branches.forEach(branch => theCurrentBounds.extend(branch.location));
-      return theCurrentBounds;
+    currentBounds () {
+      let theCurrentBounds = new google.maps.LatLngBounds()
+      this.branches.forEach(function (branch) {
+        if (branch.location.lat !== null && branch.location.lng !== null) {
+          theCurrentBounds.extend(branch.location)
+        }
+      })
+      return theCurrentBounds
     }
   }
 };

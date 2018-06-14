@@ -3,7 +3,7 @@
 /* eslint-disable */
 window.AGF_CONFIG = {
   // authKey: '1234',
-  authKey: '',
+  authKey: '1234',
   useDrupalDetailUrl: false,
   disableLogo: false,
   disableTitle: false,
@@ -20,7 +20,7 @@ window.AGF_CONFIG = {
   byState: false,
 
   // must be string. can be lower/upper/mixed case.
-  stateName: 'sC',
+  stateName: 'ga',
 
   // to filter by association
   byAssociation: false,

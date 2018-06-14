@@ -57,6 +57,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Changelog
 
+### v0.3.1
+- better error handling when fetching branch data
+- better handling of `null` values in branch data
+- branch detail links are pulled from `window.location_lookup` if it exists on the page
+- county matching is exact (`===` instead of `indexOf`)
 
 ### v0.3.0
 - added Zip Code field and zip code search

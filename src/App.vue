@@ -28,19 +28,42 @@ export default {
     FarmCreditFinder
   },
   created () {
-    let dataURL = `https://www.getfarmcredit.com/locations_feed?key=${this.filterConfig.authKey}`
-    axios.get(dataURL)
-      .then(response => {
-        if (typeof response.data[0] === 'string') {
-          this.error = 'Invalid auth key'
-        } else {
-          this.branches = this.$lodash.orderBy(response.data, ['Branch'])
-          //console.log(this.branches)
+    if (typeof this.filterConfig.authKey !== 'string') {
+      this.error = 'Invalid auth key'
+    } else {
+      if (this.filterConfig.authKey.length === 0) {
+        this.error = 'Invalid auth key'
+      } else {
+        let domain = 'https://www.getfarmcredit.com'
+        if (window.location.hostname === 'dev-getfarmcredit.pantheonsite.io') {
+          domain = 'https://dev-getfarmcredit.pantheonsite.io'
         }
-      })
-      .catch(e => {
-        this.errors.push(e)
-      })
+        let dataURL = `${domain}/locations_feed?key=${this.filterConfig.authKey}`
+        axios.get(dataURL)
+          .then(response => {
+            if (typeof response.data[0] === 'string') {
+              this.error = 'Invalid auth key'
+            } else {
+              let branches = this.$lodash.orderBy(response.data, ['Branch'])
+              // Add custom detail page URLs
+              if (window.location_lookup) {
+                for (let i = 0; i < branches.length; i++) {
+                  for (let j = 0; j < window.location_lookup.length; j++) {
+                    if (branches[i].Nid === window.location_lookup[j].nid) {
+                      branches[i].detail_url = window.location_lookup[j].path
+                    }
+                  }
+                }
+              }
+              this.branches = branches
+              //console.log(this.branches)
+            }
+          })
+          .catch(e => {
+            console.log(e)
+          })
+      }
+    }
     //this.branches = this.$lodash.orderBy(appData, ['Branch'])
   },
   data () {

@@ -67,9 +67,9 @@
               <p v-if="item['Fax']">
                 <strong>Fax:</strong> {{ item['Fax'] }}
               </p>
-              <p v-if="branchWebsite(item)">
-                <template v-if="isUseDrupalUrl">
-                  <strong>Web:</strong> <a :href="branchWebsite(item)">Branch Details</a>
+              <p v-if="hasUrl(item)">
+                <template v-if="hasDetailUrl(item)">
+                  <strong>Web:</strong> <a :href="item['detail_url']">Branch Details</a>
                 </template>
                 <template v-else>
                   <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
@@ -136,25 +136,32 @@ export default {
         val = '';
       }
       vm.county = val;
-      vm.$emit('searched', { zip: vm.zip, county: [vm.county] });
+      if (vm.county.length > 0) {
+        vm.$emit('searched', { zip: vm.zip, county: [vm.county] })
+      } else {
+        vm.$emit('searched', { zip: vm.zip, county: [] })
+      }
     },
     zipChanged (e) {
       let vm = this;
       vm.county = '';
       vm.filteredCounties = []
       vm.$refs.searchbox.mutableValue = null;
+      // Input validation
       if (vm.zip.length >= 5) {
         vm.zip = vm.zip.substring(0,5)
       }
       if (isNaN(vm.zip.substr(vm.zip.length - 1))) {
         vm.zip = vm.zip.substring(0,vm.zip.length - 1)
       }
+      // Get the counties for this zip code
       if (vm.zip.length === 5) {
         let zipLookupURL = `https://www.getfarmcredit.com/locations_counties_by_zip?key=${vm.config.authKey}&zip=${vm.zip}`
         axios.get(zipLookupURL)
           .then(response => {
             console.log(response.data)
             vm.filteredCounties = response.data
+            // Then search
             vm.$emit('searched', { zip: vm.zip, county: response.data });
           })
           .catch(e => {
@@ -181,14 +188,26 @@ export default {
 
       return googMapLink;
     },
-    branchWebsite (branchInfo) {
-      if (this.config.useDrupalDetailUrl) {
-        return branchInfo.drupal_detail_url
-      } else if (branchInfo.website) {
-        return branchInfo.website
-      } else {
-        return false
+    hasDetailUrl (branchInfo) {
+      if (typeof branchInfo.detail_url === 'string') {
+        if (branchInfo.detail_url.length > 0) {
+          return true
+        }
       }
+      return false
+    },
+    hasUrl (branchInfo) {
+      if (typeof branchInfo.detail_url === 'string') {
+        if (branchInfo.detail_url.length > 0) {
+          return true
+        }
+      }
+      if (typeof branchInfo.website === 'string') {
+        if (branchInfo.website.length > 0) {
+          return true
+        }
+      }
+      return false
     }
   },
   computed: {
@@ -211,9 +230,6 @@ export default {
         return this.config.disableLogo
       }
     },
-    isUseDrupalUrl () {
-      return this.config.useDrupalDetailUrl
-    },
     disableTitle () {
       if (this.config.disableTitle) {
         return this.config.disableTitle
@@ -221,7 +237,7 @@ export default {
     },
     countyOverlap () {
       if (this.zip.length >= 5) {
-        return this.filteredCounties.length > 1
+        return this.filteredCounties.length > 1 && this.branches.length > 1
       } else {
         return false
       }
