@@ -20,7 +20,9 @@ import FarmCreditFinder from './components/FarmCreditFinder';
 Object.defineProperty(Vue.prototype, '$lodash', { value: lodash });
 
 const defaultFilterConfig = { byAssociation: false, byState: false };
-const loadedFilterConfig = window.AGF_CONFIG ? window.AGF_CONFIG : defaultFilterConfig;
+const loadedFilterConfig = window.AGF_CONFIG_LOCAL ? window.AGF_CONFIG_LOCAL
+                          : window.AGF_CONFIG ? window.AGF_CONFIG
+                          : defaultFilterConfig;
 
 export default {
   name: 'app',
