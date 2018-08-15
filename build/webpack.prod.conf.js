@@ -11,6 +11,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const ManifestPlugin = require('webpack-manifest-plugin')
+const yaml = require('js-yaml')
 
 const env = require('../config/prod.env')
 
@@ -116,7 +118,66 @@ const webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+    
+    // manifest yml file used to update 'getfarmcreditmap.libraries.yml'
+    new ManifestPlugin({
+      fileName: 'getfarmcreditmap.libraries.yml',
+      filter: (manifest) => {
+        // console.log(manifest)
+        switch (manifest.name) {
+          case 'app.css':
+          case 'app.js':
+          case 'vendor.js':
+          case 'manifest.js':
+            return manifest.name
+            break
+          default: return false
+        }
+      },
+      // seed: {
+        
+      // },
+      generate: (seed, files) => {
+        console.log(files)
+        const libaryTemplate = {
+          'getfarmcredit-vue': {
+            version: 1.0,
+            'js': {
+              'js/agf_config.js': {}
+            },
+            'css': {
+              theme: {}
+            }
+          },
+          'type-kit': {
+            remote: 'https://typekit.com',
+            license: {
+              name: 'Adobe',
+              url: 'https://helpx.adobe.com/typekit/using/font-licensing.html',
+              'gpl-compatible': false
+            },
+            css: {
+              theme: {
+                'https://use.typekit.net/aqh0bgp.css': {
+                  type: 'external',
+                  minified: true
+                }
+              }
+            }
+          }
+        }
+        return files.reduce((manifest, {name, path}) => {
+          path.slice(8).substr(0,3) === 'js/' ? libaryTemplate['getfarmcredit-vue']['js'][path.slice(8)] = {}
+            : libaryTemplate['getfarmcredit-vue']['css']['theme'][path.slice(8)] = {}
+
+          const newManifest = { ...manifest, ...libaryTemplate }
+          return newManifest
+
+        }, seed)
+      },
+      serialize: (manifest) => yaml.safeDump(manifest)
+    }),
   ]
 })
 
