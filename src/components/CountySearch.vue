@@ -9,7 +9,7 @@
         <span v-if="!customIntro">
           We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 18 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.
         </span>
-        <span v-else>{{ this.config.customIntro.text }}</span>
+        <span v-else v-html="this.config.customIntro.text"></span>
       </p>
     </div>
 
@@ -324,7 +324,7 @@ input::-webkit-inner-spin-button {
     font-size: 15px;
     line-height: 1.4;
 
-    a {
+    /deep/ a {
       color: #5B8F22;
 
       &:hover {

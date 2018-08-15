@@ -57,6 +57,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Changelog
 
+### v0.3.4
+- allowed HTML in custom intro text (window.AGF_CONFIG.customIntro.text)
+
 ### v0.3.3
 - check for `AGF_CONFIG_LOCAL` before `AGF_CONFIG`. Plumming for plans to serve configuration from theme level in future, to mitigate against possible file conflicts from upstream.
 

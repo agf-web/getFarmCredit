@@ -12,8 +12,8 @@ window.AGF_CONFIG = {
     url: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png'
   },
   customIntro: {
-    useCustomIntro: false,
-    text: 'This is a custom intro. You are only allowed regular text in this space.'
+    useCustomIntro: true,
+    text: 'We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 18 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.'
   },
 
   // to filter by state
