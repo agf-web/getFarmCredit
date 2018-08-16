@@ -11,10 +11,13 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const ManifestPlugin = require('webpack-manifest-plugin')
+const WebpackManifestPlugin = require('webpack-manifest-plugin')
 const yaml = require('js-yaml')
+const FindReplacePlugin = require('find-replace-webpack-plugin')
 
 const env = require('../config/prod.env')
+
+let filesData = {}
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -121,7 +124,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
     
     // manifest yml file used to update 'getfarmcreditmap.libraries.yml'
-    new ManifestPlugin({
+    new WebpackManifestPlugin({
       fileName: 'getfarmcreditmap.libraries.yml',
       filter: (manifest) => {
         // console.log(manifest)
@@ -139,7 +142,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         
       // },
       generate: (seed, files) => {
-        console.log(files)
+        // console.log(files)
         const libaryTemplate = {
           'getfarmcredit-vue': {
             version: 1.0,
@@ -167,17 +170,72 @@ const webpackConfig = merge(baseWebpackConfig, {
             }
           }
         }
-        return files.reduce((manifest, {name, path}) => {
+
+        let reduced = files.reduce((manifest, {name, path}) => {
           path.slice(8).substr(0,3) === 'js/' ? libaryTemplate['getfarmcredit-vue']['js'][path.slice(8)] = {}
             : libaryTemplate['getfarmcredit-vue']['css']['theme'][path.slice(8)] = {}
+
+          let fileName = path.slice(8).split('/')[1]
+
+          let fileNameSplit = path.slice(8).split('/')[1].split('.')
+
+          if (fileNameSplit[0] === 'app' && fileNameSplit[2] === 'css') {
+            filesData.css = fileName
+          }
+
+          if (fileNameSplit[0] === 'app' && fileNameSplit[2] === 'js') {
+            filesData.app = fileName
+          }
+
+          if (fileNameSplit[0] === 'vendor') {
+            filesData.vendor = fileName
+          }
+
+          if (fileNameSplit[0] === 'manifest') {
+            filesData.manifest = fileName
+          }
 
           const newManifest = { ...manifest, ...libaryTemplate }
           return newManifest
 
         }, seed)
+
+        // console.log(filesData)
+
+        return reduced
       },
       serialize: (manifest) => yaml.safeDump(manifest)
     }),
+    new FindReplacePlugin({
+			src: 'getfarmcreditmap.js.tpl',
+			dest: 'dist/getfarmcreditmap.js',
+			rules: [
+				{
+					find: /__VAR_STYLE__/g,
+					replace(stats, match, name, dothash, hash, ext) {
+						return filesData.css
+					}
+        },
+        {
+					find: /__VAR_APP__/g,
+					replace(stats, match, name, dothash, hash, ext) {
+						return filesData.app
+					}
+        },
+        {
+					find: /__VAR_MANIFEST__/g,
+					replace(stats, match, name, dothash, hash, ext) {
+						return filesData.manifest
+					}
+        },
+        {
+					find: /__VAR_VENDOR__/g,
+					replace(stats, match, name, dothash, hash, ext) {
+						return filesData.vendor
+					}
+				}
+			]
+		})
   ]
 })
 
