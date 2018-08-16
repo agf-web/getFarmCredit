@@ -53,9 +53,15 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Updating GetFarmCredit.com (v0.3.5+)
+- run `npm run build`
+- Copy `dist/getfarmcreditmap.js` into `/web/modules/custom/getfarmcreditmap/js`
+- Copy `dist/getfarmcreditmap.libraries.yml` into `/web/modules/custom/getfarmcreditmap/`
 
 ## Changelog
+
+### v0.3.5
+- dev tooling upgrade. `npm run build` now outputs `getfarmcreditmap.js` and `getfarmcreditmap.libraries.yml` files to streamline updates to GetFarmCredit.com.
 
 ### v0.3.4
 - allowed HTML in custom intro text (window.AGF_CONFIG.customIntro.text)
