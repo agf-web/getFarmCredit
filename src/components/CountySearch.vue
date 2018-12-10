@@ -44,7 +44,7 @@
       <div class="CountySearch__branchList">
         <p v-if="!branches.length">No Matching Results</p>
         <transition-group name="branchFade" tag="ul" v-if="branches.length" class="branches">
-          <li v-for="(item, index) in branches" :key="index" class="branch">
+          <li v-for="(item, index) in branches" :key="item.Nid" class="branch">
             <div class="branch__position">
               <p class="branch__position-number">#{{ index + 1 }}</p>
             </div>

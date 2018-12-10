@@ -19,6 +19,11 @@
           {{ infoWindowContent.City }}, {{ infoWindowContent.State }} {{ infoWindowContent.Zip }}
         </p>
         <p class="infoWindowContent__phone">{{ infoWindowContent['Phone 1'] }}</p>
+        <p>
+          <a class="infoWindowContent__website" :href="infoWindowContent['website']">
+            {{ infoWindowContent['website'] }}
+          </a>
+        </p>
         <a
           :href="infoWindowContent.directionsLink"
           class="infoWindowContent__directions"
@@ -75,6 +80,7 @@ export default {
   },
   data() {
     return {
+      currentMidx: null,
       center: usaCenter,
       mapOptions: {
         clickableIcons: false,
@@ -125,22 +131,22 @@ export default {
     },
     // using object destructuring:
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Assigning_to_new_variable_names
-    openInfoWindow (branchInfo, index) {
+    openInfoWindow (branchInfo, branchId) {
       this.infoWindowPos = branchInfo.location;
       this.infoWindowContent = branchInfo;
 
       this.infoWindowContent.directionsLink = this.mapDirections(branchInfo)
 
       // check if its the same marker that was selected if yes toggle
-      if (this.currentMidx === index) {
+      if (this.currentMidx === branchId) {
         this.isInfoWindowOpen = !this.isInfoWindowOpen;
       }
       // if different marker set infowindow to open and reset current marker index
       else {
         this.isInfoWindowOpen = true;
-        this.currentMidx = index;
+        this.currentMidx = branchId;
       }
-      console.log(this.currentMidx, this.isInfoWindowOpen, branchInfo);
+      // console.log(this.currentMidx, this.isInfoWindowOpen, branchInfo);
     },
     closeInfoWindow () {
       this.isInfoWindowOpen = false
@@ -187,6 +193,11 @@ export default {
     margin: 0;
     font-size: 18px;
   }
+
+  &__website {
+    color: #5B8F22;
+  }
+
   &__directions {
     display: inline-block;
     color: #2c3e50;
