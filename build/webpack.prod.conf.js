@@ -15,6 +15,8 @@ const WebpackManifestPlugin = require('webpack-manifest-plugin')
 const yaml = require('js-yaml')
 const FindReplacePlugin = require('find-replace-webpack-plugin')
 
+const mapAppVersion = require('../package.json').version
+
 const env = require('../config/prod.env')
 
 let filesData = {}
@@ -179,6 +181,14 @@ const webpackConfig = merge(baseWebpackConfig, {
 
           let fileNameSplit = path.slice(8).split('/')[1].split('.')
 
+          if (fileNameSplit[0] === 'manifest') {
+            filesData.manifest = fileName
+          }
+
+          if (fileNameSplit[0] === 'vendor') {
+            filesData.vendor = fileName
+          }
+
           if (fileNameSplit[0] === 'app' && fileNameSplit[2] === 'css') {
             filesData.css = fileName
           }
@@ -187,22 +197,31 @@ const webpackConfig = merge(baseWebpackConfig, {
             filesData.app = fileName
           }
 
-          if (fileNameSplit[0] === 'vendor') {
-            filesData.vendor = fileName
-          }
-
-          if (fileNameSplit[0] === 'manifest') {
-            filesData.manifest = fileName
-          }
-
           const newManifest = { ...manifest, ...libaryTemplate }
           return newManifest
 
         }, seed)
 
-        // console.log(filesData)
+        const fixedOrder = {}
 
-        return reduced
+        Object.keys(reduced['getfarmcredit-vue']['js'])
+          .sort((keyA, keyB)=> {
+            // DONT MESS WITH THIS UNLESS YOU KNOW WHAT YOURE DOING :D
+            if (keyA.slice(3).split('.')[0] === 'agf_config') return -1
+            if (keyA.slice(3).split('.')[0] === 'manifest') return -1
+            if (keyB.slice(3).split('.')[0] === 'manifest') return 1
+            return 0
+          }).forEach(key => {
+            fixedOrder[key] = {}
+          })
+
+        const finalManifest = Object.assign(reduced, {'getfarmcredit-vue': {
+          version: mapAppVersion,
+          js: {...fixedOrder},
+          css: {...reduced['getfarmcredit-vue']['css']}
+        }})
+
+        return finalManifest;
       },
       serialize: (manifest) => yaml.safeDump(manifest)
     }),
