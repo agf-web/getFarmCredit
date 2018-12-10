@@ -60,6 +60,11 @@ npm run build --report
 
 ## Changelog
 
+### v0.3.6
+- `feature` - Info Window now has website link
+- `bugfix` - Info Window triple click issue
+- `chore` - Removed `vue2-google-maps-fixed`. Fixed issue pulled into `vue2-google-maps`.
+
 ### v0.3.5
 - dev tooling upgrade. `npm run build` now outputs `getfarmcreditmap.js` and `getfarmcreditmap.libraries.yml` files to streamline updates to GetFarmCredit.com.
 
