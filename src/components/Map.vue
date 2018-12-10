@@ -10,7 +10,7 @@
       :options="infoWindowOptions"
       :position="infoWindowPos"
       :opened="isInfoWindowOpen"
-      @closeInfoWindow="isInfoWindowOpen = false"
+      @closeclick="closeInfoWindow()"
     >
       <div class="infoWindowContent">
         <h2 class="infoWindowContent__branch">{{ infoWindowContent.Branch }}</h2>
@@ -32,8 +32,8 @@
     <gmap-marker
       v-for="(m, index) in branches"
       v-if="m.location.lat !== null && m.location.lng !== null"
-      @click="openInfoWindow(m, index)"
-      :key="index"
+      @click="openInfoWindow(m, m.Nid)"
+      :key="m.Nid"
       :position="m.location"
       :clickable="true"
       :label="{ 
@@ -140,10 +140,11 @@ export default {
         this.isInfoWindowOpen = true;
         this.currentMidx = index;
       }
-      // console.log(marker);
+      console.log(this.currentMidx, this.isInfoWindowOpen, branchInfo);
     },
     closeInfoWindow () {
       this.isInfoWindowOpen = false
+      this.currentMidx = null
     },
     mapDirections (branch) {
       const address = branch.Address.split(' ').join('+').split('-').join('--');
