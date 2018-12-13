@@ -38,9 +38,9 @@ export default {
     } else {
       let domain = 'https://www.getfarmcredit.com'
 
-      if (window.location.hostname === 'dev-getfarmcredit.pantheonsite.io') {
-        domain = 'https://dev-getfarmcredit.pantheonsite.io'
-      }
+      // if (window.location.hostname === 'dev-getfarmcredit.pantheonsite.io') {
+      //   domain = 'https://dev-getfarmcredit.pantheonsite.io'
+      // }
 
       let dataURL = `${domain}/locations_feed?key=${this.filterConfig.authKey}`
 

@@ -68,12 +68,10 @@
                 <strong>Fax:</strong> {{ item['Fax'] }}
               </p>
               <p v-if="hasUrl(item)">
-                <template v-if="hasDetailUrl(item)">
-                  <strong>Web:</strong> <a :href="item['detail_url']">Branch Details</a>
-                </template>
-                <template v-else>
-                  <strong>Web:</strong> <a :href="item['website']">{{ item['website'] }}</a>
-                </template>
+                <strong>Web:</strong>
+                <a :href="item['detail_url'] ? item['detail_url'] : item['website']">
+                  {{ item['detail_url'] ? 'Branch Details' : item['website'] }}
+                </a>
               </p>
               <p v-if="item.CountyPartial === county" class="disclaimer">
                 <em>Please call to confirm that this branch serves your location.</em>
@@ -187,14 +185,6 @@ export default {
       }
 
       return googMapLink;
-    },
-    hasDetailUrl (branchInfo) {
-      if (typeof branchInfo.detail_url === 'string') {
-        if (branchInfo.detail_url.length > 0) {
-          return true
-        }
-      }
-      return false
     },
     hasUrl (branchInfo) {
       if (typeof branchInfo.detail_url === 'string') {

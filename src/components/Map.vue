@@ -19,9 +19,19 @@
           {{ infoWindowContent.City }}, {{ infoWindowContent.State }} {{ infoWindowContent.Zip }}
         </p>
         <p class="infoWindowContent__phone">{{ infoWindowContent['Phone 1'] }}</p>
-        <p>
+
+        <p v-if="infoWindowContent['detail_url'] || infoWindowContent['website']">
+          <a class="infoWindowContent__website"
+            :href="infoWindowContent['detail_url'] ?
+              infoWindowContent['detail_url'] : infoWindowContent['website']"
+          >
+            {{ infoWindowContent['detail_url'] ? 'Branch Details' : infoWindowContent['website'] }}
+          </a>
+        </p>
+
+        <p v-if="infoWindowContent['drupal_detail_url']">
           <a class="infoWindowContent__website" :href="infoWindowContent['website']">
-            {{ infoWindowContent['website'] }}
+            {{ infoWindowContent['drupal_detail_url'] }}
           </a>
         </p>
         <a

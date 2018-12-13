@@ -60,6 +60,9 @@ npm run build --report
 
 ## Changelog
 
+### v0.3.7
+- `revision` Info Window shows branch detail url if it exists
+
 ### v0.3.6
 - `feature` - Info Window now has website link
 - `bugfix` - Info Window triple click issue
