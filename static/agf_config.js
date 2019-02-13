@@ -16,6 +16,8 @@ window.AGF_CONFIG = {
     text: 'We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 18 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.'
   },
 
+  countyEnter: "Enter your County/Parish",
+  countyValue: "County/Parish",
   // to filter by state
   byState: false,
 

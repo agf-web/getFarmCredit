@@ -17,7 +17,7 @@
       <div class="CountySearch__type">
         <h4>Search by:</h4>
         <div class="field-radio">
-          <input type="radio" id="search-type-county" v-model="searchType" value="county" @change="searchTypeChanged"><label for="search-type-county">County</label>
+          <input type="radio" id="search-type-county" v-model="searchType" value="county" @change="searchTypeChanged"><label v-if="!this.config.countyValue" for="search-type-county">County</label><label v-else v-html="this.config.countyValue" for="search-type-county"></label>
         </div>
         <div class="field-radio">
           <input type="radio" id="search-type-zip" v-model="searchType" value="zip" @change="searchTypeChanged"><label for="search-type-zip">Zip Code</label>
@@ -28,9 +28,17 @@
           <input type="text" class="CountySearch__zip" placeholder="Enter your Zip Code" v-model="zip" @keyup="zipChanged" v-show="searchType === 'zip'">
           <p class="CountySearch__zip-message" v-show="countyOverlap">Multiple branches were found for your zip code. Please enter your county.</p>
           <v-select
-            v-show="searchType === 'county' || countyOverlap"
+            v-show="this.config.countyEnter && (searchType === 'county' || countyOverlap)"
             :options="filteredCounties"
-            :placeholder="'Enter your County'"
+            :placeholder="this.config.countyEnter"
+            :on-change="countyChanged"
+            :value.sync="county"
+            ref="searchbox"
+          />
+          <v-select
+            v-show="(!(this.config.countyEnter)) && (searchType === 'county' || countyOverlap)"
+            :options="filteredCounties"
+            :placeholder="this.config.countyEnter"
             :on-change="countyChanged"
             :value.sync="county"
             ref="searchbox"
