@@ -60,6 +60,10 @@ npm run build --report
 
 ## Changelog
 
+### v0.3.8
+- `fix` - partial county check for zip code search
+- `feat` - commit # `025d73cdbc4afa1f0df6cd198b142e13d40b863a`: text county override.
+
 ### v0.3.7
 - `revision` Info Window shows branch detail url if it exists
 

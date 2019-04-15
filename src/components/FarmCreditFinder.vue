@@ -111,6 +111,21 @@ export default {
               match = false
             }
           }
+          if (!match && branch.CountyPartial !== null) {
+            if (branch.CountyPartial.length > 0) {
+              let countyPartial = branch.CountyPartial.split(',')
+              for (let i = 0; i < vm.searchCriteria.county.length; i++) {
+                for (let j = 0; j < countyPartial.length; j++) {
+                  if (countyPartial[j].toLowerCase() ===
+                      vm.searchCriteria.county[i].toLowerCase()) {
+                    match = true
+                  }
+                }
+              }
+            } else {
+              match = false
+            }
+          }
           return match
         }
         if (area === 'county') {
