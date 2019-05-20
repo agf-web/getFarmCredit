@@ -60,6 +60,10 @@ npm run build --report
 
 ## Changelog
 
+### v0.3.9
+- `fix` - fix IE bug (updated dependency)
+- `chore` - update dependencies: `vue`, `vue-instant`, `vue-select`.
+
 ### v0.3.8
 - `fix` - partial county check for zip code search
 - `feat` - commit # `025d73cdbc4afa1f0df6cd198b142e13d40b863a`: text county override.

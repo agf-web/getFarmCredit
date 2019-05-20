@@ -1,6 +1,6 @@
 {
   "name": "getfarmcredit",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "getfarmcredit.com app written in VueJS",
   "author": "Tai Vu <tai.vu@cyberwoven.com>",
   "private": true,
@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "vue": "^2.5.19",
-    "vue-instant": "^1.0.2",
-    "vue-select": "^2.5.1",
+    "vue": "^2.6.10",
+    "vue-instant": "^1.0.4",
+    "vue-select": "^2.6.4",
     "vue2-google-maps": "^0.10.5",
     "zenscroll": "^4.0.2"
   },
