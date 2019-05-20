@@ -393,14 +393,20 @@ input::-webkit-inner-spin-button {
 
       input[type="search"],
       input[type="search"]:focus {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
 
       .open-indicator {
+        justify-content: center;
+        width: 24px;
         &:before {
           border-width: 1px 1px 0 0;
         }
+      }
+
+      .vs__actions {
+        flex: 0 0 auto;
       }
 
       .dropdown-toggle {

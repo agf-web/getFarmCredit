@@ -57,8 +57,13 @@ npm run build --report
 - run `npm run build`
 - Copy `dist/getfarmcreditmap.js` into `/web/modules/custom/getfarmcreditmap/js`
 - Copy `dist/getfarmcreditmap.libraries.yml` into `/web/modules/custom/getfarmcreditmap/`
+- Copy `dist/static/js` into `web/modules/custom/getfarmcreditmap/js`
+- Copy `dist/static/css` into `web/modules/custom/getfarmcreditmap/css`
 
 ## Changelog
+
+### v0.3.10
+- `polish`: overlapping 'x' inside input in ie11
 
 ### v0.3.9
 - `fix` - fix IE bug (updated dependency)
