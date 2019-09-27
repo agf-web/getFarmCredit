@@ -62,6 +62,9 @@ npm run build --report
 
 ## Changelog
 
+### v0.3.11
+- `refactor`: a11y scan revisions
+
 ### v0.3.10
 - `polish`: overlapping 'x' inside input in ie11
 

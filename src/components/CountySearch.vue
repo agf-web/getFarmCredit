@@ -25,7 +25,8 @@
       </div>
       <div class="CountySearch__search">
         <div class="CountySearch__input">
-          <input type="text" class="CountySearch__zip" placeholder="Enter your Zip Code" v-model="zip" @keyup="zipChanged" v-show="searchType === 'zip'">
+          <label for="search-county-zip">Enter your Zip Code</label>
+          <input id="search-county-zip" type="text" class="CountySearch__zip" placeholder="Enter your Zip Code" v-model="zip" @keyup="zipChanged" v-show="searchType === 'zip'">
           <p class="CountySearch__zip-message" v-show="countyOverlap">Multiple branches were found for your zip code. Please enter your county.</p>
           <v-select
             v-show="this.config.countyEnter && (searchType === 'county' || countyOverlap)"
@@ -323,7 +324,7 @@ input::-webkit-inner-spin-button {
     line-height: 1.4;
 
     /deep/ a {
-      color: #5B8F22;
+      color: #fff;
 
       &:hover {
         color: #fff;
@@ -473,7 +474,7 @@ input::-webkit-inner-spin-button {
       border: 0;
       background: transparent;
       text-decoration: underline;
-      color: #5B8F22;
+      color: #508417;
       font-family: "futura-pt", sans-serif;
       font-size: 16px;
       cursor: pointer;
@@ -518,11 +519,11 @@ input::-webkit-inner-spin-button {
   &__position-number {
     font-size: 32px;
     font-family: 'futura-pt-bold', sans-serif;
-    color: #989898;
+    color: #949494;
   }
 
   &__title {
-    color: #5B8F22;
+    color: #508417;
     font-family: 'futura-pt-bold', sans-serif;
     text-transform: uppercase;
     margin: 0;

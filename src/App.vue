@@ -96,5 +96,7 @@ export default {
   body {
     margin: 0 auto;
     scroll-behavior: smooth;
+    color: #000;
+    background: #fff;
   }
 </style>
