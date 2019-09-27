@@ -25,7 +25,7 @@
       </div>
       <div class="CountySearch__search">
         <div class="CountySearch__input">
-          <label for="search-county-zip">Enter your Zip Code</label>
+          <label for="search-county-zip" class="visually-hidden">Enter your Zip Code</label>
           <input id="search-county-zip" type="text" class="CountySearch__zip" placeholder="Enter your Zip Code" v-model="zip" @keyup="zipChanged" v-show="searchType === 'zip'">
           <p class="CountySearch__zip-message" v-show="countyOverlap">Multiple branches were found for your zip code. Please enter your county.</p>
           <v-select
@@ -558,5 +558,15 @@ input::-webkit-inner-spin-button {
 .branchFade-leave-to {
   // transform: translate(50%);
   opacity: 0;
+}
+
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
 }
 </style>
