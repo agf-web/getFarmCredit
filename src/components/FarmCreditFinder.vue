@@ -18,7 +18,7 @@
         @click="backToTop">Back to Top</button>
       </transition>
       <div class="sidebar__footer">
-        <p class="sidebar__footer-copy">Copyright &copy;  2018 AgFirst Farm Credit Bank. All Rights Reserved.</p>
+        <p class="sidebar__footer-copy">Copyright &copy; {{ new Date().getFullYear() }} AgFirst Farm Credit Bank. All Rights Reserved.</p>
       </div>
     </div>
     <div class="body">
