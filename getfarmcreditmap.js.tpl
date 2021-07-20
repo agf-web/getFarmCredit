@@ -26,7 +26,7 @@
   getFarmVendor.setAttribute('type','text/javascript');
   getFarmVendor.async = true;
   document.body.appendChild(getFarmVendor);
-  window.onload = function() {
+  document.addEventListener("DOMContentLoaded", function(event) { 
     // app.js
     var getFarmApp = document.createElement('script');
     getFarmApp.src = 'https://www.getfarmcredit.com/modules/custom/getfarmcreditmap/js/__VAR_APP__';
