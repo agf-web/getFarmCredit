@@ -76,6 +76,9 @@
               <p v-if="item['Fax']">
                 <strong>Fax:</strong> {{ item['Fax'] }}
               </p>
+              <p v-if="item['Fax 2']">
+                <strong>Fax 2:</strong> {{ item['Fax 2'] }}
+              </p>
               <p v-if="hasUrl(item)">
                 <strong>Web:</strong>
                 <a :href="item['detail_url'] ? item['detail_url'] : item['website']">

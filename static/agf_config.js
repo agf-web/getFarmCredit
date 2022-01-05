@@ -13,11 +13,12 @@ window.AGF_CONFIG = {
   },
   customIntro: {
     useCustomIntro: true,
-    text: 'We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 18 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a>.'
+    text: 'We provide loans to farmers and rural home buyers in rural counties across 18 states and Puerto Rico. Simply enter your county in the search box below to find the location that serves you. For locations outside of our 18 state territory, please visit <a href="https://farmcredit.com/" rel="external">Farmcredit.com</a><br><br><small>This site is maintained by AgFirst Farm Credit Bank: <a target="_blank" href="https://www.agfirst.com/">Website</a> | <a target="_blank" href="https://www.agfirst.com/privacy-policy.aspx">Privacy Policy</a> | <a target="_blank" href="https://www.agfirst.com/ccpa.aspx">California Consumer Privacy Act Disclosure</a></small>.'
   },
 
-  countyEnter: "Enter your County/Parish",
-  countyValue: "County/Parish",
+  countyEnter: "Enter your County",
+  countyValue: "County",
+  countyZip:   "Multiple branches were found for your zip code. Please enter your county.",
   // to filter by state
   byState: false,
 

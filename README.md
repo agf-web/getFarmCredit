@@ -54,13 +54,19 @@ npm run build --report
 ```
 
 ## Updating GetFarmCredit.com (v0.3.5+)
-- run `npm run build`
-- Copy `dist/getfarmcreditmap.js` into `/web/modules/custom/getfarmcreditmap/js`
-- Copy `dist/getfarmcreditmap.libraries.yml` into `/web/modules/custom/getfarmcreditmap/`
-- Copy `dist/static/js` into `web/modules/custom/getfarmcreditmap/js`
-- Copy `dist/static/css` into `web/modules/custom/getfarmcreditmap/css`
+1. before starting, delete contents of the following directories
+    * `/web/modules/custom/getfarmcreditmap/js`
+    * `/web/modules/custom/getfarmcreditmap/css`
+2. run `npm run build`
+3. Copy `dist/getfarmcreditmap.js` into `/web/modules/custom/getfarmcreditmap/js`
+4. Copy `dist/getfarmcreditmap.libraries.yml` into `/web/modules/custom/getfarmcreditmap/`
+5. Copy contents of `dist/static/js` into `web/modules/custom/getfarmcreditmap/js`
+6. Copy contents of `dist/static/css` into `web/modules/custom/getfarmcreditmap/css`
 
 ## Changelog
+
+### v0.3.12
+- `new` - add check for "Fax 2".
 
 ### v0.3.11
 - `refactor`: a11y scan revisions
