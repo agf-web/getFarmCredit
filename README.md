@@ -65,6 +65,9 @@ npm run build --report
 
 ## Changelog
 
+### v0.3.13
+- `fix` - fix app loading strategy. there was a change from `window.onLoad` to `addEventListener('DOMContentLoad', function(){})` that cause the app to load sporadically, as it only waited for the DOM to be ready, not waiting on external assets. This update reverts back to original `window.onLoad` which does wait for everything to load, including external assets.
+
 ### v0.3.12
 - `new` - add check for "Fax 2".
 
