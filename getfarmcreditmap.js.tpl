@@ -33,5 +33,5 @@
     getFarmApp.setAttribute('type','text/javascript');
     getFarmApp.async = true;
     document.body.appendChild(getFarmApp);
-  });
+  };
 })();
